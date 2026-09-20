@@ -1,0 +1,2989 @@
+[
+  {
+    "id": "8ESS",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1ee5c51225328105bfe76",
+          "60d00d739a1c0148047eb9a6",
+          "60cf7b738cc0e64588150505",
+          "60cf79d08cc0e645881504b9",
+          "60d00f3b9a1c0148047eb9ea",
+          "60cf7b518cc0e645881504fd",
+          "60d00de69a1c0148047eb9c2",
+          "60d00d849a1c0148047eb9aa",
+          "60cf79178cc0e645881504a5",
+          "60cf7a398cc0e645881504d5",
+          "60d00db79a1c0148047eb9b2",
+          "60cf7b478cc0e645881504f9",
+          "60d1eb8a51225328105bfe55",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d1edee51225328105bfe71",
+          "60d00f6b9a1c0148047eb9f6",
+          "60d00dd59a1c0148047eb9be",
+          "60d00eca9a1c0148047eb9d6",
+          "60cf7b2a8cc0e645881504f1",
+          "60d00f619a1c0148047eb9f2",
+          "60d1d5efb671bb27f82baa69",
+          "60cf7bf58cc0e64588150519",
+          "60d00ef49a1c0148047eb9e2",
+          "60d00edf9a1c0148047eb9de",
+          "60d1ebba51225328105bfe5a",
+          "60d1e315b671bb27f82baa73",
+          "60d00dad9a1c0148047eb9ae",
+          "60cf7b3c8cc0e645881504f5",
+          "60cf7a2b8cc0e645881504d1",
+          "60d00f469a1c0148047eb9ee",
+          "60cf7b5d8cc0e64588150501",
+          "60d1e98252148427a072d5f9",
+          "60cf79ef8cc0e645881504c1",
+          "60d00ed49a1c0148047eb9da",
+          "60cf78ca8cc0e64588150495",
+          "60d00dc09a1c0148047eb9b6"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d29ebfb5439b3724cf12fd",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d1f4c151225328105bff16",
+          "60d1f47451225328105bff11",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d1fc6e986ec80cb84f7858",
+          "60d1fa9019909b1bc8a65f89"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1d628b671bb27f82baa6e",
+          "60d012759a1c0148047eba66",
+          "60d0118d9a1c0148047eba3a",
+          "60d012379a1c0148047eba5a",
+          "60d012899a1c0148047eba6e",
+          "60d011869a1c0148047eba36",
+          "60d011e09a1c0148047eba52",
+          "60d012bd9a1c0148047eba76",
+          "60d011be9a1c0148047eba4a",
+          "60d011989a1c0148047eba3e",
+          "60d0124c9a1c0148047eba62",
+          "60d0116e9a1c0148047eba2e",
+          "60d012409a1c0148047eba5e",
+          "60d011a19a1c0148047eba42",
+          "60d0127f9a1c0148047eba6a",
+          "60d011ae9a1c0148047eba46",
+          "60d1eeb951225328105bfe7b",
+          "60d012c89a1c0148047eba7a",
+          "60d1eda151225328105bfe6c",
+          "60d012d39a1c0148047eba7e",
+          "60d012b39a1c0148047eba72",
+          "60d012ee9a1c0148047eba82",
+          "60d0117d9a1c0148047eba32",
+          "60d696626b4b1d0fc09e811a"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5c173b1663a293c35fdc8",
+          "60d5c0bab1663a293c35fdbe",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d1f70419909b1bc8a65f75",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d5b50e98d24c31d054a1b0",
+          "60d5c152b1663a293c35fdc3"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf79778cc0e645881504ad",
+          "60d00fcb9a1c0148047eb9fa",
+          "60cf7a068cc0e645881504c9",
+          "60cf60a30607fd44d8794750",
+          "60cf60350607fd44d8794733",
+          "60d0112f9a1c0148047eba22",
+          "60d1d5bbb671bb27f82baa64",
+          "60cf7afe8cc0e645881504e1",
+          "60d1ed0251225328105bfe67",
+          "60cf5fbf0607fd44d8794729",
+          "60d011589a1c0148047eba2a",
+          "60d099ec1814852f5cc86e76",
+          "60d00dfc9a1c0148047eb9c6",
+          "60cf7b218cc0e645881504ed",
+          "60d00e779a1c0148047eb9ca",
+          "60cf7c568cc0e6458815052d",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf788e8cc0e64588150489",
+          "60cf7c2d8cc0e64588150521",
+          "60d1e6a217db0527e4d8f999",
+          "60d0b7bf04e6a40e70432791",
+          "60cf7a178cc0e645881504cd",
+          "60cf7b0d8cc0e645881504e5",
+          "60cf60770607fd44d8794744",
+          "60d00fe99a1c0148047eb9fe",
+          "60cf7b178cc0e645881504e9",
+          "60d010c79a1c0148047eba12",
+          "60cf606e0607fd44d8794740",
+          "60d1e7825f2fb708a44653dd",
+          "60d0114d9a1c0148047eba26",
+          "60d1ec1e51225328105bfe5f",
+          "60cf7a638cc0e645881504dd",
+          "60cf773c4ffcc40ab01803b5",
+          "60cf7a478cc0e645881504d9",
+          "60cf7b818cc0e64588150509",
+          "60d010e09a1c0148047eba16",
+          "60d00d169a1c0148047eb9a2",
+          "60cf7c258cc0e6458815051d",
+          "60d010099a1c0148047eba0a",
+          "60cf79e28cc0e645881504bd",
+          "60cf7c8d8cc0e64588150535",
+          "60cf79a18cc0e645881504b5",
+          "60d00f019a1c0148047eb9e6",
+          "60cf78f98cc0e645881504a1",
+          "60cf79398cc0e645881504a9",
+          "60cf78af8cc0e6458815048d",
+          "60d010b59a1c0148047eba0e",
+          "60cf60aa0607fd44d8794754",
+          "60d00eba9a1c0148047eb9d2",
+          "60d011249a1c0148047eba1e",
+          "60cf60600607fd44d879473c",
+          "60d09a4c1814852f5cc86e7a",
+          "60cf78ee8cc0e6458815049d",
+          "60d1e9b352148427a072d5fe",
+          "60cf7be28cc0e64588150515",
+          "60cf7bd98cc0e64588150511",
+          "60cf78e18cc0e64588150499",
+          "60d00e8a9a1c0148047eb9ce",
+          "60d011149a1c0148047eba1a",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf7c368cc0e64588150525",
+          "60d00fef9a1c0148047eba02",
+          "60cf7c468cc0e64588150529",
+          "60d09407574da32a68377d00",
+          "60cf5fe80607fd44d879472e",
+          "60cf60490607fd44d8794737",
+          "60cf60910607fd44d879474c",
+          "60cf79fc8cc0e645881504c5",
+          "60cf78c08cc0e64588150491",
+          "60d00fff9a1c0148047eba06"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d550b398d24c31d054a15b",
+          "60d5502098d24c31d054a156",
+          "60d5b52a98d24c31d054a1b5",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d1fac719909b1bc8a65fab",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d8638aa02ea4452c4033fe",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d29de9b5439b3724cf12e9",
+          "60d29e0bb5439b3724cf12ee",
+          "60d29ef0b5439b3724cf1302",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d29e32b5439b3724cf12f3",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d1fab019909b1bc8a65fa5",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d32260dccf3b425cb9b785",
+          "60d1f95119909b1bc8a65f7a",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d29e5eb5439b3724cf12f8",
+          "60d54eee98d24c31d054a14c"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789906847330_osvl": [],
+      "p_1789906847344_8yjh": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [
+        {
+          "id": "pool_1789906847363_2r5l",
+          "cardId": "60cf7b478cc0e645881504f9",
+          "isDummy": false,
+          "submittedBy": "p_1789906847330_osvl",
+          "submittedAt": 1789906847364
+        },
+        {
+          "id": "pool_dummy_1789906847370_pxxs",
+          "cardId": "60d011ae9a1c0148047eba46",
+          "isDummy": true,
+          "submittedAt": 1789906847370
+        },
+        {
+          "id": "pool_dummy_1789906847370_6rqh",
+          "cardId": "60d696626b4b1d0fc09e811a",
+          "isDummy": true,
+          "submittedAt": 1789906847370
+        }
+      ],
+      "isRevealed": true,
+      "revealedOrder": [
+        "60d696626b4b1d0fc09e811a",
+        "60d011ae9a1c0148047eba46",
+        "60cf7b478cc0e645881504f9"
+      ]
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789906847330_osvl": {
+          "c1": 0,
+          "c2": 0,
+          "c3": 0
+        },
+        "p_1789906847344_8yjh": {
+          "c1": 42,
+          "c2": 0,
+          "c3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789906847330_osvl",
+        "p_1789906847344_8yjh"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789906847341
+    },
+    "diceHistory": [
+      {
+        "id": "roll_1789906847391_dgfo",
+        "playerId": "p_1789906847344_8yjh",
+        "playerName": "GuestPlayer",
+        "dice": [
+          {
+            "count": 2,
+            "sides": 6
+          }
+        ],
+        "modifier": 5,
+        "rolls": [
+          6,
+          1
+        ],
+        "total": 12,
+        "timestamp": 1789906847391
+      }
+    ],
+    "players": {
+      "p_1789906847330_osvl": {
+        "id": "p_1789906847330_osvl",
+        "name": "HostPlayer",
+        "isHost": true,
+        "connected": false,
+        "joinedAt": 1789906847330,
+        "color": "#3b82f6"
+      },
+      "p_1789906847344_8yjh": {
+        "id": "p_1789906847344_8yjh",
+        "name": "GuestPlayer",
+        "isHost": false,
+        "connected": false,
+        "joinedAt": 1789906847344,
+        "color": "#ef4444"
+      }
+    },
+    "createdAt": 1789906847341,
+    "lastActive": 1789906847403
+  },
+  {
+    "id": "SD3Y",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf79d08cc0e645881504b9",
+          "60d1e98252148427a072d5f9",
+          "60d1edee51225328105bfe71",
+          "60d00ef49a1c0148047eb9e2",
+          "60cf7b738cc0e64588150505",
+          "60cf7b518cc0e645881504fd",
+          "60d00d739a1c0148047eb9a6",
+          "60cf7bf58cc0e64588150519",
+          "60cf7b478cc0e645881504f9",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00dd59a1c0148047eb9be",
+          "60d1ebba51225328105bfe5a",
+          "60cf7a2b8cc0e645881504d1",
+          "60d00f3b9a1c0148047eb9ea",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d00edf9a1c0148047eb9de",
+          "60cf79178cc0e645881504a5",
+          "60cf78ca8cc0e64588150495",
+          "60d00de69a1c0148047eb9c2",
+          "60d1d5efb671bb27f82baa69",
+          "60d00dc09a1c0148047eb9b6",
+          "60cf7b5d8cc0e64588150501",
+          "60d00f469a1c0148047eb9ee",
+          "60cf7b2a8cc0e645881504f1",
+          "60d00db79a1c0148047eb9b2",
+          "60d00f6b9a1c0148047eb9f6",
+          "60d1e315b671bb27f82baa73",
+          "60d1ee5c51225328105bfe76",
+          "60cf7b3c8cc0e645881504f5",
+          "60d00ed49a1c0148047eb9da",
+          "60d1eb8a51225328105bfe55",
+          "60d00d849a1c0148047eb9aa",
+          "60d00f619a1c0148047eb9f2",
+          "60d00dad9a1c0148047eb9ae",
+          "60cf7a398cc0e645881504d5",
+          "60cf79ef8cc0e645881504c1"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1f47451225328105bff11",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d1fa9019909b1bc8a65f89",
+          "60d1fc6e986ec80cb84f7858",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1f4c151225328105bff16"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d012409a1c0148047eba5e",
+          "60d0118d9a1c0148047eba3a",
+          "60d011be9a1c0148047eba4a",
+          "60d1eeb951225328105bfe7b",
+          "60d696626b4b1d0fc09e811a",
+          "60d1eda151225328105bfe6c",
+          "60d012759a1c0148047eba66",
+          "60d011869a1c0148047eba36",
+          "60d012ee9a1c0148047eba82",
+          "60d0124c9a1c0148047eba62",
+          "60d012d39a1c0148047eba7e",
+          "60d011ae9a1c0148047eba46",
+          "60d011e09a1c0148047eba52",
+          "60d012bd9a1c0148047eba76",
+          "60d0127f9a1c0148047eba6a",
+          "60d1d628b671bb27f82baa6e",
+          "60d012899a1c0148047eba6e",
+          "60d012379a1c0148047eba5a",
+          "60d011989a1c0148047eba3e",
+          "60d012b39a1c0148047eba72",
+          "60d012c89a1c0148047eba7a",
+          "60d0117d9a1c0148047eba32",
+          "60d0116e9a1c0148047eba2e",
+          "60d011a19a1c0148047eba42"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d5c173b1663a293c35fdc8",
+          "60d1f70419909b1bc8a65f75",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d5b50e98d24c31d054a1b0",
+          "60d5c152b1663a293c35fdc3"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d011249a1c0148047eba1e",
+          "60cf7a478cc0e645881504d9",
+          "60d09a4c1814852f5cc86e7a",
+          "60d00dfc9a1c0148047eb9c6",
+          "60d09407574da32a68377d00",
+          "60d011589a1c0148047eba2a",
+          "60d099ec1814852f5cc86e76",
+          "60d00fff9a1c0148047eba06",
+          "60d010e09a1c0148047eba16",
+          "60d1e6a217db0527e4d8f999",
+          "60cf60600607fd44d879473c",
+          "60d0114d9a1c0148047eba26",
+          "60cf79fc8cc0e645881504c5",
+          "60d00fef9a1c0148047eba02",
+          "60d0112f9a1c0148047eba22",
+          "60d00f019a1c0148047eb9e6",
+          "60cf60aa0607fd44d8794754",
+          "60cf60490607fd44d8794737",
+          "60d1d5bbb671bb27f82baa64",
+          "60cf7be28cc0e64588150515",
+          "60d010b59a1c0148047eba0e",
+          "60cf606e0607fd44d8794740",
+          "60cf7afe8cc0e645881504e1",
+          "60d00fcb9a1c0148047eb9fa",
+          "60d00fe99a1c0148047eb9fe",
+          "60d010c79a1c0148047eba12",
+          "60cf773c4ffcc40ab01803b5",
+          "60cf79e28cc0e645881504bd",
+          "60cf78af8cc0e6458815048d",
+          "60d1ec1e51225328105bfe5f",
+          "60cf60350607fd44d8794733",
+          "60cf7c568cc0e6458815052d",
+          "60d00eba9a1c0148047eb9d2",
+          "60cf79a18cc0e645881504b5",
+          "60cf7a178cc0e645881504cd",
+          "60cf5fbf0607fd44d8794729",
+          "60cf7b178cc0e645881504e9",
+          "60cf7c258cc0e6458815051d",
+          "60cf7c368cc0e64588150525",
+          "60cf78c08cc0e64588150491",
+          "60cf7a068cc0e645881504c9",
+          "60cf7bd98cc0e64588150511",
+          "60cf79398cc0e645881504a9",
+          "60cf7b818cc0e64588150509",
+          "60d00d169a1c0148047eb9a2",
+          "60d1e7825f2fb708a44653dd",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf60770607fd44d8794744",
+          "60cf7c468cc0e64588150529",
+          "60d0b7bf04e6a40e70432791",
+          "60cf60910607fd44d879474c",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf78ee8cc0e6458815049d",
+          "60d1e9b352148427a072d5fe",
+          "60d00e8a9a1c0148047eb9ce",
+          "60d011149a1c0148047eba1a",
+          "60cf7b218cc0e645881504ed",
+          "60cf5fe80607fd44d879472e",
+          "60d00e779a1c0148047eb9ca",
+          "60d010099a1c0148047eba0a",
+          "60cf7c8d8cc0e64588150535",
+          "60d1ed0251225328105bfe67",
+          "60cf78f98cc0e645881504a1",
+          "60cf788e8cc0e64588150489",
+          "60cf7b0d8cc0e645881504e5",
+          "60cf60a30607fd44d8794750",
+          "60cf7a638cc0e645881504dd",
+          "60cf7c2d8cc0e64588150521",
+          "60cf79778cc0e645881504ad",
+          "60cf78e18cc0e64588150499"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d29e32b5439b3724cf12f3",
+          "60d5b52a98d24c31d054a1b5",
+          "60d1fab019909b1bc8a65fa5",
+          "60d29e0bb5439b3724cf12ee",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d29e5eb5439b3724cf12f8",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1fac719909b1bc8a65fab",
+          "60d1f95119909b1bc8a65f7a",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d32260dccf3b425cb9b785",
+          "60d5502098d24c31d054a156",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d54eee98d24c31d054a14c",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d29ef0b5439b3724cf1302",
+          "60d29de9b5439b3724cf12e9",
+          "60d8638aa02ea4452c4033fe",
+          "60d550b398d24c31d054a15b",
+          "60d8a36fbcf3682f3cb2e452"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789907158545_9ssi": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789907158545_9ssi": {
+          "c1": 0,
+          "c2": 0,
+          "c3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789907158545_9ssi"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789907158555
+    },
+    "diceHistory": [],
+    "players": {
+      "p_1789907158545_9ssi": {
+        "id": "p_1789907158545_9ssi",
+        "name": "Maxime",
+        "isHost": true,
+        "connected": true,
+        "joinedAt": 1789907158545,
+        "color": "#3b82f6"
+      }
+    },
+    "createdAt": 1789907158555,
+    "lastActive": 1789907594314
+  },
+  {
+    "id": "ZXFC",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d00db79a1c0148047eb9b2",
+          "60d00d739a1c0148047eb9a6",
+          "60d00f619a1c0148047eb9f2",
+          "60cf7b518cc0e645881504fd",
+          "60cf7b5d8cc0e64588150501",
+          "60cf7b478cc0e645881504f9",
+          "60d1e98252148427a072d5f9",
+          "60cf7a398cc0e645881504d5",
+          "60d00ef49a1c0148047eb9e2",
+          "60d1d5efb671bb27f82baa69",
+          "60d1e315b671bb27f82baa73",
+          "60d1edee51225328105bfe71",
+          "60cf79ef8cc0e645881504c1",
+          "60cf7a2b8cc0e645881504d1",
+          "60d00f6b9a1c0148047eb9f6",
+          "60cf79178cc0e645881504a5",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00dad9a1c0148047eb9ae",
+          "60d1ebba51225328105bfe5a",
+          "60d00edf9a1c0148047eb9de",
+          "60cf7b738cc0e64588150505",
+          "60d00dd59a1c0148047eb9be",
+          "60d00dc09a1c0148047eb9b6",
+          "60cf7bf58cc0e64588150519",
+          "60d00ed49a1c0148047eb9da",
+          "60d00d849a1c0148047eb9aa",
+          "60d1eb8a51225328105bfe55",
+          "60d00de69a1c0148047eb9c2",
+          "60cf7b2a8cc0e645881504f1",
+          "60cf7b3c8cc0e645881504f5",
+          "60cf79d08cc0e645881504b9",
+          "60d00f469a1c0148047eb9ee",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d00f3b9a1c0148047eb9ea",
+          "60cf78ca8cc0e64588150495",
+          "60d1ee5c51225328105bfe76"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d1f47451225328105bff11",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1fc6e986ec80cb84f7858",
+          "60d1fa9019909b1bc8a65f89",
+          "60d1f4c151225328105bff16"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d011a19a1c0148047eba42",
+          "60d011869a1c0148047eba36",
+          "60d012899a1c0148047eba6e",
+          "60d1eeb951225328105bfe7b",
+          "60d012c89a1c0148047eba7a",
+          "60d011ae9a1c0148047eba46",
+          "60d0116e9a1c0148047eba2e",
+          "60d012b39a1c0148047eba72",
+          "60d012d39a1c0148047eba7e",
+          "60d0117d9a1c0148047eba32",
+          "60d1d628b671bb27f82baa6e",
+          "60d012759a1c0148047eba66",
+          "60d696626b4b1d0fc09e811a",
+          "60d011e09a1c0148047eba52",
+          "60d012bd9a1c0148047eba76",
+          "60d0124c9a1c0148047eba62",
+          "60d0118d9a1c0148047eba3a",
+          "60d012ee9a1c0148047eba82",
+          "60d0127f9a1c0148047eba6a",
+          "60d012379a1c0148047eba5a",
+          "60d1eda151225328105bfe6c",
+          "60d011be9a1c0148047eba4a",
+          "60d011989a1c0148047eba3e",
+          "60d012409a1c0148047eba5e"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5c152b1663a293c35fdc3",
+          "60d1f70419909b1bc8a65f75",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d5b50e98d24c31d054a1b0",
+          "60d5c173b1663a293c35fdc8",
+          "60d8a2e9bcf3682f3cb2e44d"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1d5bbb671bb27f82baa64",
+          "60cf7c8d8cc0e64588150535",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf60770607fd44d8794744",
+          "60d010b59a1c0148047eba0e",
+          "60d0112f9a1c0148047eba22",
+          "60cf60350607fd44d8794733",
+          "60cf7b218cc0e645881504ed",
+          "60d00e779a1c0148047eb9ca",
+          "60d010c79a1c0148047eba12",
+          "60d00e8a9a1c0148047eb9ce",
+          "60cf606e0607fd44d8794740",
+          "60d00fef9a1c0148047eba02",
+          "60cf60600607fd44d879473c",
+          "60cf78f98cc0e645881504a1",
+          "60cf7c258cc0e6458815051d",
+          "60d011149a1c0148047eba1a",
+          "60d011589a1c0148047eba2a",
+          "60d09a4c1814852f5cc86e7a",
+          "60cf79a18cc0e645881504b5",
+          "60cf7b0d8cc0e645881504e5",
+          "60d010e09a1c0148047eba16",
+          "60d0b7bf04e6a40e70432791",
+          "60d00d169a1c0148047eb9a2",
+          "60d1e7825f2fb708a44653dd",
+          "60cf60910607fd44d879474c",
+          "60cf7a178cc0e645881504cd",
+          "60d00fe99a1c0148047eb9fe",
+          "60cf7afe8cc0e645881504e1",
+          "60d1e6a217db0527e4d8f999",
+          "60cf7c468cc0e64588150529",
+          "60cf60aa0607fd44d8794754",
+          "60cf7a478cc0e645881504d9",
+          "60cf5fe80607fd44d879472e",
+          "60d00fcb9a1c0148047eb9fa",
+          "60cf79398cc0e645881504a9",
+          "60cf78c08cc0e64588150491",
+          "60cf60a30607fd44d8794750",
+          "60d1ec1e51225328105bfe5f",
+          "60d010099a1c0148047eba0a",
+          "60d00f019a1c0148047eb9e6",
+          "60d0114d9a1c0148047eba26",
+          "60d00eba9a1c0148047eb9d2",
+          "60cf7c2d8cc0e64588150521",
+          "60d099ec1814852f5cc86e76",
+          "60cf7b818cc0e64588150509",
+          "60d00dfc9a1c0148047eb9c6",
+          "60cf5fbf0607fd44d8794729",
+          "60cf7bd98cc0e64588150511",
+          "60cf773c4ffcc40ab01803b5",
+          "60d1ed0251225328105bfe67",
+          "60cf79fc8cc0e645881504c5",
+          "60d09407574da32a68377d00",
+          "60cf7a638cc0e645881504dd",
+          "60cf7c568cc0e6458815052d",
+          "60d011249a1c0148047eba1e",
+          "60cf79778cc0e645881504ad",
+          "60cf7a068cc0e645881504c9",
+          "60cf7b178cc0e645881504e9",
+          "60d00fff9a1c0148047eba06",
+          "60d1e9b352148427a072d5fe",
+          "60cf7c368cc0e64588150525",
+          "60cf78af8cc0e6458815048d",
+          "60cf788e8cc0e64588150489",
+          "60cf79e28cc0e645881504bd",
+          "60cf60490607fd44d8794737",
+          "60cf78ee8cc0e6458815049d",
+          "60cf7be28cc0e64588150515",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf78e18cc0e64588150499"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d8a52cbcf3682f3cb2e461",
+          "60d29e5eb5439b3724cf12f8",
+          "60d550b398d24c31d054a15b",
+          "60d29e32b5439b3724cf12f3",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1f95119909b1bc8a65f7a",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d1fac719909b1bc8a65fab",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d1fab019909b1bc8a65fa5",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d54eee98d24c31d054a14c",
+          "60d5b52a98d24c31d054a1b5",
+          "60d29ef0b5439b3724cf1302",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d8638aa02ea4452c4033fe",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d5502098d24c31d054a156",
+          "60d29de9b5439b3724cf12e9",
+          "60d32260dccf3b425cb9b785",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d29e0bb5439b3724cf12ee",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d8a45fbcf3682f3cb2e45c"
+        ]
+      }
+    },
+    "hands": {},
+    "discards": [],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {},
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [],
+      "direction": "clockwise",
+      "lastUpdated": 1789907222498
+    },
+    "diceHistory": [],
+    "players": {},
+    "createdAt": 1789907222498,
+    "lastActive": 1789907592164
+  },
+  {
+    "id": "DVWJ",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf79d08cc0e645881504b9",
+          "60d00f6b9a1c0148047eb9f6",
+          "60cf79ef8cc0e645881504c1",
+          "60d00db79a1c0148047eb9b2",
+          "60d00dc09a1c0148047eb9b6",
+          "60cf7b738cc0e64588150505",
+          "60d00de69a1c0148047eb9c2",
+          "60d1eb8a51225328105bfe55",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00dd59a1c0148047eb9be",
+          "60d00ed49a1c0148047eb9da",
+          "60cf7a2b8cc0e645881504d1",
+          "60d1e315b671bb27f82baa73",
+          "60d00dad9a1c0148047eb9ae",
+          "60cf7b5d8cc0e64588150501",
+          "60d00f619a1c0148047eb9f2",
+          "60cf7a398cc0e645881504d5",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d1d5efb671bb27f82baa69",
+          "60d1ebba51225328105bfe5a",
+          "60cf7bf58cc0e64588150519",
+          "60cf79178cc0e645881504a5",
+          "60cf7b2a8cc0e645881504f1",
+          "60d1edee51225328105bfe71",
+          "60d00ef49a1c0148047eb9e2",
+          "60cf7b3c8cc0e645881504f5",
+          "60d00f469a1c0148047eb9ee",
+          "60d00d739a1c0148047eb9a6",
+          "60cf7b478cc0e645881504f9",
+          "60d00edf9a1c0148047eb9de",
+          "60cf78ca8cc0e64588150495",
+          "60cf7b518cc0e645881504fd",
+          "60d1ee5c51225328105bfe76",
+          "60d00d849a1c0148047eb9aa",
+          "60d1e98252148427a072d5f9",
+          "60d00f3b9a1c0148047eb9ea"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1f4c151225328105bff16",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1fc6e986ec80cb84f7858",
+          "60d1fa9019909b1bc8a65f89",
+          "60d1f47451225328105bff11"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d696626b4b1d0fc09e811a",
+          "60d012c89a1c0148047eba7a",
+          "60d012409a1c0148047eba5e",
+          "60d012379a1c0148047eba5a",
+          "60d012759a1c0148047eba66",
+          "60d011e09a1c0148047eba52",
+          "60d012bd9a1c0148047eba76",
+          "60d1eeb951225328105bfe7b",
+          "60d1eda151225328105bfe6c",
+          "60d0116e9a1c0148047eba2e",
+          "60d0124c9a1c0148047eba62",
+          "60d012ee9a1c0148047eba82",
+          "60d011a19a1c0148047eba42",
+          "60d011be9a1c0148047eba4a",
+          "60d0118d9a1c0148047eba3a",
+          "60d012b39a1c0148047eba72",
+          "60d1d628b671bb27f82baa6e",
+          "60d011989a1c0148047eba3e",
+          "60d011ae9a1c0148047eba46",
+          "60d012d39a1c0148047eba7e",
+          "60d0117d9a1c0148047eba32",
+          "60d011869a1c0148047eba36",
+          "60d0127f9a1c0148047eba6a",
+          "60d012899a1c0148047eba6e"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5b50e98d24c31d054a1b0",
+          "60d5c152b1663a293c35fdc3",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d1f70419909b1bc8a65f75",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c173b1663a293c35fdc8",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d5c1b3b1663a293c35fdcd"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d010b59a1c0148047eba0e",
+          "60d1e7825f2fb708a44653dd",
+          "60cf78e18cc0e64588150499",
+          "60d00eba9a1c0148047eb9d2",
+          "60cf7c368cc0e64588150525",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf7afe8cc0e645881504e1",
+          "60cf60a30607fd44d8794750",
+          "60cf5fbf0607fd44d8794729",
+          "60cf773c4ffcc40ab01803b5",
+          "60cf60aa0607fd44d8794754",
+          "60cf5fe80607fd44d879472e",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf78c08cc0e64588150491",
+          "60d010099a1c0148047eba0a",
+          "60cf79778cc0e645881504ad",
+          "60d00f019a1c0148047eb9e6",
+          "60cf60600607fd44d879473c",
+          "60cf7be28cc0e64588150515",
+          "60cf7a478cc0e645881504d9",
+          "60cf60910607fd44d879474c",
+          "60cf79e28cc0e645881504bd",
+          "60cf7b178cc0e645881504e9",
+          "60cf79398cc0e645881504a9",
+          "60d00fe99a1c0148047eb9fe",
+          "60d00e779a1c0148047eb9ca",
+          "60cf7c2d8cc0e64588150521",
+          "60d00d169a1c0148047eb9a2",
+          "60d00fff9a1c0148047eba06",
+          "60d00fef9a1c0148047eba02",
+          "60d1d5bbb671bb27f82baa64",
+          "60d1ed0251225328105bfe67",
+          "60d09407574da32a68377d00",
+          "60d09a4c1814852f5cc86e7a",
+          "60d1e6a217db0527e4d8f999",
+          "60cf7a178cc0e645881504cd",
+          "60d011249a1c0148047eba1e",
+          "60cf78af8cc0e6458815048d",
+          "60d0b7bf04e6a40e70432791",
+          "60cf7a638cc0e645881504dd",
+          "60d1ec1e51225328105bfe5f",
+          "60cf7bd98cc0e64588150511",
+          "60cf79fc8cc0e645881504c5",
+          "60d00dfc9a1c0148047eb9c6",
+          "60d099ec1814852f5cc86e76",
+          "60d00fcb9a1c0148047eb9fa",
+          "60cf79a18cc0e645881504b5",
+          "60cf606e0607fd44d8794740",
+          "60cf60770607fd44d8794744",
+          "60d0114d9a1c0148047eba26",
+          "60cf78f98cc0e645881504a1",
+          "60d011589a1c0148047eba2a",
+          "60cf7b218cc0e645881504ed",
+          "60cf60350607fd44d8794733",
+          "60cf7b818cc0e64588150509",
+          "60cf7c468cc0e64588150529",
+          "60cf788e8cc0e64588150489",
+          "60d00e8a9a1c0148047eb9ce",
+          "60cf7c258cc0e6458815051d",
+          "60d011149a1c0148047eba1a",
+          "60cf78ee8cc0e6458815049d",
+          "60cf7c568cc0e6458815052d",
+          "60cf7c8d8cc0e64588150535",
+          "60cf7b0d8cc0e645881504e5",
+          "60d010c79a1c0148047eba12",
+          "60cf60490607fd44d8794737",
+          "60d0112f9a1c0148047eba22",
+          "60cf7a068cc0e645881504c9",
+          "60d1e9b352148427a072d5fe",
+          "60d010e09a1c0148047eba16"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d2b1f4b5439b3724cf1307",
+          "60d29e32b5439b3724cf12f3",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d29e0bb5439b3724cf12ee",
+          "60d5502098d24c31d054a156",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d54eee98d24c31d054a14c",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d1fab019909b1bc8a65fa5",
+          "60d29de9b5439b3724cf12e9",
+          "60d5b52a98d24c31d054a1b5",
+          "60d8638aa02ea4452c4033fe",
+          "60d29ef0b5439b3724cf1302",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d32260dccf3b425cb9b785",
+          "60d550b398d24c31d054a15b",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d29e5eb5439b3724cf12f8",
+          "60d1f95119909b1bc8a65f7a",
+          "60d1fac719909b1bc8a65fab"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789907791582_e1ou": [],
+      "p_1789908830857_ph92": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789907791582_e1ou": {
+          "c1": 0,
+          "c2": 0,
+          "c3": 0
+        },
+        "p_1789908830857_ph92": {
+          "c1": 0,
+          "c2": 0,
+          "c3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789907791582_e1ou",
+        "p_1789908830857_ph92"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789907894238
+    },
+    "diceHistory": [
+      {
+        "id": "roll_1789908936954_gfvk",
+        "playerId": "p_1789908830857_ph92",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 8
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          6,
+          2,
+          6,
+          6,
+          5,
+          4,
+          2,
+          4
+        ],
+        "total": 35,
+        "timestamp": 1789908936954
+      },
+      {
+        "id": "roll_1789907885314_fq1a",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          5
+        ],
+        "total": 5,
+        "timestamp": 1789907885314
+      },
+      {
+        "id": "roll_1789907884457_yy07",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          3
+        ],
+        "total": 3,
+        "timestamp": 1789907884457
+      },
+      {
+        "id": "roll_1789907876831_6bnc",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          4
+        ],
+        "total": 4,
+        "timestamp": 1789907876831
+      },
+      {
+        "id": "roll_1789907875465_s4ia",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          3
+        ],
+        "total": 3,
+        "timestamp": 1789907875465
+      },
+      {
+        "id": "roll_1789907873845_bkoc",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          6
+        ],
+        "total": 6,
+        "timestamp": 1789907873845
+      },
+      {
+        "id": "roll_1789907872258_zk8e",
+        "playerId": "p_1789907830451_bapa",
+        "playerName": "Maxime",
+        "dice": [
+          {
+            "sides": 6,
+            "count": 1
+          }
+        ],
+        "modifier": 0,
+        "rolls": [
+          4
+        ],
+        "total": 4,
+        "timestamp": 1789907872258
+      }
+    ],
+    "players": {
+      "p_1789907791582_e1ou": {
+        "id": "p_1789907791582_e1ou",
+        "name": "Maxime2",
+        "isHost": true,
+        "connected": false,
+        "joinedAt": 1789907791582,
+        "color": "#ef4444"
+      },
+      "p_1789908830857_ph92": {
+        "id": "p_1789908830857_ph92",
+        "name": "Maxime",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789908830857,
+        "color": "#3b82f6"
+      }
+    },
+    "createdAt": 1789907599710,
+    "lastActive": 1789910256749
+  },
+  {
+    "id": "CM4S",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d00f3b9a1c0148047eb9ea",
+          "60d00dc09a1c0148047eb9b6",
+          "60d00edf9a1c0148047eb9de",
+          "60cf79178cc0e645881504a5",
+          "60cf7a398cc0e645881504d5",
+          "60cf7bf58cc0e64588150519",
+          "60d00dd59a1c0148047eb9be",
+          "60d00dad9a1c0148047eb9ae",
+          "60cf7b478cc0e645881504f9",
+          "60d00ed49a1c0148047eb9da",
+          "60cf7b518cc0e645881504fd",
+          "60d00f619a1c0148047eb9f2",
+          "60d1eb8a51225328105bfe55",
+          "60cf7b3c8cc0e645881504f5",
+          "60d00d849a1c0148047eb9aa",
+          "60cf78ca8cc0e64588150495",
+          "60d1ebba51225328105bfe5a",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00db79a1c0148047eb9b2",
+          "60d00ef49a1c0148047eb9e2",
+          "60cf7b5d8cc0e64588150501",
+          "60d1e315b671bb27f82baa73",
+          "60d00d739a1c0148047eb9a6",
+          "60d00f6b9a1c0148047eb9f6",
+          "60d1ee5c51225328105bfe76",
+          "60cf7b738cc0e64588150505",
+          "60cf79d08cc0e645881504b9",
+          "60d00de69a1c0148047eb9c2",
+          "60cf7b2a8cc0e645881504f1",
+          "60d1e98252148427a072d5f9",
+          "60d00f469a1c0148047eb9ee",
+          "60cf7a2b8cc0e645881504d1",
+          "60cf79ef8cc0e645881504c1",
+          "60d1d5efb671bb27f82baa69",
+          "60d1edee51225328105bfe71"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1f47451225328105bff11",
+          "60d1fc6e986ec80cb84f7858",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1f4c151225328105bff16",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d1fa9019909b1bc8a65f89"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1eeb951225328105bfe7b",
+          "60d012899a1c0148047eba6e",
+          "60d011be9a1c0148047eba4a",
+          "60d012409a1c0148047eba5e",
+          "60d012bd9a1c0148047eba76",
+          "60d011989a1c0148047eba3e",
+          "60d1d628b671bb27f82baa6e",
+          "60d0116e9a1c0148047eba2e",
+          "60d696626b4b1d0fc09e811a",
+          "60d012b39a1c0148047eba72",
+          "60d011869a1c0148047eba36",
+          "60d0118d9a1c0148047eba3a",
+          "60d0124c9a1c0148047eba62",
+          "60d1eda151225328105bfe6c",
+          "60d012c89a1c0148047eba7a",
+          "60d012ee9a1c0148047eba82",
+          "60d011e09a1c0148047eba52",
+          "60d012759a1c0148047eba66",
+          "60d011a19a1c0148047eba42",
+          "60d012379a1c0148047eba5a",
+          "60d0127f9a1c0148047eba6a",
+          "60d0117d9a1c0148047eba32",
+          "60d011ae9a1c0148047eba46",
+          "60d012d39a1c0148047eba7e"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5c173b1663a293c35fdc8",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c152b1663a293c35fdc3",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d1f70419909b1bc8a65f75",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d5b50e98d24c31d054a1b0"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1d5bbb671bb27f82baa64",
+          "60cf78c08cc0e64588150491",
+          "60cf7b818cc0e64588150509",
+          "60d1e6a217db0527e4d8f999",
+          "60cf78ee8cc0e6458815049d",
+          "60cf60770607fd44d8794744",
+          "60cf79e28cc0e645881504bd",
+          "60cf7c468cc0e64588150529",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf7b0d8cc0e645881504e5",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf7a478cc0e645881504d9",
+          "60d00dfc9a1c0148047eb9c6",
+          "60d00d169a1c0148047eb9a2",
+          "60d1e9b352148427a072d5fe",
+          "60cf78e18cc0e64588150499",
+          "60cf7bd98cc0e64588150511",
+          "60d010c79a1c0148047eba12",
+          "60d0112f9a1c0148047eba22",
+          "60d010099a1c0148047eba0a",
+          "60cf788e8cc0e64588150489",
+          "60cf60600607fd44d879473c",
+          "60cf60a30607fd44d8794750",
+          "60d00eba9a1c0148047eb9d2",
+          "60d09407574da32a68377d00",
+          "60cf7afe8cc0e645881504e1",
+          "60d011249a1c0148047eba1e",
+          "60cf7c2d8cc0e64588150521",
+          "60d00e8a9a1c0148047eb9ce",
+          "60cf7c368cc0e64588150525",
+          "60cf78f98cc0e645881504a1",
+          "60d00e779a1c0148047eb9ca",
+          "60cf773c4ffcc40ab01803b5",
+          "60cf7c568cc0e6458815052d",
+          "60cf5fe80607fd44d879472e",
+          "60cf79fc8cc0e645881504c5",
+          "60cf78af8cc0e6458815048d",
+          "60cf60350607fd44d8794733",
+          "60cf7c8d8cc0e64588150535",
+          "60d010e09a1c0148047eba16",
+          "60d09a4c1814852f5cc86e7a",
+          "60d00fff9a1c0148047eba06",
+          "60d011589a1c0148047eba2a",
+          "60cf7a178cc0e645881504cd",
+          "60cf60910607fd44d879474c",
+          "60cf7b178cc0e645881504e9",
+          "60cf79398cc0e645881504a9",
+          "60cf5fbf0607fd44d8794729",
+          "60d00fcb9a1c0148047eb9fa",
+          "60cf7be28cc0e64588150515",
+          "60cf60490607fd44d8794737",
+          "60d1ed0251225328105bfe67",
+          "60d099ec1814852f5cc86e76",
+          "60d00f019a1c0148047eb9e6",
+          "60cf7b218cc0e645881504ed",
+          "60d1ec1e51225328105bfe5f",
+          "60d0b7bf04e6a40e70432791",
+          "60d0114d9a1c0148047eba26",
+          "60cf79778cc0e645881504ad",
+          "60cf606e0607fd44d8794740",
+          "60d1e7825f2fb708a44653dd",
+          "60cf7a068cc0e645881504c9",
+          "60d011149a1c0148047eba1a",
+          "60cf7c258cc0e6458815051d",
+          "60cf7a638cc0e645881504dd",
+          "60cf79a18cc0e645881504b5",
+          "60cf60aa0607fd44d8794754",
+          "60d00fef9a1c0148047eba02",
+          "60d00fe99a1c0148047eb9fe",
+          "60d010b59a1c0148047eba0e"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d89e3cbcf3682f3cb2e445",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d1fab019909b1bc8a65fa5",
+          "60d54eee98d24c31d054a14c",
+          "60d5b52a98d24c31d054a1b5",
+          "60d1fac719909b1bc8a65fab",
+          "60d29ef0b5439b3724cf1302",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d29de9b5439b3724cf12e9",
+          "60d29e32b5439b3724cf12f3",
+          "60d29e5eb5439b3724cf12f8",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1f95119909b1bc8a65f7a",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d5502098d24c31d054a156",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d32260dccf3b425cb9b785",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d8638aa02ea4452c4033fe",
+          "60d29e0bb5439b3724cf12ee",
+          "60d550b398d24c31d054a15b",
+          "60d8a45fbcf3682f3cb2e45c"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789910269584_2z0q": [],
+      "p_1789910269588_db6e": []
+    },
+    "discards": [
+      "60d6b4386b4b1d0fc09e811f"
+    ],
+    "tablePool": {
+      "cards": [
+        {
+          "id": "pool_1789910269612_n7gb",
+          "cardId": "60d00ef49a1c0148047eb9e2",
+          "isDummy": false,
+          "submittedBy": "p_1789910269584_2z0q",
+          "submittedAt": 1789910269612
+        },
+        {
+          "id": "pool_dummy_1789910269619_7eqq",
+          "cardId": "60d012ee9a1c0148047eba82",
+          "isDummy": true,
+          "submittedAt": 1789910269619
+        },
+        {
+          "id": "pool_dummy_1789910269619_nbai",
+          "cardId": "60d5c0bab1663a293c35fdbe",
+          "isDummy": true,
+          "submittedAt": 1789910269619
+        },
+        {
+          "id": "pool_dummy_1789910269619_c0wz",
+          "cardId": "60d1fa8e19909b1bc8a65f84",
+          "isDummy": true,
+          "submittedAt": 1789910269619
+        }
+      ],
+      "isRevealed": true,
+      "revealedOrder": [
+        "60d00ef49a1c0148047eb9e2",
+        "60d1fa8e19909b1bc8a65f84",
+        "60d012ee9a1c0148047eba82",
+        "60d5c0bab1663a293c35fdbe"
+      ]
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c_1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c_2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c_3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789910269584_2z0q": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        },
+        "p_1789910269588_db6e": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789910269584_2z0q",
+        "p_1789910269588_db6e"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789910269584
+    },
+    "diceHistory": [],
+    "players": {
+      "p_1789910269584_2z0q": {
+        "id": "p_1789910269584_2z0q",
+        "name": "Alice",
+        "isHost": true,
+        "connected": true,
+        "joinedAt": 1789910269584,
+        "color": "#3b82f6"
+      },
+      "p_1789910269588_db6e": {
+        "id": "p_1789910269588_db6e",
+        "name": "Bob",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789910269588,
+        "color": "#ef4444"
+      }
+    },
+    "createdAt": 1789910269584,
+    "lastActive": 1789910269626
+  },
+  {
+    "id": "R48Z",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf79ef8cc0e645881504c1",
+          "60cf7bf58cc0e64588150519",
+          "60d00de69a1c0148047eb9c2",
+          "60cf79178cc0e645881504a5",
+          "60cf7b478cc0e645881504f9",
+          "60d1ee5c51225328105bfe76",
+          "60d1edee51225328105bfe71",
+          "60d00eca9a1c0148047eb9d6",
+          "60d1ebba51225328105bfe5a",
+          "60cf7a2b8cc0e645881504d1",
+          "60cf7b3c8cc0e645881504f5",
+          "60cf78ca8cc0e64588150495",
+          "60d1d5efb671bb27f82baa69",
+          "60d00dcc9a1c0148047eb9ba",
+          "60cf7b518cc0e645881504fd",
+          "60d00f469a1c0148047eb9ee",
+          "60cf7b2a8cc0e645881504f1",
+          "60cf79d08cc0e645881504b9",
+          "60cf7b5d8cc0e64588150501",
+          "60d00dd59a1c0148047eb9be",
+          "60d1eb8a51225328105bfe55",
+          "60d00f619a1c0148047eb9f2",
+          "60d00f6b9a1c0148047eb9f6",
+          "60cf7b738cc0e64588150505",
+          "60d1e98252148427a072d5f9",
+          "60d00ef49a1c0148047eb9e2",
+          "60d00d739a1c0148047eb9a6",
+          "60d00db79a1c0148047eb9b2",
+          "60d00dc09a1c0148047eb9b6",
+          "60d00f3b9a1c0148047eb9ea",
+          "60cf7a398cc0e645881504d5",
+          "60d00edf9a1c0148047eb9de",
+          "60d00dad9a1c0148047eb9ae",
+          "60d00ed49a1c0148047eb9da",
+          "60d1e315b671bb27f82baa73",
+          "60d00d849a1c0148047eb9aa"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1fa9019909b1bc8a65f89",
+          "60d1fc6e986ec80cb84f7858",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1f47451225328105bff11",
+          "60d1f4c151225328105bff16",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d9a8a0a7df16434c7c37f7"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d012d39a1c0148047eba7e",
+          "60d012c89a1c0148047eba7a",
+          "60d011be9a1c0148047eba4a",
+          "60d0127f9a1c0148047eba6a",
+          "60d011869a1c0148047eba36",
+          "60d011989a1c0148047eba3e",
+          "60d011e09a1c0148047eba52",
+          "60d012899a1c0148047eba6e",
+          "60d0118d9a1c0148047eba3a",
+          "60d012b39a1c0148047eba72",
+          "60d0117d9a1c0148047eba32",
+          "60d696626b4b1d0fc09e811a",
+          "60d0124c9a1c0148047eba62",
+          "60d011a19a1c0148047eba42",
+          "60d0116e9a1c0148047eba2e",
+          "60d012379a1c0148047eba5a",
+          "60d012759a1c0148047eba66",
+          "60d012409a1c0148047eba5e",
+          "60d012bd9a1c0148047eba76",
+          "60d1d628b671bb27f82baa6e",
+          "60d011ae9a1c0148047eba46",
+          "60d1eeb951225328105bfe7b",
+          "60d012ee9a1c0148047eba82",
+          "60d1eda151225328105bfe6c"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1f70419909b1bc8a65f75",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5b50e98d24c31d054a1b0",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d5c152b1663a293c35fdc3",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d5c173b1663a293c35fdc8"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf60350607fd44d8794733",
+          "60d0b7bf04e6a40e70432791",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf7c258cc0e6458815051d",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf7c2d8cc0e64588150521",
+          "60cf5fbf0607fd44d8794729",
+          "60cf78af8cc0e6458815048d",
+          "60d00eba9a1c0148047eb9d2",
+          "60d1ed0251225328105bfe67",
+          "60d0114d9a1c0148047eba26",
+          "60d00dfc9a1c0148047eb9c6",
+          "60d00fe99a1c0148047eb9fe",
+          "60cf7a638cc0e645881504dd",
+          "60cf7c368cc0e64588150525",
+          "60cf7b178cc0e645881504e9",
+          "60d00fff9a1c0148047eba06",
+          "60d010b59a1c0148047eba0e",
+          "60cf60910607fd44d879474c",
+          "60d011149a1c0148047eba1a",
+          "60cf7b218cc0e645881504ed",
+          "60d00fcb9a1c0148047eb9fa",
+          "60d09a4c1814852f5cc86e7a",
+          "60cf7bd98cc0e64588150511",
+          "60cf788e8cc0e64588150489",
+          "60cf78ee8cc0e6458815049d",
+          "60cf60600607fd44d879473c",
+          "60d011249a1c0148047eba1e",
+          "60cf60aa0607fd44d8794754",
+          "60cf79e28cc0e645881504bd",
+          "60d011589a1c0148047eba2a",
+          "60cf79778cc0e645881504ad",
+          "60d1ec1e51225328105bfe5f",
+          "60d1e7825f2fb708a44653dd",
+          "60cf7c8d8cc0e64588150535",
+          "60d1e6a217db0527e4d8f999",
+          "60d00e779a1c0148047eb9ca",
+          "60d010099a1c0148047eba0a",
+          "60cf7b818cc0e64588150509",
+          "60cf79a18cc0e645881504b5",
+          "60d0112f9a1c0148047eba22",
+          "60d00d169a1c0148047eb9a2",
+          "60cf7a068cc0e645881504c9",
+          "60d1e9b352148427a072d5fe",
+          "60cf7b0d8cc0e645881504e5",
+          "60cf7c468cc0e64588150529",
+          "60d010e09a1c0148047eba16",
+          "60cf79fc8cc0e645881504c5",
+          "60cf7a478cc0e645881504d9",
+          "60d099ec1814852f5cc86e76",
+          "60cf606e0607fd44d8794740",
+          "60cf60a30607fd44d8794750",
+          "60cf79398cc0e645881504a9",
+          "60cf7afe8cc0e645881504e1",
+          "60d010c79a1c0148047eba12",
+          "60cf7c568cc0e6458815052d",
+          "60d00fef9a1c0148047eba02",
+          "60d09407574da32a68377d00",
+          "60cf7a178cc0e645881504cd",
+          "60cf773c4ffcc40ab01803b5",
+          "60d00f019a1c0148047eb9e6",
+          "60cf78c08cc0e64588150491",
+          "60cf78f98cc0e645881504a1",
+          "60d1d5bbb671bb27f82baa64",
+          "60cf5fe80607fd44d879472e",
+          "60d00e8a9a1c0148047eb9ce",
+          "60cf60490607fd44d8794737",
+          "60cf60770607fd44d8794744",
+          "60cf7be28cc0e64588150515",
+          "60cf78e18cc0e64588150499"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5b52a98d24c31d054a1b5",
+          "60d1fab019909b1bc8a65fa5",
+          "60d550b398d24c31d054a15b",
+          "60d2b1f4b5439b3724cf1307",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d29de9b5439b3724cf12e9",
+          "60d29ef0b5439b3724cf1302",
+          "60d5502098d24c31d054a156",
+          "60d1fac719909b1bc8a65fab",
+          "60d29e0bb5439b3724cf12ee",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d8638aa02ea4452c4033fe",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d1f95119909b1bc8a65f7a",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d29e32b5439b3724cf12f3",
+          "60d32260dccf3b425cb9b785",
+          "60d29e5eb5439b3724cf12f8",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d54eee98d24c31d054a14c",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d1fbbc19909b1bc8a65fb5"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789910269634_nj9a": [],
+      "p_1789910269639_vsfz": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c_1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c_2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c_3",
+          "label": "Round 3"
+        },
+        {
+          "id": "c_1789910269651",
+          "label": "Science"
+        }
+      ],
+      "scores": {
+        "p_1789910269634_nj9a": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0,
+          "c_1789910269651": 15
+        },
+        "p_1789910269639_vsfz": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0,
+          "c_1789910269651": 25
+        },
+        "guest_1789910269645": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0,
+          "c_1789910269651": 30
+        }
+      },
+      "customPlayers": [
+        {
+          "id": "guest_1789910269645",
+          "name": "Eve (Guest)"
+        }
+      ]
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789910269634_nj9a",
+        "p_1789910269639_vsfz",
+        "guest_1789910269645"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789910269634
+    },
+    "diceHistory": [],
+    "players": {
+      "p_1789910269634_nj9a": {
+        "id": "p_1789910269634_nj9a",
+        "name": "Charlie",
+        "isHost": true,
+        "connected": true,
+        "joinedAt": 1789910269634,
+        "color": "#3b82f6"
+      },
+      "p_1789910269639_vsfz": {
+        "id": "p_1789910269639_vsfz",
+        "name": "Dave",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789910269639,
+        "color": "#ef4444"
+      }
+    },
+    "createdAt": 1789910269634,
+    "lastActive": 1789910269670
+  },
+  {
+    "id": "KJXX",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf7a2b8cc0e645881504d1",
+          "60cf79178cc0e645881504a5",
+          "60cf7b3c8cc0e645881504f5",
+          "60d00f6b9a1c0148047eb9f6",
+          "60d00dc09a1c0148047eb9b6",
+          "60cf7b5d8cc0e64588150501",
+          "60cf7b518cc0e645881504fd",
+          "60d00edf9a1c0148047eb9de",
+          "60d1ee5c51225328105bfe76",
+          "60d00ef49a1c0148047eb9e2",
+          "60d1edee51225328105bfe71",
+          "60d00d739a1c0148047eb9a6",
+          "60d1e315b671bb27f82baa73",
+          "60cf79d08cc0e645881504b9",
+          "60d00de69a1c0148047eb9c2",
+          "60d00d849a1c0148047eb9aa",
+          "60cf7a398cc0e645881504d5",
+          "60d00dcc9a1c0148047eb9ba",
+          "60cf7b478cc0e645881504f9",
+          "60d1d5efb671bb27f82baa69",
+          "60d00dd59a1c0148047eb9be",
+          "60d00f469a1c0148047eb9ee",
+          "60d00dad9a1c0148047eb9ae",
+          "60d1ebba51225328105bfe5a",
+          "60cf7b2a8cc0e645881504f1",
+          "60d1e98252148427a072d5f9",
+          "60cf78ca8cc0e64588150495",
+          "60d00f619a1c0148047eb9f2",
+          "60d00db79a1c0148047eb9b2",
+          "60d00ed49a1c0148047eb9da",
+          "60cf7b738cc0e64588150505",
+          "60d1eb8a51225328105bfe55",
+          "60cf7bf58cc0e64588150519",
+          "60d00f3b9a1c0148047eb9ea",
+          "60cf79ef8cc0e645881504c1",
+          "60d00eca9a1c0148047eb9d6"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1fc6e986ec80cb84f7858",
+          "60d1f47451225328105bff11",
+          "60d1f4c151225328105bff16",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1fa9019909b1bc8a65f89"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1eeb951225328105bfe7b",
+          "60d012d39a1c0148047eba7e",
+          "60d012ee9a1c0148047eba82",
+          "60d1eda151225328105bfe6c",
+          "60d012759a1c0148047eba66",
+          "60d696626b4b1d0fc09e811a",
+          "60d1d628b671bb27f82baa6e",
+          "60d012379a1c0148047eba5a",
+          "60d011a19a1c0148047eba42",
+          "60d011e09a1c0148047eba52",
+          "60d0117d9a1c0148047eba32",
+          "60d0118d9a1c0148047eba3a",
+          "60d011ae9a1c0148047eba46",
+          "60d0124c9a1c0148047eba62",
+          "60d011869a1c0148047eba36",
+          "60d0127f9a1c0148047eba6a",
+          "60d012899a1c0148047eba6e",
+          "60d012bd9a1c0148047eba76",
+          "60d012b39a1c0148047eba72",
+          "60d011989a1c0148047eba3e",
+          "60d011be9a1c0148047eba4a",
+          "60d0116e9a1c0148047eba2e",
+          "60d012409a1c0148047eba5e",
+          "60d012c89a1c0148047eba7a"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1f70419909b1bc8a65f75",
+          "60d5c152b1663a293c35fdc3",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c1b3b1663a293c35fdcd",
+          "60d5c173b1663a293c35fdc8",
+          "60d5b50e98d24c31d054a1b0",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d8a2e9bcf3682f3cb2e44d"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf79398cc0e645881504a9",
+          "60cf79fc8cc0e645881504c5",
+          "60cf5fbf0607fd44d8794729",
+          "60cf7c368cc0e64588150525",
+          "60d00fff9a1c0148047eba06",
+          "60d1ed0251225328105bfe67",
+          "60d099ec1814852f5cc86e76",
+          "60cf60770607fd44d8794744",
+          "60d010b59a1c0148047eba0e",
+          "60cf60a30607fd44d8794750",
+          "60cf78e18cc0e64588150499",
+          "60cf60aa0607fd44d8794754",
+          "60d010099a1c0148047eba0a",
+          "60d00e8a9a1c0148047eb9ce",
+          "60d010c79a1c0148047eba12",
+          "60cf79e28cc0e645881504bd",
+          "60cf788e8cc0e64588150489",
+          "60cf79778cc0e645881504ad",
+          "60cf78ee8cc0e6458815049d",
+          "60d09a4c1814852f5cc86e7a",
+          "60d09407574da32a68377d00",
+          "60cf60350607fd44d8794733",
+          "60d00d169a1c0148047eb9a2",
+          "60cf7b218cc0e645881504ed",
+          "60cf7a478cc0e645881504d9",
+          "60cf7c258cc0e6458815051d",
+          "60cf773c4ffcc40ab01803b5",
+          "60cf60600607fd44d879473c",
+          "60cf60490607fd44d8794737",
+          "60d0112f9a1c0148047eba22",
+          "60cf7b178cc0e645881504e9",
+          "60cf79a18cc0e645881504b5",
+          "60d00fcb9a1c0148047eb9fa",
+          "60cf7c2d8cc0e64588150521",
+          "60cf78f98cc0e645881504a1",
+          "60cf7a638cc0e645881504dd",
+          "60cf78c08cc0e64588150491",
+          "60cf7c8d8cc0e64588150535",
+          "60cf7afe8cc0e645881504e1",
+          "60d011149a1c0148047eba1a",
+          "60d011249a1c0148047eba1e",
+          "60d011589a1c0148047eba2a",
+          "60cf7b818cc0e64588150509",
+          "60d1b01c08ed0935a0e88b76",
+          "60d010e09a1c0148047eba16",
+          "60d1d5bbb671bb27f82baa64",
+          "60cf78af8cc0e6458815048d",
+          "60cf7be28cc0e64588150515",
+          "60d1e9b352148427a072d5fe",
+          "60cf5fe80607fd44d879472e",
+          "60d0114d9a1c0148047eba26",
+          "60d1b08808ed0935a0e88b7b",
+          "60cf7a178cc0e645881504cd",
+          "60cf7a068cc0e645881504c9",
+          "60cf7b0d8cc0e645881504e5",
+          "60d00dfc9a1c0148047eb9c6",
+          "60d00fef9a1c0148047eba02",
+          "60d1e6a217db0527e4d8f999",
+          "60d0b7bf04e6a40e70432791",
+          "60d00fe99a1c0148047eb9fe",
+          "60cf606e0607fd44d8794740",
+          "60d00f019a1c0148047eb9e6",
+          "60cf7c568cc0e6458815052d",
+          "60d1e7825f2fb708a44653dd",
+          "60cf60910607fd44d879474c",
+          "60d00eba9a1c0148047eb9d2",
+          "60d1ec1e51225328105bfe5f",
+          "60d00e779a1c0148047eb9ca",
+          "60cf7c468cc0e64588150529",
+          "60cf7bd98cc0e64588150511"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1fab019909b1bc8a65fa5",
+          "60d29e0bb5439b3724cf12ee",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d32260dccf3b425cb9b785",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d5b52a98d24c31d054a1b5",
+          "60d29ef0b5439b3724cf1302",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d5502098d24c31d054a156",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d8638aa02ea4452c4033fe",
+          "60d1fac719909b1bc8a65fab",
+          "60d29de9b5439b3724cf12e9",
+          "60d1f95119909b1bc8a65f7a",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d29e32b5439b3724cf12f3",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d550b398d24c31d054a15b",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d54eee98d24c31d054a14c",
+          "60d29e5eb5439b3724cf12f8"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789910269675_5o2f": [],
+      "p_1789910269680_x1mg": [],
+      "p_1789910269687_61ba": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c_1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c_2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c_3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789910269675_5o2f": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        },
+        "p_1789910269680_x1mg": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        },
+        "p_1789910269687_61ba": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789910269675_5o2f",
+        "p_1789910269680_x1mg",
+        "p_1789910269687_61ba"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789910269692
+    },
+    "diceHistory": [
+      {
+        "id": "roll_1789910269697_b9ie",
+        "playerId": "p_1789910269675_5o2f",
+        "playerName": "Host",
+        "dice": [
+          {
+            "count": 2,
+            "sides": 6
+          }
+        ],
+        "modifier": 3,
+        "rolls": [
+          5,
+          6
+        ],
+        "total": 14,
+        "timestamp": 1789910269697
+      }
+    ],
+    "players": {
+      "p_1789910269675_5o2f": {
+        "id": "p_1789910269675_5o2f",
+        "name": "Host",
+        "isHost": true,
+        "connected": true,
+        "joinedAt": 1789910269675,
+        "color": "#3b82f6"
+      },
+      "p_1789910269680_x1mg": {
+        "id": "p_1789910269680_x1mg",
+        "name": "P2",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789910269681,
+        "color": "#ef4444"
+      },
+      "p_1789910269687_61ba": {
+        "id": "p_1789910269687_61ba",
+        "name": "P3",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789910269687,
+        "color": "#10b981"
+      }
+    },
+    "createdAt": 1789910269676,
+    "lastActive": 1789910269697
+  },
+  {
+    "id": "CGLL",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty",
+      "edition"
+    ],
+    "decks": {
+      "easy_base": {
+        "id": "easy_base",
+        "label": "easy | Base",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60cf7b478cc0e645881504f9",
+          "60d00dc09a1c0148047eb9b6",
+          "60cf7bf58cc0e64588150519",
+          "60d00d849a1c0148047eb9aa",
+          "60cf7b2a8cc0e645881504f1",
+          "60d1edee51225328105bfe71",
+          "60d00ed49a1c0148047eb9da",
+          "60d1ee5c51225328105bfe76",
+          "60cf78ca8cc0e64588150495",
+          "60d00ef49a1c0148047eb9e2",
+          "60d00f619a1c0148047eb9f2",
+          "60d1e98252148427a072d5f9",
+          "60d1e315b671bb27f82baa73",
+          "60cf7a2b8cc0e645881504d1",
+          "60d1eb8a51225328105bfe55",
+          "60d00dad9a1c0148047eb9ae",
+          "60cf7b5d8cc0e64588150501",
+          "60cf79d08cc0e645881504b9",
+          "60cf7b3c8cc0e645881504f5",
+          "60cf79ef8cc0e645881504c1",
+          "60d1ebba51225328105bfe5a",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00de69a1c0148047eb9c2",
+          "60cf7b738cc0e64588150505",
+          "60cf7a398cc0e645881504d5",
+          "60d1d5efb671bb27f82baa69",
+          "60d00f469a1c0148047eb9ee",
+          "60d00edf9a1c0148047eb9de",
+          "60d00db79a1c0148047eb9b2",
+          "60cf79178cc0e645881504a5",
+          "60d00dcc9a1c0148047eb9ba",
+          "60cf7b518cc0e645881504fd",
+          "60d00d739a1c0148047eb9a6",
+          "60d00f6b9a1c0148047eb9f6",
+          "60d00f3b9a1c0148047eb9ea",
+          "60d00dd59a1c0148047eb9be"
+        ]
+      },
+      "easy_custom": {
+        "id": "easy_custom",
+        "label": "easy | Custom",
+        "filter": {
+          "difficulty": "easy",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d1fa9019909b1bc8a65f89",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60d29ebfb5439b3724cf12fd",
+          "60d1f4c151225328105bff16",
+          "60d1fc6e986ec80cb84f7858",
+          "60d1f47451225328105bff11",
+          "60d9a8a0a7df16434c7c37f7"
+        ]
+      },
+      "hard_base": {
+        "id": "hard_base",
+        "label": "hard | Base",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d011be9a1c0148047eba4a",
+          "60d011989a1c0148047eba3e",
+          "60d012ee9a1c0148047eba82",
+          "60d011ae9a1c0148047eba46",
+          "60d012b39a1c0148047eba72",
+          "60d011e09a1c0148047eba52",
+          "60d012bd9a1c0148047eba76",
+          "60d696626b4b1d0fc09e811a",
+          "60d012379a1c0148047eba5a",
+          "60d011a19a1c0148047eba42",
+          "60d1d628b671bb27f82baa6e",
+          "60d0118d9a1c0148047eba3a",
+          "60d0116e9a1c0148047eba2e",
+          "60d012899a1c0148047eba6e",
+          "60d1eda151225328105bfe6c",
+          "60d012409a1c0148047eba5e",
+          "60d012759a1c0148047eba66",
+          "60d012d39a1c0148047eba7e",
+          "60d0127f9a1c0148047eba6a",
+          "60d0117d9a1c0148047eba32",
+          "60d011869a1c0148047eba36",
+          "60d0124c9a1c0148047eba62",
+          "60d1eeb951225328105bfe7b",
+          "60d012c89a1c0148047eba7a"
+        ]
+      },
+      "hard_custom": {
+        "id": "hard_custom",
+        "label": "hard | Custom",
+        "filter": {
+          "difficulty": "hard",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d5c1b3b1663a293c35fdcd",
+          "60d5c152b1663a293c35fdc3",
+          "60d5c0bab1663a293c35fdbe",
+          "60d5c173b1663a293c35fdc8",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d5b50e98d24c31d054a1b0",
+          "60d1f70419909b1bc8a65f75"
+        ]
+      },
+      "medium_base": {
+        "id": "medium_base",
+        "label": "medium | Base",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Base"
+        },
+        "cardIds": [
+          "60d1e6a217db0527e4d8f999",
+          "60cf788e8cc0e64588150489",
+          "60cf79778cc0e645881504ad",
+          "60cf60aa0607fd44d8794754",
+          "60cf5fe80607fd44d879472e",
+          "60d00fef9a1c0148047eba02",
+          "60d00d169a1c0148047eb9a2",
+          "60d0112f9a1c0148047eba22",
+          "60cf7c468cc0e64588150529",
+          "60cf7c568cc0e6458815052d",
+          "60d1b08808ed0935a0e88b7b",
+          "60d00e8a9a1c0148047eb9ce",
+          "60d1e7825f2fb708a44653dd",
+          "60d010e09a1c0148047eba16",
+          "60d1d5bbb671bb27f82baa64",
+          "60cf60a30607fd44d8794750",
+          "60cf79a18cc0e645881504b5",
+          "60cf78e18cc0e64588150499",
+          "60d011589a1c0148047eba2a",
+          "60cf5fbf0607fd44d8794729",
+          "60d00fff9a1c0148047eba06",
+          "60cf78c08cc0e64588150491",
+          "60cf606e0607fd44d8794740",
+          "60cf60490607fd44d8794737",
+          "60cf7a638cc0e645881504dd",
+          "60d0114d9a1c0148047eba26",
+          "60d00dfc9a1c0148047eb9c6",
+          "60cf7c8d8cc0e64588150535",
+          "60cf79e28cc0e645881504bd",
+          "60cf7c368cc0e64588150525",
+          "60d010c79a1c0148047eba12",
+          "60d1b01c08ed0935a0e88b76",
+          "60cf79398cc0e645881504a9",
+          "60cf7afe8cc0e645881504e1",
+          "60cf60600607fd44d879473c",
+          "60cf7b818cc0e64588150509",
+          "60d09a4c1814852f5cc86e7a",
+          "60d00eba9a1c0148047eb9d2",
+          "60cf7c2d8cc0e64588150521",
+          "60cf60350607fd44d8794733",
+          "60cf7be28cc0e64588150515",
+          "60d1ed0251225328105bfe67",
+          "60d1e9b352148427a072d5fe",
+          "60d010b59a1c0148047eba0e",
+          "60cf7a478cc0e645881504d9",
+          "60cf78ee8cc0e6458815049d",
+          "60cf7b218cc0e645881504ed",
+          "60d00fe99a1c0148047eb9fe",
+          "60cf773c4ffcc40ab01803b5",
+          "60d00f019a1c0148047eb9e6",
+          "60d09407574da32a68377d00",
+          "60cf78f98cc0e645881504a1",
+          "60d011249a1c0148047eba1e",
+          "60d00fcb9a1c0148047eb9fa",
+          "60d010099a1c0148047eba0a",
+          "60cf60770607fd44d8794744",
+          "60d00e779a1c0148047eb9ca",
+          "60d1ec1e51225328105bfe5f",
+          "60cf7a068cc0e645881504c9",
+          "60cf7bd98cc0e64588150511",
+          "60cf79fc8cc0e645881504c5",
+          "60cf7c258cc0e6458815051d",
+          "60d0b7bf04e6a40e70432791",
+          "60cf7b0d8cc0e645881504e5",
+          "60cf7a178cc0e645881504cd",
+          "60cf78af8cc0e6458815048d",
+          "60d011149a1c0148047eba1a",
+          "60cf60910607fd44d879474c",
+          "60d099ec1814852f5cc86e76",
+          "60cf7b178cc0e645881504e9"
+        ]
+      },
+      "medium_custom": {
+        "id": "medium_custom",
+        "label": "medium | Custom",
+        "filter": {
+          "difficulty": "medium",
+          "edition": "Custom"
+        },
+        "cardIds": [
+          "60d29e5eb5439b3724cf12f8",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d29de9b5439b3724cf12e9",
+          "60d8a52cbcf3682f3cb2e461",
+          "60d29e0bb5439b3724cf12ee",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d29ef0b5439b3724cf1302",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d1fab019909b1bc8a65fa5",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d2b1f4b5439b3724cf1307",
+          "60d8638aa02ea4452c4033fe",
+          "60d550b398d24c31d054a15b",
+          "60d5b52a98d24c31d054a1b5",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d1fac719909b1bc8a65fab",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d54eee98d24c31d054a14c",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d32260dccf3b425cb9b785",
+          "60d1f95119909b1bc8a65f7a",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d29e32b5439b3724cf12f3",
+          "60d5502098d24c31d054a156"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789910269741_r2rr": [],
+      "p_1789910269755_e5p5": []
+    },
+    "discards": [
+      "60cf79178cc0e645881504a5",
+      "60cf7b518cc0e645881504fd"
+    ],
+    "tablePool": {
+      "cards": [],
+      "isRevealed": false,
+      "revealedOrder": []
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c_1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c_2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c_3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789910269741_r2rr": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        },
+        "p_1789910269755_e5p5": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789910269741_r2rr",
+        "p_1789910269755_e5p5"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789910269704
+    },
+    "diceHistory": [],
+    "players": {
+      "p_1789910269741_r2rr": {
+        "id": "p_1789910269741_r2rr",
+        "name": "Henry",
+        "isHost": true,
+        "connected": true,
+        "joinedAt": 1789910269741,
+        "color": "#ef4444"
+      },
+      "p_1789910269755_e5p5": {
+        "id": "p_1789910269755_e5p5",
+        "name": "Ian",
+        "isHost": false,
+        "connected": true,
+        "joinedAt": 1789910269755,
+        "color": "#3b82f6"
+      }
+    },
+    "createdAt": 1789910269704,
+    "lastActive": 1789910269755
+  },
+  {
+    "id": "S4L2",
+    "activeSetId": "fdlm",
+    "deckGroupByKeys": [
+      "difficulty"
+    ],
+    "decks": {
+      "easy": {
+        "id": "easy",
+        "label": "easy",
+        "filter": {
+          "difficulty": "easy"
+        },
+        "cardIds": [
+          "60d1ee5c51225328105bfe76",
+          "60d00d739a1c0148047eb9a6",
+          "60d1e315b671bb27f82baa73",
+          "60d1f47451225328105bff11",
+          "60d9a8a0a7df16434c7c37f7",
+          "60d00eca9a1c0148047eb9d6",
+          "60d00d849a1c0148047eb9aa",
+          "60d00dd59a1c0148047eb9be",
+          "60d1fa9019909b1bc8a65f89",
+          "60d29ebfb5439b3724cf12fd",
+          "60cf7bf58cc0e64588150519",
+          "60d1f4c151225328105bff16",
+          "60d00dc09a1c0148047eb9b6",
+          "60d1fc6e986ec80cb84f7858",
+          "60cf7a398cc0e645881504d5",
+          "60cf79d08cc0e645881504b9",
+          "60d1ebba51225328105bfe5a",
+          "60d8a3cfbcf3682f3cb2e457",
+          "60cf79ef8cc0e645881504c1",
+          "60d1eb8a51225328105bfe55",
+          "60d00f619a1c0148047eb9f2",
+          "60cf7b738cc0e64588150505",
+          "60cf7b478cc0e645881504f9",
+          "60cf78ca8cc0e64588150495",
+          "60d1d5efb671bb27f82baa69",
+          "60cf7b3c8cc0e645881504f5",
+          "60cf7b5d8cc0e64588150501",
+          "60d00f3b9a1c0148047eb9ea",
+          "60d00f6b9a1c0148047eb9f6",
+          "60cf79178cc0e645881504a5",
+          "60cf7b2a8cc0e645881504f1",
+          "60d00dcc9a1c0148047eb9ba",
+          "60d00edf9a1c0148047eb9de",
+          "60d1edee51225328105bfe71",
+          "60d00db79a1c0148047eb9b2",
+          "60d00f469a1c0148047eb9ee",
+          "60d00de69a1c0148047eb9c2",
+          "60d00ed49a1c0148047eb9da",
+          "60d1e98252148427a072d5f9",
+          "60cf7b518cc0e645881504fd",
+          "60d00ef49a1c0148047eb9e2",
+          "60d00dad9a1c0148047eb9ae"
+        ]
+      },
+      "hard": {
+        "id": "hard",
+        "label": "hard",
+        "filter": {
+          "difficulty": "hard"
+        },
+        "cardIds": [
+          "60d5c1b3b1663a293c35fdcd",
+          "60d011a19a1c0148047eba42",
+          "60d012c89a1c0148047eba7a",
+          "60d1f70419909b1bc8a65f75",
+          "60d1fa8e19909b1bc8a65f84",
+          "60d011ae9a1c0148047eba46",
+          "60d8a2e9bcf3682f3cb2e44d",
+          "60d0116e9a1c0148047eba2e",
+          "60d696626b4b1d0fc09e811a",
+          "60d0118d9a1c0148047eba3a",
+          "60d011869a1c0148047eba36",
+          "60d012409a1c0148047eba5e",
+          "60d5b50e98d24c31d054a1b0",
+          "60d0124c9a1c0148047eba62",
+          "60d1d628b671bb27f82baa6e",
+          "60d012d39a1c0148047eba7e",
+          "60d012899a1c0148047eba6e",
+          "60d011be9a1c0148047eba4a",
+          "60d0117d9a1c0148047eba32",
+          "60d012379a1c0148047eba5a",
+          "60d011989a1c0148047eba3e",
+          "60d1eeb951225328105bfe7b",
+          "60d0127f9a1c0148047eba6a",
+          "60d5c173b1663a293c35fdc8",
+          "60d1eda151225328105bfe6c",
+          "60d5c152b1663a293c35fdc3",
+          "60d012b39a1c0148047eba72",
+          "60d012bd9a1c0148047eba76",
+          "60d012ee9a1c0148047eba82",
+          "60d012759a1c0148047eba66"
+        ]
+      },
+      "medium": {
+        "id": "medium",
+        "label": "medium",
+        "filter": {
+          "difficulty": "medium"
+        },
+        "cardIds": [
+          "60cf7c368cc0e64588150525",
+          "60d8638aa02ea4452c4033fe",
+          "60cf788e8cc0e64588150489",
+          "60d5502098d24c31d054a156",
+          "60d09407574da32a68377d00",
+          "60cf60770607fd44d8794744",
+          "60d0b7bf04e6a40e70432791",
+          "60cf78ee8cc0e6458815049d",
+          "60cf7a068cc0e645881504c9",
+          "60cf79778cc0e645881504ad",
+          "60cf79398cc0e645881504a9",
+          "60cf79e28cc0e645881504bd",
+          "60cf7bd98cc0e64588150511",
+          "60d8a52cbcf3682f3cb2e461",
+          "60cf7be28cc0e64588150515",
+          "60cf773c4ffcc40ab01803b5",
+          "60d1e9b352148427a072d5fe",
+          "60d010099a1c0148047eba0a",
+          "60d011589a1c0148047eba2a",
+          "60cf7c468cc0e64588150529",
+          "60cf5fe80607fd44d879472e",
+          "60d00e779a1c0148047eb9ca",
+          "60cf7a638cc0e645881504dd",
+          "60cf60aa0607fd44d8794754",
+          "60d1f95119909b1bc8a65f7a",
+          "60d1b08808ed0935a0e88b7b",
+          "60d010c79a1c0148047eba12",
+          "60d8a627bcf3682f3cb2e47b",
+          "60d00d169a1c0148047eb9a2",
+          "60d8a36fbcf3682f3cb2e452",
+          "60d550b398d24c31d054a15b",
+          "60cf79a18cc0e645881504b5",
+          "60d1e6a217db0527e4d8f999",
+          "60cf7b178cc0e645881504e9",
+          "60cf7b818cc0e64588150509",
+          "60d2b1f4b5439b3724cf1307",
+          "60d1e7825f2fb708a44653dd",
+          "60d00fff9a1c0148047eba06",
+          "60d29e0bb5439b3724cf12ee",
+          "60d011149a1c0148047eba1a",
+          "60d00f019a1c0148047eb9e6",
+          "60d1fac719909b1bc8a65fab",
+          "60d1fbbc19909b1bc8a65fb5",
+          "60d1b01c08ed0935a0e88b76",
+          "60d010b59a1c0148047eba0e",
+          "60d1fb6319909b1bc8a65fb0",
+          "60d0114d9a1c0148047eba26",
+          "60cf606e0607fd44d8794740",
+          "60d1fab019909b1bc8a65fa5",
+          "60cf78af8cc0e6458815048d",
+          "60d1fa0019909b1bc8a65f7f",
+          "60d29e32b5439b3724cf12f3",
+          "60d5b52a98d24c31d054a1b5",
+          "60cf60490607fd44d8794737",
+          "60cf7afe8cc0e645881504e1",
+          "60d010e09a1c0148047eba16",
+          "60cf79fc8cc0e645881504c5",
+          "60d29de9b5439b3724cf12e9",
+          "60cf60600607fd44d879473c",
+          "60cf7c2d8cc0e64588150521",
+          "60cf7b0d8cc0e645881504e5",
+          "60cf7c8d8cc0e64588150535",
+          "60cf60910607fd44d879474c",
+          "60d09a4c1814852f5cc86e7a",
+          "60cf78e18cc0e64588150499",
+          "60d00fe99a1c0148047eb9fe",
+          "60d29e5eb5439b3724cf12f8",
+          "60d00dfc9a1c0148047eb9c6",
+          "60cf7b218cc0e645881504ed",
+          "60d011249a1c0148047eba1e",
+          "60cf5fbf0607fd44d8794729",
+          "60d32260dccf3b425cb9b785",
+          "60d1ec1e51225328105bfe5f",
+          "60d00fcb9a1c0148047eb9fa",
+          "60d00eba9a1c0148047eb9d2",
+          "60cf78c08cc0e64588150491",
+          "60cf7a478cc0e645881504d9",
+          "60d29ef0b5439b3724cf1302",
+          "60cf7c258cc0e6458815051d",
+          "60cf60350607fd44d8794733",
+          "60d099ec1814852f5cc86e76",
+          "60d8a45fbcf3682f3cb2e45c",
+          "60cf7a178cc0e645881504cd",
+          "60d6b4386b4b1d0fc09e811f",
+          "60d1ed0251225328105bfe67",
+          "60cf78f98cc0e645881504a1",
+          "60cf7c568cc0e6458815052d",
+          "60d89e3cbcf3682f3cb2e445",
+          "60d1d5bbb671bb27f82baa64",
+          "60d54eee98d24c31d054a14c",
+          "60d0112f9a1c0148047eba22",
+          "60d6bcba6b4b1d0fc09e81b0",
+          "60d00fef9a1c0148047eba02",
+          "60cf60a30607fd44d8794750",
+          "60d00e8a9a1c0148047eb9ce"
+        ]
+      }
+    },
+    "hands": {
+      "p_1789910269860_lc0x": [],
+      "p_1789910269863_vtoj": []
+    },
+    "discards": [],
+    "tablePool": {
+      "cards": [
+        {
+          "id": "pool_1789910269883_lztx",
+          "cardId": "60cf7a2b8cc0e645881504d1",
+          "isDummy": false,
+          "submittedBy": "p_1789910269860_lc0x",
+          "submittedAt": 1789910269883
+        },
+        {
+          "id": "pool_dummy_1789910269889_4yr6",
+          "cardId": "60d011e09a1c0148047eba52",
+          "isDummy": true,
+          "submittedAt": 1789910269889
+        },
+        {
+          "id": "pool_dummy_1789910269889_fgol",
+          "cardId": "60d5c0bab1663a293c35fdbe",
+          "isDummy": true,
+          "submittedAt": 1789910269889
+        }
+      ],
+      "isRevealed": true,
+      "revealedOrder": [
+        "60d011e09a1c0148047eba52",
+        "60d5c0bab1663a293c35fdbe",
+        "60cf7a2b8cc0e645881504d1"
+      ]
+    },
+    "scoreTable": {
+      "columns": [
+        {
+          "id": "c_1",
+          "label": "Round 1"
+        },
+        {
+          "id": "c_2",
+          "label": "Round 2"
+        },
+        {
+          "id": "c_3",
+          "label": "Round 3"
+        }
+      ],
+      "scores": {
+        "p_1789910269860_lc0x": {
+          "c_1": 0,
+          "c_2": 0,
+          "c_3": 0
+        },
+        "p_1789910269863_vtoj": {
+          "c_1": 42,
+          "c_2": 0,
+          "c_3": 0
+        }
+      },
+      "customPlayers": []
+    },
+    "turnOrder": {
+      "order": [
+        "p_1789910269860_lc0x",
+        "p_1789910269863_vtoj"
+      ],
+      "direction": "clockwise",
+      "lastUpdated": 1789910269860
+    },
+    "diceHistory": [
+      {
+        "id": "roll_1789910269907_ld47",
+        "playerId": "p_1789910269863_vtoj",
+        "playerName": "GuestPlayer",
+        "dice": [
+          {
+            "count": 2,
+            "sides": 6
+          }
+        ],
+        "modifier": 5,
+        "rolls": [
+          3,
+          4
+        ],
+        "total": 12,
+        "timestamp": 1789910269907
+      }
+    ],
+    "players": {
+      "p_1789910269860_lc0x": {
+        "id": "p_1789910269860_lc0x",
+        "name": "HostPlayer",
+        "isHost": true,
+        "connected": false,
+        "joinedAt": 1789910269860,
+        "color": "#3b82f6"
+      },
+      "p_1789910269863_vtoj": {
+        "id": "p_1789910269863_vtoj",
+        "name": "GuestPlayer",
+        "isHost": false,
+        "connected": false,
+        "joinedAt": 1789910269863,
+        "color": "#ef4444"
+      }
+    },
+    "createdAt": 1789910269860,
+    "lastActive": 1789910269916
+  }
+]

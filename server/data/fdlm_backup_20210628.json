@@ -1,0 +1,4080 @@
+[{
+  "_id": {
+    "$oid": "60cf5fbf0607fd44d8794729"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf5fbf0607fd44d879472a"
+    },
+    "fr": "Sigmund Freud",
+    "en": "Sigmund Freud",
+    "ja": "ジークムント・フロイト"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf5fbf0607fd44d879472b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Sigmund_Freud",
+    "en": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%BC%E3%82%AF%E3%83%A0%E3%83%B3%E3%83%88%E3%83%BB%E3%83%95%E3%83%AD%E3%82%A4%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf5fe80607fd44d879472e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf5fe80607fd44d879472f"
+    },
+    "fr": "Marie Curie",
+    "en": "Marie Curie",
+    "ja": "マリ・キュリー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf5fe80607fd44d8794730"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Marie_Curie",
+    "en": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%83%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Marie_Curie_c1920.png"
+},{
+  "_id": {
+    "$oid": "60cf60350607fd44d8794733"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60350607fd44d8794734"
+    },
+    "fr": "Friedrich Nietzsche",
+    "en": "Friedrich Nietzsche",
+    "ja": "フリードリヒ・ニーチェ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60350607fd44d8794735"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "en": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%83%8B%E3%83%BC%E3%83%81%E3%82%A7"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Portrait_of_Friedrich_Nietzsche.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60490607fd44d8794737"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60490607fd44d8794738"
+    },
+    "fr": "Margaret Thatcher",
+    "en": "Margaret Thatcher",
+    "ja": "マーガレット・サッチャー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60490607fd44d8794739"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Margaret_Thatcher",
+    "en": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AC%E3%83%AC%E3%83%83%E3%83%88%E3%83%BB%E3%82%B5%E3%83%83%E3%83%81%E3%83%A3%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Margaret_Thatcher_stock_portrait_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60600607fd44d879473c"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60600607fd44d879473d"
+    },
+    "fr": "Karl Marx",
+    "en": "Karl Marx",
+    "ja": "カール・マルクス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60600607fd44d879473e"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Karl_Marx",
+    "en": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Karl_Marx_001.jpg"
+},{
+  "_id": {
+    "$oid": "60cf606e0607fd44d8794740"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf606e0607fd44d8794741"
+    },
+    "fr": "Michael Jackson",
+    "en": "Michael Jackson",
+    "ja": "マイケル・ジャクソン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf606e0607fd44d8794742"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Michael_Jackson",
+    "en": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%B1%E3%83%AB%E3%83%BB%E3%82%B8%E3%83%A3%E3%82%AF%E3%82%BD%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Michael_Jackson_in_1988.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60770607fd44d8794744"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60770607fd44d8794745"
+    },
+    "fr": "Mao Zedong",
+    "en": "Mao Zedong",
+    "ja": "毛沢東"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60770607fd44d8794746"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Mao_Zedong",
+    "en": "https://en.wikipedia.org/wiki/Mao_Zedong",
+    "ja": "https://ja.wikipedia.org/wiki/%E6%AF%9B%E6%B2%A2%E6%9D%B1"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mao_Zedong_portrait.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60910607fd44d879474c"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60910607fd44d879474d"
+    },
+    "fr": "Hamlet",
+    "en": "Hamlet",
+    "ja": "ハムレット"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60910607fd44d879474e"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Hamlet",
+    "en": "https://en.wikipedia.org/wiki/Hamlet",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%A0%E3%83%AC%E3%83%83%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Hamlet_und_Horatio_auf_dem_Friedhof_%28Eug%C3%A8ne_Ferdinand_Victor_Delacroix%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60a30607fd44d8794750"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60a30607fd44d8794751"
+    },
+    "fr": "Charles de Gaulle",
+    "en": "Charles de Gaulle",
+    "ja": "シャルル・ド・ゴール"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60a30607fd44d8794752"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle",
+    "en": "https://en.wikipedia.org/wiki/Charles_de_Gaulle",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%E3%83%BB%E3%83%89%E3%83%BB%E3%82%B4%E3%83%BC%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/De_Gaulle_1961_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf60aa0607fd44d8794754"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf60aa0607fd44d8794755"
+    },
+    "fr": "Joker (comics)",
+    "en": "Joker (character)",
+    "ja": "ジョーカー (バットマン)"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf60aa0607fd44d8794756"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Joker_(comics)",
+    "en": "https://en.wikipedia.org/wiki/Joker_(character)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC_(%E3%83%90%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/98/Joker_%28DC_Comics_character%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf773c4ffcc40ab01803b5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf773c4ffcc40ab01803b6"
+    },
+    "fr": "Galilée (savant)",
+    "en": "Galileo Galilei",
+    "ja": "ガリレオ・ガリレイ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf773c4ffcc40ab01803b7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Galil%C3%A9e_(savant)",
+    "en": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Justus_Sustermans_-_Portrait_of_Galileo_Galilei%2C_1636.jpg"
+},{
+  "_id": {
+    "$oid": "60cf788e8cc0e64588150489"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf788e8cc0e6458815048a"
+    },
+    "fr": "Archimède",
+    "en": "Archimedes",
+    "ja": "アルキメデス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf788e8cc0e6458815048b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Archim%C3%A8de",
+    "en": "https://en.wikipedia.org/wiki/Archimedes",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%82%AD%E3%83%A1%E3%83%87%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Archimede_bain.jpg"
+},{
+  "_id": {
+    "$oid": "60cf78af8cc0e6458815048d"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78af8cc0e6458815048e"
+    },
+    "fr": "Martin Luther King",
+    "en": "Martin Luther King Jr.",
+    "ja": "マーティン・ルーサー・キング・ジュニア"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78af8cc0e6458815048f"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Martin_Luther_King",
+    "en": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%83%AB%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%BB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg"
+},{
+  "_id": {
+    "$oid": "60cf78c08cc0e64588150491"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78c08cc0e64588150492"
+    },
+    "fr": "Christophe Colomb",
+    "en": "Christopher Columbus",
+    "ja": "クリストファー・コロンブス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78c08cc0e64588150493"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Christophe_Colomb",
+    "en": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%96%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ridolfo_del_Ghirlandaio_-_Ritratto_di_Cristoforo_Colombo_%281520%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf78ca8cc0e64588150495"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78ca8cc0e64588150496"
+    },
+    "fr": "Héraclès",
+    "en": "Heracles",
+    "ja": "ヘーラクレース"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78ca8cc0e64588150497"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/H%C3%A9racl%C3%A8s",
+    "en": "https://en.wikipedia.org/wiki/Heracles",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%98%E3%83%BC%E3%83%A9%E3%82%AF%E3%83%AC%E3%83%BC%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Herakles_Niobid_krater_Louvre_G341.jpg"
+},{
+  "_id": {
+    "$oid": "60cf78e18cc0e64588150499"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78e18cc0e6458815049a"
+    },
+    "fr": "Professeur Moriarty",
+    "en": "Professor Moriarty",
+    "ja": "ジェームズ・モリアーティ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78e18cc0e6458815049b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Professeur_Moriarty",
+    "en": "https://en.wikipedia.org/wiki/Professor_Moriarty",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA%E3%83%BB%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%BC%E3%83%86%E3%82%A3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Adventure_of_the_Final_Problem_03.jpg"
+},{
+  "_id": {
+    "$oid": "60cf78ee8cc0e6458815049d"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78ee8cc0e6458815049e"
+    },
+    "fr": "Al Capone",
+    "en": "Al Capone",
+    "ja": "アル・カポネ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78ee8cc0e6458815049f"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Al_Capone",
+    "en": "https://en.wikipedia.org/wiki/Al_Capone",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%BB%E3%82%AB%E3%83%9D%E3%83%8D"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Acaponeh.jpg"
+},{
+  "_id": {
+    "$oid": "60cf78f98cc0e645881504a1"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf78f98cc0e645881504a2"
+    },
+    "fr": "Marie-Antoinette d'Autriche",
+    "en": "Marie Antoinette",
+    "ja": "マリー・アントワネット"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf78f98cc0e645881504a3"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Marie-Antoinette_d%27Autriche",
+    "en": "https://en.wikipedia.org/wiki/Marie_Antoinette",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%A2%E3%83%B3%E3%83%88%E3%83%AF%E3%83%8D%E3%83%83%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Marie_Antoinette_Adult4.jpg"
+},{
+  "_id": {
+    "$oid": "60cf79178cc0e645881504a5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79178cc0e645881504a6"
+    },
+    "fr": "Son Goku (Dragon Ball)",
+    "en": "Goku",
+    "ja": "孫悟空 (ドラゴンボール)"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79178cc0e645881504a7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Son_Goku_(Dragon_Ball)",
+    "en": "https://en.wikipedia.org/wiki/Goku",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%AD%AB%E6%82%9F%E7%A9%BA_(%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/CPBR2015_-_02_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf79398cc0e645881504a9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79398cc0e645881504aa"
+    },
+    "fr": "Auguste Rodin",
+    "en": "Auguste Rodin",
+    "ja": "オーギュスト・ロダン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79398cc0e645881504ab"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Auguste_Rodin",
+    "en": "https://en.wikipedia.org/wiki/Auguste_Rodin",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%82%AE%E3%83%A5%E3%82%B9%E3%83%88%E3%83%BB%E3%83%AD%E3%83%80%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Rodin-cropped.png"
+},{
+  "_id": {
+    "$oid": "60cf79778cc0e645881504ad"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79778cc0e645881504ae"
+    },
+    "fr": "Jules César",
+    "en": "Julius Caesar",
+    "ja": "ガイウス・ユリウス・カエサル"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79778cc0e645881504af"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar",
+    "en": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%A4%E3%82%A6%E3%82%B9%E3%83%BB%E3%83%A6%E3%83%AA%E3%82%A6%E3%82%B9%E3%83%BB%E3%82%AB%E3%82%A8%E3%82%B5%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf79a18cc0e645881504b5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79a18cc0e645881504b6"
+    },
+    "fr": "Mohandas Karamchand Gandhi",
+    "en": "Mahatma Gandhi",
+    "ja": "マハトマ・ガンディー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79a18cc0e645881504b7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Mohandas_Karamchand_Gandhi",
+    "en": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%8F%E3%83%88%E3%83%9E%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg"
+},{
+  "_id": {
+    "$oid": "60cf79d08cc0e645881504b9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79d08cc0e645881504ba"
+    },
+    "fr": "Mufasa",
+    "en": "Mufasa",
+    "ja": "ムファサ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79d08cc0e645881504bb"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Mufasa_(Disney)",
+    "en": "https://en.wikipedia.org/wiki/List_of_The_Lion_King_characters#Mufasa",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A0%E3%83%95%E3%82%A1%E3%82%B5"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/D_letter_upon_three_circles.svg"
+},{
+  "_id": {
+    "$oid": "60cf79e28cc0e645881504bd"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79e28cc0e645881504be"
+    },
+    "fr": "Vincent van Gogh",
+    "en": "Vincent van Gogh",
+    "ja": "フィンセント・ファン・ゴッホ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79e28cc0e645881504bf"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Vincent_van_Gogh",
+    "en": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E3%83%BB%E3%83%95%E3%82%A1%E3%83%B3%E3%83%BB%E3%82%B4%E3%83%83%E3%83%9B"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg"
+},{
+  "_id": {
+    "$oid": "60cf79ef8cc0e645881504c1"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79ef8cc0e645881504c2"
+    },
+    "fr": "Capitaine Crochet",
+    "en": "Captain Hook",
+    "ja": "フック船長"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79ef8cc0e645881504c3"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Capitaine_Crochet",
+    "en": "https://en.wikipedia.org/wiki/Captain_Hook",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%83%E3%82%AF%E8%88%B9%E9%95%B7"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Captain_Hook.PNG"
+},{
+  "_id": {
+    "$oid": "60cf79fc8cc0e645881504c5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf79fc8cc0e645881504c6"
+    },
+    "fr": "Isaac Newton",
+    "en": "Isaac Newton",
+    "ja": "アイザック・ニュートン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf79fc8cc0e645881504c7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Isaac_Newton",
+    "en": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%B6%E3%83%83%E3%82%AF%E3%83%BB%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7a068cc0e645881504c9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a068cc0e645881504ca"
+    },
+    "fr": "Diana Spencer",
+    "en": "Diana, Princess of Wales",
+    "ja": "ダイアナ (プリンセス・オブ・ウェールズ)"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a068cc0e645881504cb"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Diana_Spencer",
+    "en": "https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%82%A4%E3%82%A2%E3%83%8A_(%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%BA)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Diana%2C_Princess_of_Wales_1997_%282%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7a178cc0e645881504cd"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a178cc0e645881504ce"
+    },
+    "fr": "Mère Teresa",
+    "en": "Mother Teresa",
+    "ja": "マザー・テレサ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a178cc0e645881504cf"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/M%C3%A8re_Teresa",
+    "en": "https://en.wikipedia.org/wiki/Mother_Teresa",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B6%E3%83%BC%E3%83%BB%E3%83%86%E3%83%AC%E3%82%B5"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Mutter_Teresa_von_Kalkutta.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7a2b8cc0e645881504d1"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a2b8cc0e645881504d2"
+    },
+    "fr": "Barbe Noire",
+    "en": "Blackbeard",
+    "ja": "黒髭"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a2b8cc0e645881504d3"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Barbe_Noire",
+    "en": "https://en.wikipedia.org/wiki/Blackbeard",
+    "ja": "https://ja.wikipedia.org/wiki/%E9%BB%92%E9%AB%AD"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Teach_alias_Blackbeard%2C_colored.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7a398cc0e645881504d5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a398cc0e645881504d6"
+    },
+    "fr": "Léonard de Vinci",
+    "en": "Leonardo da Vinci",
+    "ja": "レオナルド・ダ・ヴィンチ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a398cc0e645881504d7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci",
+    "en": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%8A%E3%83%AB%E3%83%89%E3%83%BB%E3%83%80%E3%83%BB%E3%83%B4%E3%82%A3%E3%83%B3%E3%83%81"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Leonardo_self.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7a478cc0e645881504d9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a478cc0e645881504da"
+    },
+    "fr": "Jack Dawson",
+    "en": "Jack Dawson",
+    "ja": "ジャック・ドーソン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a478cc0e645881504db"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Titanic_(film,_1997)",
+    "en": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%82%A4%E3%82%BF%E3%83%8B%E3%83%83%E3%82%AF_(1997%E5%B9%B4%E3%81%AE%E6%98%A0%E7%94%BB)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png"
+},{
+  "_id": {
+    "$oid": "60cf7a638cc0e645881504dd"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7a638cc0e645881504de"
+    },
+    "fr": "Bob Marley",
+    "en": "Bob Marley",
+    "ja": "ボブ・マーリー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7a638cc0e645881504df"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Bob_Marley",
+    "en": "https://en.wikipedia.org/wiki/Bob_Marley",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%96%E3%83%BB%E3%83%9E%E3%83%BC%E3%83%AA%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Blue_pencil.svg"
+},{
+  "_id": {
+    "$oid": "60cf7afe8cc0e645881504e1"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7afe8cc0e645881504e2"
+    },
+    "fr": "Sissi impératrice",
+    "en": "Sissi – The Young Empress",
+    "ja": "若き皇后シシー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7afe8cc0e645881504e3"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Sissi_imp%C3%A9ratrice",
+    "en": "https://en.wikipedia.org/wiki/Sissi_%E2%80%93_The_Young_Empress",
+    "ja": "https://ja.wikipedia.org/wiki/%E8%8B%A5%E3%81%8D%E7%9A%87%E5%90%8E%E3%82%B7%E3%82%B7%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Sissi_-_The_young_Empress.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b0d8cc0e645881504e5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b0d8cc0e645881504e6"
+    },
+    "fr": "Marilyn Monroe",
+    "en": "Marilyn Monroe",
+    "ja": "マリリン・モンロー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b0d8cc0e645881504e7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Marilyn_Monroe",
+    "en": "https://en.wikipedia.org/wiki/Marilyn_Monroe",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%83%AA%E3%83%B3%E3%83%BB%E3%83%A2%E3%83%B3%E3%83%AD%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Marilyn_Monroe%2C_Photoplay_1953.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b178cc0e645881504e9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b178cc0e645881504ea"
+    },
+    "fr": "Pythagore",
+    "en": "Pythagoras",
+    "ja": "ピタゴラス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b178cc0e645881504eb"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Pythagore",
+    "en": "https://en.wikipedia.org/wiki/Pythagoras",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%BF%E3%82%B4%E3%83%A9%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b218cc0e645881504ed"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b218cc0e645881504ee"
+    },
+    "fr": "Platon",
+    "en": "Plato",
+    "ja": "プラトン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b218cc0e645881504ef"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Platon",
+    "en": "https://en.wikipedia.org/wiki/Plato",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%A9%E3%83%88%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Plato_Pio-Clemetino_Inv305.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b2a8cc0e645881504f1"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b2a8cc0e645881504f2"
+    },
+    "fr": "Voldemort",
+    "en": "Lord Voldemort",
+    "ja": "ヴォルデモート"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b2a8cc0e645881504f3"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Voldemort",
+    "en": "https://en.wikipedia.org/wiki/Lord_Voldemort",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A9%E3%83%AB%E3%83%87%E3%83%A2%E3%83%BC%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lord_Voldemort.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b3c8cc0e645881504f5"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b3c8cc0e645881504f6"
+    },
+    "fr": "Pocahontas",
+    "en": "Pocahontas",
+    "ja": "ポカホンタス"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b3c8cc0e645881504f7"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Pocahontas",
+    "en": "https://en.wikipedia.org/wiki/Pocahontas",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%82%AB%E3%83%9B%E3%83%B3%E3%82%BF%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png"
+},{
+  "_id": {
+    "$oid": "60cf7b478cc0e645881504f9"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b478cc0e645881504fa"
+    },
+    "fr": "Albus Dumbledore",
+    "en": "Albus Dumbledore",
+    "ja": "アルバス・ダンブルドア"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b478cc0e645881504fb"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Albus_Dumbledore",
+    "en": "https://en.wikipedia.org/wiki/Albus_Dumbledore",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%90%E3%82%B9%E3%83%BB%E3%83%80%E3%83%B3%E3%83%96%E3%83%AB%E3%83%89%E3%82%A2"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Albus_Dumbledore.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b518cc0e645881504fd"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b518cc0e645881504fe"
+    },
+    "fr": "Roi Arthur",
+    "en": "King Arthur",
+    "ja": "アーサー王"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b518cc0e645881504ff"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Roi_Arthur",
+    "en": "https://en.wikipedia.org/wiki/King_Arthur",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%82%B5%E3%83%BC%E7%8E%8B"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Hommage2.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b5d8cc0e64588150501"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b5d8cc0e64588150502"
+    },
+    "fr": "D'Artagnan",
+    "en": "Charles de Batz de Castelmore d'Artagnan",
+    "ja": "ダルタニャン"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b5d8cc0e64588150503"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/D%27Artagnan",
+    "en": "https://en.wikipedia.org/wiki/Charles_de_Batz_de_Castelmore_d%27Artagnan",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%AB%E3%82%BF%E3%83%8B%E3%83%A3%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/D%E2%80%99Artagnan_-_1704.png"
+},{
+  "_id": {
+    "$oid": "60cf7b738cc0e64588150505"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b738cc0e64588150506"
+    },
+    "fr": "Anakin Skywalker",
+    "en": "Anakin Skywalker",
+    "ja": "アナキン・スカイウォーカー"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b738cc0e64588150507"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Anakin_Skywalker",
+    "en": "https://en.wikipedia.org/wiki/Anakin_Skywalker",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%8A%E3%82%AD%E3%83%B3%E3%83%BB%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AB%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Darth_Vader_in_The_Empire_Strikes_Back.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7b818cc0e64588150509"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7b818cc0e6458815050a"
+    },
+    "fr": "J. R. R. Tolkien",
+    "en": "J. R. R. Tolkien",
+    "ja": "J・R・R・トールキン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7b818cc0e6458815050b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/J._R._R._Tolkien",
+    "en": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+    "ja": "https://ja.wikipedia.org/wiki/J%E3%83%BBR%E3%83%BBR%E3%83%BB%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AD%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Tolkien_1916.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7bd98cc0e64588150511"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7bd98cc0e64588150512"
+    },
+    "fr": "Nelson Mandela",
+    "en": "Nelson Mandela",
+    "ja": "ネルソン・マンデラ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7bd98cc0e64588150513"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Nelson_Mandela",
+    "en": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8D%E3%83%AB%E3%82%BD%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%B3%E3%83%87%E3%83%A9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7be28cc0e64588150515"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7be28cc0e64588150516"
+    },
+    "fr": "Bruce Lee",
+    "en": "Bruce Lee",
+    "ja": "ブルース・リー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7be28cc0e64588150517"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Bruce_Lee",
+    "en": "https://en.wikipedia.org/wiki/Bruce_Lee",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%83%BB%E3%83%AA%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bruce_Lee_1973.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7bf58cc0e64588150519"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7bf58cc0e6458815051a"
+    },
+    "fr": "Pablo Picasso",
+    "en": "Pablo Picasso",
+    "ja": "パブロ・ピカソ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7bf58cc0e6458815051b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Pablo_Picasso",
+    "en": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%96%E3%83%AD%E3%83%BB%E3%83%94%E3%82%AB%E3%82%BD"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pablo_picasso_1.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c258cc0e6458815051d"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c258cc0e6458815051e"
+    },
+    "fr": "Andy Warhol",
+    "en": "Andy Warhol",
+    "ja": "アンディ・ウォーホル"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c258cc0e6458815051f"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Andy_Warhol",
+    "en": "https://en.wikipedia.org/wiki/Andy_Warhol",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BB%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%9B%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Andy_Warhol_1977.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c2d8cc0e64588150521"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c2d8cc0e64588150522"
+    },
+    "fr": "Gollum",
+    "en": "Gollum",
+    "ja": "ゴクリ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c2d8cc0e64588150523"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Gollum",
+    "en": "https://en.wikipedia.org/wiki/Gollum",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%AF%E3%83%AA"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Gollum_s_journey_commences_by_Frederic_Bennett.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c368cc0e64588150525"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c368cc0e64588150526"
+    },
+    "fr": "Victor Hugo",
+    "en": "Victor Hugo",
+    "ja": "ヴィクトル・ユーゴー"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c368cc0e64588150527"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Victor_Hugo",
+    "en": "https://en.wikipedia.org/wiki/Victor_Hugo",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A3%E3%82%AF%E3%83%88%E3%83%AB%E3%83%BB%E3%83%A6%E3%83%BC%E3%82%B4%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Victor_Hugo_001.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c468cc0e64588150529"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c468cc0e6458815052a"
+    },
+    "fr": "Pablo Escobar",
+    "en": "Pablo Escobar",
+    "ja": "パブロ・エスコバル"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c468cc0e6458815052b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Pablo_Escobar",
+    "en": "https://en.wikipedia.org/wiki/Pablo_Escobar",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%96%E3%83%AD%E3%83%BB%E3%82%A8%E3%82%B9%E3%82%B3%E3%83%90%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pablo_Escobar_Mug.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c568cc0e6458815052d"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c568cc0e6458815052e"
+    },
+    "fr": "Neil Armstrong",
+    "en": "Neil Armstrong",
+    "ja": "ニール・アームストロング"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c568cc0e6458815052f"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Neil_Armstrong",
+    "en": "https://en.wikipedia.org/wiki/Neil_Armstrong",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A2%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%88%E3%83%AD%E3%83%B3%E3%82%B0"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Neil_Armstrong_pose.jpg"
+},{
+  "_id": {
+    "$oid": "60cf7c8d8cc0e64588150535"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60cf7c8d8cc0e64588150536"
+    },
+    "fr": "William Shakespeare",
+    "en": "William Shakespeare",
+    "ja": "ウィリアム・シェイクスピア"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60cf7c8d8cc0e64588150537"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/William_Shakespeare",
+    "en": "https://en.wikipedia.org/wiki/William_Shakespeare",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%AA%E3%82%A2%E3%83%A0%E3%83%BB%E3%82%B7%E3%82%A7%E3%82%A4%E3%82%AF%E3%82%B9%E3%83%94%E3%82%A2"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Shakespeare.jpg"
+},{
+  "_id": {
+    "$oid": "60d00d169a1c0148047eb9a2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00d169a1c0148047eb9a3"
+    },
+    "fr": "Coco Chanel",
+    "en": "Coco Chanel",
+    "ja": "ココ・シャネル"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00d169a1c0148047eb9a4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Coco_Chanel",
+    "en": "https://en.wikipedia.org/wiki/Coco_Chanel",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%82%B3%E3%83%BB%E3%82%B7%E3%83%A3%E3%83%8D%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Coco_Chanel%2C_1920.jpg"
+},{
+  "_id": {
+    "$oid": "60d00d739a1c0148047eb9a6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00d739a1c0148047eb9a7"
+    },
+    "fr": "Superman",
+    "en": "Superman",
+    "ja": "スーパーマン (架空の人物)"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00d739a1c0148047eb9a8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Superman",
+    "en": "https://en.wikipedia.org/wiki/Superman",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9E%E3%83%B3_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E4%BA%BA%E7%89%A9)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Superman_S_symbol.svg"
+},{
+  "_id": {
+    "$oid": "60d00d849a1c0148047eb9aa"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00d849a1c0148047eb9ab"
+    },
+    "fr": "Napoléon Ier",
+    "en": "Napoleon",
+    "ja": "ナポレオン・ボナパルト"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00d849a1c0148047eb9ac"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier",
+    "en": "https://en.wikipedia.org/wiki/Napoleon",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%9D%E3%83%AC%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%9C%E3%83%8A%E3%83%91%E3%83%AB%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Francois_Gerard_-_Napoleon_Ier_en_costume_du_Sacre.jpg"
+},{
+  "_id": {
+    "$oid": "60d00dad9a1c0148047eb9ae"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00dad9a1c0148047eb9af"
+    },
+    "fr": "Yoda",
+    "en": "Yoda",
+    "ja": "ヨーダ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00dad9a1c0148047eb9b0"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Yoda",
+    "en": "https://en.wikipedia.org/wiki/Yoda",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%BC%E3%83%80"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Retrato_del_Maestro_Yoda.jpg"
+},{
+  "_id": {
+    "$oid": "60d00db79a1c0148047eb9b2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00db79a1c0148047eb9b3"
+    },
+    "fr": "Perceval",
+    "en": "Percival",
+    "ja": "パーシヴァル"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00db79a1c0148047eb9b4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Perceval",
+    "en": "https://en.wikipedia.org/wiki/Percival",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%BC%E3%82%B7%E3%83%B4%E3%82%A1%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Rogelio_de_Egusquiza_-_Parsifal.jpg"
+},{
+  "_id": {
+    "$oid": "60d00dc09a1c0148047eb9b6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00dc09a1c0148047eb9b7"
+    },
+    "fr": "Attila",
+    "en": "Attila",
+    "ja": "アッティラ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00dc09a1c0148047eb9b8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Attila",
+    "en": "https://en.wikipedia.org/wiki/Attila",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%83%E3%83%86%E3%82%A3%E3%83%A9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Eugene_Ferdinand_Victor_Delacroix_Attila_fragment.jpg"
+},{
+  "_id": {
+    "$oid": "60d00dcc9a1c0148047eb9ba"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00dcc9a1c0148047eb9bb"
+    },
+    "fr": "Wolfgang Amadeus Mozart",
+    "en": "Wolfgang Amadeus Mozart",
+    "ja": "ヴォルフガング・アマデウス・モーツァルト"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00dcc9a1c0148047eb9bc"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "en": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%B4%E3%82%A9%E3%83%AB%E3%83%95%E3%82%AC%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%A2%E3%83%9E%E3%83%87%E3%82%A6%E3%82%B9%E3%83%BB%E3%83%A2%E3%83%BC%E3%83%84%E3%82%A1%E3%83%AB%E3%83%88"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg"
+},{
+  "_id": {
+    "$oid": "60d00dd59a1c0148047eb9be"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00dd59a1c0148047eb9bf"
+    },
+    "fr": "Achille",
+    "en": "Achilles",
+    "ja": "アキレウス"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00dd59a1c0148047eb9c0"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Achille",
+    "en": "https://en.wikipedia.org/wiki/Achilles",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AD%E3%83%AC%E3%82%A6%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Achilles_and_Penthesilea.jpg"
+},{
+  "_id": {
+    "$oid": "60d00de69a1c0148047eb9c2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00de69a1c0148047eb9c3"
+    },
+    "fr": "La Petite Sirène",
+    "en": "The Little Mermaid",
+    "ja": "人魚姫"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00de69a1c0148047eb9c4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/La_Petite_Sir%C3%A8ne",
+    "en": "https://en.wikipedia.org/wiki/The_Little_Mermaid",
+    "ja": "https://ja.wikipedia.org/wiki/%E4%BA%BA%E9%AD%9A%E5%A7%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bertall_ill_La_Petite_Sir%C3%A8ne2.png"
+},{
+  "_id": {
+    "$oid": "60d00dfc9a1c0148047eb9c6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00dfc9a1c0148047eb9c7"
+    },
+    "fr": "Spartacus",
+    "en": "Spartacus",
+    "ja": "スパルタクス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00dfc9a1c0148047eb9c8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Spartacus",
+    "en": "https://en.wikipedia.org/wiki/Spartacus",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%83%AB%E3%82%BF%E3%82%AF%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Tod_des_Spartacus_by_Hermann_Vogel.jpg"
+},{
+  "_id": {
+    "$oid": "60d00e779a1c0148047eb9ca"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00e779a1c0148047eb9cb"
+    },
+    "fr": "Steve Jobs",
+    "en": "Steve Jobs",
+    "ja": "スティーブ・ジョブズ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00e779a1c0148047eb9cc"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Steve_Jobs",
+    "en": "https://en.wikipedia.org/wiki/Steve_Jobs",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%96%E3%83%BB%E3%82%B8%E3%83%A7%E3%83%96%E3%82%BA"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d00e8a9a1c0148047eb9ce"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00e8a9a1c0148047eb9cf"
+    },
+    "fr": "Oda Nobunaga",
+    "en": "Oda Nobunaga",
+    "ja": "織田信長"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00e8a9a1c0148047eb9d0"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Oda_Nobunaga",
+    "en": "https://en.wikipedia.org/wiki/Oda_Nobunaga",
+    "ja": "https://ja.wikipedia.org/wiki/%E7%B9%94%E7%94%B0%E4%BF%A1%E9%95%B7"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Odanobunaga.jpg"
+},{
+  "_id": {
+    "$oid": "60d00eba9a1c0148047eb9d2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00eba9a1c0148047eb9d3"
+    },
+    "fr": "Détective Conan",
+    "en": "Case Closed",
+    "ja": "名探偵コナン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00eba9a1c0148047eb9d4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/D%C3%A9tective_Conan",
+    "en": "https://en.wikipedia.org/wiki/Case_Closed",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Case_Closed_Volume_36.png"
+},{
+  "_id": {
+    "$oid": "60d00eca9a1c0148047eb9d6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00eca9a1c0148047eb9d7"
+    },
+    "fr": "Le Petit Prince",
+    "en": "The Little Prince",
+    "ja": "星の王子さま"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00eca9a1c0148047eb9d8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Le_Petit_Prince",
+    "en": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "ja": "https://ja.wikipedia.org/wiki/%E6%98%9F%E3%81%AE%E7%8E%8B%E5%AD%90%E3%81%95%E3%81%BE"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Le_petit_prince.png"
+},{
+  "_id": {
+    "$oid": "60d00ed49a1c0148047eb9da"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00ed49a1c0148047eb9db"
+    },
+    "fr": "King Kong",
+    "en": "King Kong",
+    "ja": "キングコング (架空の怪獣)"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00ed49a1c0148047eb9dc"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/King_Kong",
+    "en": "https://en.wikipedia.org/wiki/King_Kong",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%B3%E3%82%B0_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E6%80%AA%E7%8D%A3)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/King_Kong_1933_French_poster.jpg"
+},{
+  "_id": {
+    "$oid": "60d00edf9a1c0148047eb9de"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00edf9a1c0148047eb9df"
+    },
+    "fr": "Charlie Chaplin",
+    "en": "Charlie Chaplin",
+    "ja": "チャールズ・チャップリン"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00edf9a1c0148047eb9e0"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Charlie_Chaplin",
+    "en": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%BB%E3%83%81%E3%83%A3%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Charlie_Chaplin_portrait.jpg"
+},{
+  "_id": {
+    "$oid": "60d00ef49a1c0148047eb9e2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00ef49a1c0148047eb9e3"
+    },
+    "fr": "Ramsès II",
+    "en": "Ramesses II",
+    "ja": "ラムセス2世"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00ef49a1c0148047eb9e4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Rams%C3%A8s_II",
+    "en": "https://en.wikipedia.org/wiki/Ramesses_II",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%A0%E3%82%BB%E3%82%B92%E4%B8%96"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Le_mus%C3%A9e_%C3%A9gyptien_%28Turin%29_%282866334984%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d00f019a1c0148047eb9e6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00f019a1c0148047eb9e7"
+    },
+    "fr": "Don Quichotte",
+    "en": "Don Quixote",
+    "ja": "ドン・キホーテ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00f019a1c0148047eb9e8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Don_Quichotte",
+    "en": "https://en.wikipedia.org/wiki/Don_Quixote",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%B3%E3%83%BB%E3%82%AD%E3%83%9B%E3%83%BC%E3%83%86"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Miguel_de_Cervantes_%281605%29_El_ingenioso_hidalgo_Don_Quixote_de_la_Mancha.png"
+},{
+  "_id": {
+    "$oid": "60d00f3b9a1c0148047eb9ea"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00f3b9a1c0148047eb9eb"
+    },
+    "fr": "Pikachu",
+    "en": "Pikachu",
+    "ja": "ピカチュウ"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00f3b9a1c0148047eb9ec"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Pikachu",
+    "en": "https://en.wikipedia.org/wiki/Pikachu",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%AB%E3%83%81%E3%83%A5%E3%82%A6"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pokemon_%2831599837283%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d00f469a1c0148047eb9ee"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00f469a1c0148047eb9ef"
+    },
+    "fr": "Molière",
+    "en": "Molière",
+    "ja": "モリエール"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00f469a1c0148047eb9f0"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Moli%C3%A8re",
+    "en": "https://en.wikipedia.org/wiki/Moli%C3%A8re",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%AA%E3%82%A8%E3%83%BC%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Moli%C3%A8re_-_Nicolas_Mignard_%281658%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d00f619a1c0148047eb9f2"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00f619a1c0148047eb9f3"
+    },
+    "fr": "Jeanne d'Arc",
+    "en": "Joan of Arc",
+    "ja": "ジャンヌ・ダルク"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00f619a1c0148047eb9f4"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc",
+    "en": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%8C%E3%83%BB%E3%83%80%E3%83%AB%E3%82%AF"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Contemporaine_afb_jeanne_d_arc.png"
+},{
+  "_id": {
+    "$oid": "60d00f6b9a1c0148047eb9f6"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00f6b9a1c0148047eb9f7"
+    },
+    "fr": "Godzilla",
+    "en": "Godzilla",
+    "ja": "ゴジラ (架空の怪獣)"
+  },
+  "difficulty": "easy",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00f6b9a1c0148047eb9f8"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Godzilla",
+    "en": "https://en.wikipedia.org/wiki/Godzilla",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%82%B8%E3%83%A9_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E6%80%AA%E7%8D%A3)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gojira_1954_Japanese_poster.jpg"
+},{
+  "_id": {
+    "$oid": "60d00fcb9a1c0148047eb9fa"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00fcb9a1c0148047eb9fb"
+    },
+    "fr": "Louis XIV",
+    "en": "Louis XIV",
+    "ja": "ルイ14世 (フランス王)"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00fcb9a1c0148047eb9fc"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Louis_XIV",
+    "en": "https://en.wikipedia.org/wiki/Louis_XIV",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%82%A414%E4%B8%96_(%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E7%8E%8B)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg"
+},{
+  "_id": {
+    "$oid": "60d00fe99a1c0148047eb9fe"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00fe99a1c0148047eb9ff"
+    },
+    "fr": "Gustave Eiffel",
+    "en": "Gustave Eiffel",
+    "ja": "ギュスターヴ・エッフェル"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00fe99a1c0148047eba00"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Gustave_Eiffel",
+    "en": "https://en.wikipedia.org/wiki/Gustave_Eiffel",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AE%E3%83%A5%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%B4%E3%83%BB%E3%82%A8%E3%83%83%E3%83%95%E3%82%A7%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Gustave_Eiffel.jpg"
+},{
+  "_id": {
+    "$oid": "60d00fef9a1c0148047eba02"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00fef9a1c0148047eba03"
+    },
+    "fr": "Judas Iscariote",
+    "en": "Judas Iscariot",
+    "ja": "イスカリオテのユダ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00fef9a1c0148047eba04"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Judas_Iscariote",
+    "en": "https://en.wikipedia.org/wiki/Judas_Iscariot",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%AA%E3%82%AA%E3%83%86%E3%81%AE%E3%83%A6%E3%83%80"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Peter_Paul_Rubens_-_Last_Supper_-_WGA20255.jpg"
+},{
+  "_id": {
+    "$oid": "60d00fff9a1c0148047eba06"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d00fff9a1c0148047eba07"
+    },
+    "fr": "Albert Einstein",
+    "en": "Albert Einstein",
+    "ja": "アルベルト・アインシュタイン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d00fff9a1c0148047eba08"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Albert_Einstein",
+    "en": "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%99%E3%83%AB%E3%83%88%E3%83%BB%E3%82%A2%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Albert_Einstein_1947.jpg"
+},{
+  "_id": {
+    "$oid": "60d010099a1c0148047eba0a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d010099a1c0148047eba0b"
+    },
+    "fr": "La Barbe bleue",
+    "en": "Bluebeard",
+    "ja": "青ひげ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d010099a1c0148047eba0c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/La_Barbe_bleue",
+    "en": "https://en.wikipedia.org/wiki/Bluebeard",
+    "ja": "https://ja.wikipedia.org/wiki/%E9%9D%92%E3%81%B2%E3%81%92"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Barbebleue.jpg"
+},{
+  "_id": {
+    "$oid": "60d010b59a1c0148047eba0e"
+  },
+  "inputLang": "fr",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d010b59a1c0148047eba0f"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/T-800",
+    "en": "https://en.wikipedia.org/wiki/Terminator_(character)",
+    "ja": "https://ja.wikipedia.org/wiki/T-800"
+  },
+  "difficulty": "medium",
+  "person": {
+    "_id": {
+      "$oid": "60d010b59a1c0148047eba10"
+    },
+    "fr": "T-800",
+    "en": "Terminator (character)",
+    "ja": "T-800"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/TERMINATOR.jpg"
+},{
+  "_id": {
+    "$oid": "60d010c79a1c0148047eba12"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d010c79a1c0148047eba13"
+    },
+    "fr": "Ulysse",
+    "en": "Odysseus",
+    "ja": "オデュッセウス"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d010c79a1c0148047eba14"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Ulysse",
+    "en": "https://en.wikipedia.org/wiki/Odysseus",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%87%E3%83%A5%E3%83%83%E3%82%BB%E3%82%A6%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Head_Odysseus_MAR_Sperlonga.jpg"
+},{
+  "_id": {
+    "$oid": "60d010e09a1c0148047eba16"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d010e09a1c0148047eba17"
+    },
+    "fr": "Louis Pasteur",
+    "en": "Louis Pasteur",
+    "ja": "ルイ・パスツール"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d010e09a1c0148047eba18"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Louis_Pasteur",
+    "en": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%91%E3%82%B9%E3%83%84%E3%83%BC%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Louis_Pasteur%2C_foto_av_Paul_Nadar.jpg"
+},{
+  "_id": {
+    "$oid": "60d011149a1c0148047eba1a"
+  },
+  "inputLang": "fr",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011149a1c0148047eba1b"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Sacha_(Pok%C3%A9mon)",
+    "en": "https://en.wikipedia.org/wiki/Ash_Ketchum",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%88%E3%82%B7_(%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC)"
+  },
+  "difficulty": "medium",
+  "person": {
+    "_id": {
+      "$oid": "60d011149a1c0148047eba1c"
+    },
+    "fr": "Sacha (Pokémon)",
+    "en": "Ash Ketchum",
+    "ja": "サトシ (アニメポケットモンスター)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png"
+},{
+  "_id": {
+    "$oid": "60d011249a1c0148047eba1e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011249a1c0148047eba1f"
+    },
+    "fr": "Mohamed Ali",
+    "en": "Muhammad Ali",
+    "ja": "モハメド・アリ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011249a1c0148047eba20"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Mohamed_Ali",
+    "en": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%8F%E3%83%A1%E3%83%89%E3%83%BB%E3%82%A2%E3%83%AA"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ali.jpg"
+},{
+  "_id": {
+    "$oid": "60d0112f9a1c0148047eba22"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0112f9a1c0148047eba23"
+    },
+    "fr": "Jean Moulin",
+    "en": "Jean Moulin",
+    "ja": "ジャン・ムーラン"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0112f9a1c0148047eba24"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Jean_Moulin",
+    "en": "https://en.wikipedia.org/wiki/Jean_Moulin",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%83%A0%E3%83%BC%E3%83%A9%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Moulin_Harcourt_1937.jpg"
+},{
+  "_id": {
+    "$oid": "60d0114d9a1c0148047eba26"
+  },
+  "inputLang": "fr",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0114d9a1c0148047eba27"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Lucy_(australopith%C3%A8que)",
+    "en": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%BC%E3%82%B7%E3%83%BC_(%E3%82%A2%E3%82%A6%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AD%E3%83%94%E3%83%86%E3%82%AF%E3%82%B9)"
+  },
+  "difficulty": "medium",
+  "person": {
+    "_id": {
+      "$oid": "60d0114d9a1c0148047eba28"
+    },
+    "fr": "Lucy (australopithèque)",
+    "en": "Lucy (Australopithecus)",
+    "ja": "ルーシー (アウストラロピテクス)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Reconstruction_of_the_fossil_skeleton_of_%22Lucy%22_the_Australopithecus_afarensis.jpg"
+},{
+  "_id": {
+    "$oid": "60d011589a1c0148047eba2a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011589a1c0148047eba2b"
+    },
+    "fr": "Édith Piaf",
+    "en": "Édith Piaf",
+    "ja": "エディット・ピアフ"
+  },
+  "difficulty": "medium",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011589a1c0148047eba2c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/%C3%89dith_Piaf",
+    "en": "https://en.wikipedia.org/wiki/%C3%89dith_Piaf",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%87%E3%82%A3%E3%83%83%E3%83%88%E3%83%BB%E3%83%94%E3%82%A2%E3%83%95"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%C3%89dith_Piaf_914-6440.jpg"
+},{
+  "_id": {
+    "$oid": "60d0116e9a1c0148047eba2e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0116e9a1c0148047eba2f"
+    },
+    "fr": "Agatha Christie",
+    "en": "Agatha Christie",
+    "ja": "アガサ・クリスティ"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0116e9a1c0148047eba30"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Agatha_Christie",
+    "en": "https://en.wikipedia.org/wiki/Agatha_Christie",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AC%E3%82%B5%E3%83%BB%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%86%E3%82%A3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png"
+},{
+  "_id": {
+    "$oid": "60d0117d9a1c0148047eba32"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0117d9a1c0148047eba33"
+    },
+    "fr": "Che Guevara",
+    "en": "Che Guevara",
+    "ja": "チェ・ゲバラ"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0117d9a1c0148047eba34"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Che_Guevara",
+    "en": "https://en.wikipedia.org/wiki/Che_Guevara",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%81%E3%82%A7%E3%83%BB%E3%82%B2%E3%83%90%E3%83%A9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/CheHigh.jpg"
+},{
+  "_id": {
+    "$oid": "60d011869a1c0148047eba36"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011869a1c0148047eba37"
+    },
+    "fr": "Louis de Funès",
+    "en": "Louis de Funès",
+    "ja": "ルイ・ド・フュネス"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011869a1c0148047eba38"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Louis_de_Fun%C3%A8s",
+    "en": "https://en.wikipedia.org/wiki/Louis_de_Fun%C3%A8s",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%82%A4%E3%83%BB%E3%83%89%E3%83%BB%E3%83%95%E3%83%A5%E3%83%8D%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d0118d9a1c0148047eba3a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0118d9a1c0148047eba3b"
+    },
+    "fr": "Crésus",
+    "en": "Croesus",
+    "ja": "クロイソス"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0118d9a1c0148047eba3c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Cr%C3%A9sus",
+    "en": "https://en.wikipedia.org/wiki/Croesus",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%A4%E3%82%BD%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Claude_Vignon_-_Croesus_and_Solon.jpg"
+},{
+  "_id": {
+    "$oid": "60d011989a1c0148047eba3e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011989a1c0148047eba3f"
+    },
+    "fr": "Arthur Rimbaud",
+    "en": "Arthur Rimbaud",
+    "ja": "アルチュール・ランボー"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011989a1c0148047eba40"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Arthur_Rimbaud",
+    "en": "https://en.wikipedia.org/wiki/Arthur_Rimbaud",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A9%E3%83%B3%E3%83%9C%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rimbaud.PNG"
+},{
+  "_id": {
+    "$oid": "60d011a19a1c0148047eba42"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011a19a1c0148047eba43"
+    },
+    "fr": "Casper le gentil fantôme",
+    "en": "Casper the Friendly Ghost",
+    "ja": "出てこいキャスパー"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011a19a1c0148047eba44"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Casper_le_gentil_fant%C3%B4me",
+    "en": "https://en.wikipedia.org/wiki/Casper_the_Friendly_Ghost",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%87%BA%E3%81%A6%E3%81%93%E3%81%84%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%91%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Casper_the_Friendly_Ghost_issue_No.1_%28March%2C_1991%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d011ae9a1c0148047eba46"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011ae9a1c0148047eba47"
+    },
+    "fr": "Calamity Jane",
+    "en": "Calamity Jane",
+    "ja": "カラミティ・ジェーン"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011ae9a1c0148047eba48"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Calamity_Jane",
+    "en": "https://en.wikipedia.org/wiki/Calamity_Jane",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%83%9F%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Calamity_jane.jpeg"
+},{
+  "_id": {
+    "$oid": "60d011be9a1c0148047eba4a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011be9a1c0148047eba4b"
+    },
+    "fr": "Minotaure",
+    "en": "Minotaur",
+    "ja": "ミーノータウロス"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011be9a1c0148047eba4c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Minotaure",
+    "en": "https://en.wikipedia.org/wiki/Minotaur",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%BC%E3%83%8E%E3%83%BC%E3%82%BF%E3%82%A6%E3%83%AD%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Minotauros_Myron_NAMA_1664_n1.jpg"
+},{
+  "_id": {
+    "$oid": "60d011e09a1c0148047eba52"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d011e09a1c0148047eba53"
+    },
+    "fr": "Frida Kahlo",
+    "en": "Frida Kahlo",
+    "ja": "フリーダ・カーロ"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d011e09a1c0148047eba54"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Frida_Kahlo",
+    "en": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BB%E3%82%AB%E3%83%BC%E3%83%AD"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+},{
+  "_id": {
+    "$oid": "60d012379a1c0148047eba5a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012379a1c0148047eba5b"
+    },
+    "fr": "Georges Brassens",
+    "en": "Georges Brassens",
+    "ja": "ジョルジュ・ブラッサンス"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012379a1c0148047eba5c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Georges_Brassens",
+    "en": "https://en.wikipedia.org/wiki/Georges_Brassens",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%AB%E3%82%B8%E3%83%A5%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%B5%E3%83%B3%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Georges_Brassens_%C3%A0_Toulouse_en_d%C3%A9cembre_1963_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d012409a1c0148047eba5e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012409a1c0148047eba5f"
+    },
+    "fr": "Buffalo Bill",
+    "en": "Buffalo Bill",
+    "ja": "バッファロー・ビル"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012409a1c0148047eba60"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Buffalo_Bill",
+    "en": "https://en.wikipedia.org/wiki/Buffalo_Bill",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%83%95%E3%82%A1%E3%83%AD%E3%83%BC%E3%83%BB%E3%83%93%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Cody-Buffalo-Bill-LOC.jpg"
+},{
+  "_id": {
+    "$oid": "60d0124c9a1c0148047eba62"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0124c9a1c0148047eba63"
+    },
+    "fr": "Coluche",
+    "en": "Coluche",
+    "ja": "コリューシュ"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0124c9a1c0148047eba64"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Coluche",
+    "en": "https://en.wikipedia.org/wiki/Coluche",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A5"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Coluche_1.jpg"
+},{
+  "_id": {
+    "$oid": "60d012759a1c0148047eba66"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012759a1c0148047eba67"
+    },
+    "fr": "Vercingétorix",
+    "en": "Vercingetorix",
+    "ja": "ウェルキンゲトリクス"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012759a1c0148047eba68"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Vercing%C3%A9torix",
+    "en": "https://en.wikipedia.org/wiki/Vercingetorix",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A7%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B2%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Vercing%C3%A9torix_stat%C3%A8re_Gallica_avers.jpg"
+},{
+  "_id": {
+    "$oid": "60d0127f9a1c0148047eba6a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d0127f9a1c0148047eba6b"
+    },
+    "fr": "Jacques-Yves Cousteau",
+    "en": "Jacques Cousteau",
+    "ja": "ジャック＝イヴ・クストー"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0127f9a1c0148047eba6c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Jacques-Yves_Cousteau",
+    "en": "https://en.wikipedia.org/wiki/Jacques_Cousteau",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%EF%BC%9D%E3%82%A4%E3%83%B4%E3%83%BB%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cousteau1972_%28cropped%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d012899a1c0148047eba6e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012899a1c0148047eba6f"
+    },
+    "fr": "Geronimo",
+    "en": "Geronimo",
+    "ja": "ジェロニモ"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012899a1c0148047eba70"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Geronimo",
+    "en": "https://en.wikipedia.org/wiki/Geronimo",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AD%E3%83%8B%E3%83%A2"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Geronimo_agn_1913.jpg"
+},{
+  "_id": {
+    "$oid": "60d012b39a1c0148047eba72"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012b39a1c0148047eba73"
+    },
+    "fr": "La Petite Fille aux allumettes",
+    "en": "The Little Match Girl",
+    "ja": "マッチ売りの少女"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012b39a1c0148047eba74"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/La_Petite_Fille_aux_allumettes",
+    "en": "https://en.wikipedia.org/wiki/The_Little_Match_Girl",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%83%81%E5%A3%B2%E3%82%8A%E3%81%AE%E5%B0%91%E5%A5%B3"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bertall_ill_La_Petite_Fille_et_les_allumettes.png"
+},{
+  "_id": {
+    "$oid": "60d012bd9a1c0148047eba76"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012bd9a1c0148047eba77"
+    },
+    "fr": "Simone Veil",
+    "en": "Simone Veil",
+    "ja": "シモーヌ・ヴェイユ (政治家)"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012bd9a1c0148047eba78"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Simone_Veil",
+    "en": "https://en.wikipedia.org/wiki/Simone_Veil",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A2%E3%83%BC%E3%83%8C%E3%83%BB%E3%83%B4%E3%82%A7%E3%82%A4%E3%83%A6_(%E6%94%BF%E6%B2%BB%E5%AE%B6)"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Simone_Veil_%281984%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d012c89a1c0148047eba7a"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012c89a1c0148047eba7b"
+    },
+    "fr": "Alfred Hitchcock",
+    "en": "Alfred Hitchcock",
+    "ja": "アルフレッド・ヒッチコック"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012c89a1c0148047eba7c"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Alfred_Hitchcock",
+    "en": "https://en.wikipedia.org/wiki/Alfred_Hitchcock",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%83%95%E3%83%AC%E3%83%83%E3%83%89%E3%83%BB%E3%83%92%E3%83%83%E3%83%81%E3%82%B3%E3%83%83%E3%82%AF"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hitchcock%2C_Alfred_02.jpg"
+},{
+  "_id": {
+    "$oid": "60d012d39a1c0148047eba7e"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012d39a1c0148047eba7f"
+    },
+    "fr": "Jack l'Éventreur",
+    "en": "Jack the Ripper",
+    "ja": "切り裂きジャック"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012d39a1c0148047eba80"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Jack_l%27%C3%89ventreur",
+    "en": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%88%87%E3%82%8A%E8%A3%82%E3%81%8D%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Fortun%C3%A9_M%C3%A9aulle_-_Whitechapel_murder.jpg"
+},{
+  "_id": {
+    "$oid": "60d012ee9a1c0148047eba82"
+  },
+  "inputLang": "fr",
+  "person": {
+    "_id": {
+      "$oid": "60d012ee9a1c0148047eba83"
+    },
+    "fr": "Abbé Pierre",
+    "en": "Abbé Pierre",
+    "ja": "アベ・ピエール"
+  },
+  "difficulty": "hard",
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d012ee9a1c0148047eba84"
+    },
+    "fr": "https://fr.wikipedia.org/wiki/Abb%C3%A9_Pierre",
+    "en": "https://en.wikipedia.org/wiki/Abb%C3%A9_Pierre",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%99%E3%83%BB%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB"
+  },
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/ABBE_PIERRE-1999Without.jpg"
+},{
+  "_id": {
+    "$oid": "60d09407574da32a68377d00"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d09407574da32a68377d01"
+    },
+    "en": "Shigeru Miyamoto",
+    "fr": "Shigeru Miyamoto",
+    "ja": "宮本茂"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d09407574da32a68377d02"
+    },
+    "en": "https://en.wikipedia.org/wiki/Shigeru_Miyamoto",
+    "fr": "https://fr.wikipedia.org/wiki/Shigeru_Miyamoto",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E6%9C%AC%E8%8C%82"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shigeru_Miyamoto_cropped_2_Shigeru_Miyamoto_201911.jpg"
+},{
+  "_id": {
+    "$oid": "60d099ec1814852f5cc86e76"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d099ec1814852f5cc86e77"
+    },
+    "en": "Batman",
+    "fr": "Batman",
+    "ja": "バットマン (架空の人物)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d099ec1814852f5cc86e78"
+    },
+    "en": "https://en.wikipedia.org/wiki/Batman",
+    "fr": "https://fr.wikipedia.org/wiki/Batman",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E4%BA%BA%E7%89%A9)"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Batman_%28black_background%29.jpg"
+},{
+  "_id": {
+    "$oid": "60d09a4c1814852f5cc86e7a"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d09a4c1814852f5cc86e7b"
+    },
+    "en": "Link (The Legend of Zelda)",
+    "fr": "Link (The Legend of Zelda)",
+    "ja": "リンク (ゲームキャラクター)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d09a4c1814852f5cc86e7c"
+    },
+    "en": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
+    "fr": "https://fr.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%AF_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Link_et_Zelda_Cosplay.jpg"
+},{
+  "_id": {
+    "$oid": "60d0b7bf04e6a40e70432791"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d0b7bf04e6a40e70432792"
+    },
+    "en": "Yoshihide Suga",
+    "fr": "Yoshihide Suga",
+    "ja": "菅義偉"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d0b7bf04e6a40e70432793"
+    },
+    "en": "https://en.wikipedia.org/wiki/Yoshihide_Suga",
+    "fr": "https://fr.wikipedia.org/wiki/Yoshihide_Suga",
+    "ja": "https://ja.wikipedia.org/wiki/%E8%8F%85%E7%BE%A9%E5%81%89"
+  },
+  "inputLang": "ja",
+  "difficulty": "medium",
+  "__v": 0,
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Yoshihide_Suga_20210101.jpg"
+},{
+  "_id": {
+    "$oid": "60d1b01c08ed0935a0e88b76"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1b01c08ed0935a0e88b77"
+    },
+    "en": "Nikola Tesla",
+    "fr": "Nikola Tesla",
+    "ja": "ニコラ・テスラ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1b01c08ed0935a0e88b78"
+    },
+    "en": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+    "fr": "https://fr.wikipedia.org/wiki/Nikola_Tesla",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%82%B3%E3%83%A9%E3%83%BB%E3%83%86%E3%82%B9%E3%83%A9"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tesla-bulb.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1b08808ed0935a0e88b7b"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1b08808ed0935a0e88b7c"
+    },
+    "en": "Thomas Edison",
+    "fr": "Thomas Edison",
+    "ja": "トーマス・エジソン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1b08808ed0935a0e88b7d"
+    },
+    "en": "https://en.wikipedia.org/wiki/Thomas_Edison",
+    "fr": "https://fr.wikipedia.org/wiki/Thomas_Edison",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%82%A8%E3%82%B8%E3%82%BD%E3%83%B3"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/800px-Thomas_Edison2.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1d5bbb671bb27f82baa64"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1d5bbb671bb27f82baa65"
+    },
+    "en": "Captain America",
+    "fr": "Captain America",
+    "ja": "キャプテン・アメリカ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1d5bbb671bb27f82baa66"
+    },
+    "en": "https://en.wikipedia.org/wiki/Captain_America",
+    "fr": "https://fr.wikipedia.org/wiki/Captain_America",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E3%83%BB%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1d5efb671bb27f82baa69"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1d5efb671bb27f82baa6a"
+    },
+    "en": "Count Dracula",
+    "fr": "Dracula (personnage)",
+    "ja": "ドラキュラ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1d5efb671bb27f82baa6b"
+    },
+    "en": "https://en.wikipedia.org/wiki/Count_Dracula",
+    "fr": "https://fr.wikipedia.org/wiki/Dracula_(personnage)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Bela_Lugosi_as_Dracula%2C_anonymous_photograph_from_1931%2C_Universal_Studios.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1d628b671bb27f82baa6e"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1d628b671bb27f82baa6f"
+    },
+    "en": "Cyrano de Bergerac",
+    "fr": "Savinien de Cyrano de Bergerac",
+    "ja": "シラノ・ド・ベルジュラック"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1d628b671bb27f82baa70"
+    },
+    "en": "https://en.wikipedia.org/wiki/Cyrano_de_Bergerac",
+    "fr": "https://fr.wikipedia.org/wiki/Savinien_de_Cyrano_de_Bergerac",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%A9%E3%83%8E%E3%83%BB%E3%83%89%E3%83%BB%E3%83%99%E3%83%AB%E3%82%B8%E3%83%A5%E3%83%A9%E3%83%83%E3%82%AF"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Savinien_de_Cyrano_de_Bergerac.JPG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1e315b671bb27f82baa73"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1e315b671bb27f82baa74"
+    },
+    "en": "Evil Queen (Disney)",
+    "fr": "Reine-sorcière",
+    "ja": "女王/魔女"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1e315b671bb27f82baa75"
+    },
+    "en": "https://en.wikipedia.org/wiki/Evil_Queen_(Disney)",
+    "fr": "https://fr.wikipedia.org/wiki/Reine-sorci%C3%A8re",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%A5%B3%E7%8E%8B/%E9%AD%94%E5%A5%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/QueenSnowWhite.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1e6a217db0527e4d8f999"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1e6a217db0527e4d8f99a"
+    },
+    "en": "Jack Skellington",
+    "fr": "Jack Skellington",
+    "ja": "ジャック・スケリントン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1e6a217db0527e4d8f99b"
+    },
+    "en": "https://en.wikipedia.org/wiki/Jack_Skellington",
+    "fr": "https://fr.wikipedia.org/wiki/Jack_Skellington",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A1%E3%82%A2%E3%83%BC%E3%83%BB%E3%83%93%E3%83%95%E3%82%A9%E3%82%A2%E3%83%BB%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/Jack_Skellington.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1e7825f2fb708a44653dd"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1e7825f2fb708a44653de"
+    },
+    "en": "Juliet",
+    "fr": "Juliette Capulet",
+    "ja": "ジュリエット"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1e7825f2fb708a44653df"
+    },
+    "en": "https://en.wikipedia.org/wiki/Juliet",
+    "fr": "https://fr.wikipedia.org/wiki/Juliette_Capulet",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%9F%E3%82%AA%E3%81%A8%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A8%E3%83%83%E3%83%88"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/DickseeRomeoandJuliet.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1e98252148427a072d5f9"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1e98252148427a072d5fa"
+    },
+    "en": "Quasimodo",
+    "fr": "Quasimodo (personnage)",
+    "ja": "カジモド"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1e98252148427a072d5fb"
+    },
+    "en": "https://en.wikipedia.org/wiki/Quasimodo",
+    "fr": "https://fr.wikipedia.org/wiki/Quasimodo_(personnage)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88%E3%83%AB%E3%83%80%E3%83%A0%E3%81%AE%E9%90%98"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hunchback_of_Notre_Dame.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1e9b352148427a072d5fe"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1e9b352148427a072d5ff"
+    },
+    "en": "Gavroche",
+    "fr": "Gavroche",
+    "ja": "ガヴローシュ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1e9b352148427a072d600"
+    },
+    "en": "https://en.wikipedia.org/wiki/Gavroche",
+    "fr": "https://fr.wikipedia.org/wiki/Gavroche",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%BB%E3%83%9F%E3%82%BC%E3%83%A9%E3%83%96%E3%83%AB"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Victor_hugo_gavroche_a_11_ans.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1eb8a51225328105bfe55"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1eb8a51225328105bfe56"
+    },
+    "en": "Big Bad Wolf",
+    "fr": "Loup (personnage de conte)",
+    "ja": "赤ずきんの狼"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1eb8a51225328105bfe57"
+    },
+    "en": "https://en.wikipedia.org/wiki/Big_Bad_Wolf",
+    "fr": "https://fr.wikipedia.org/wiki/Loup_(personnage_de_conte)",
+    "ja": "https://ja.wikipedia.org/wiki/%E8%B5%A4%E3%81%9A%E3%81%8D%E3%82%93"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Little_Red_Riding_Hood_-_J._W._Smith.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1ebba51225328105bfe5a"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1ebba51225328105bfe5b"
+    },
+    "en": "Cleopatra",
+    "fr": "Cléopâtre VII",
+    "ja": "クレオパトラ7世"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1ebba51225328105bfe5c"
+    },
+    "en": "https://en.wikipedia.org/wiki/Cleopatra",
+    "fr": "https://fr.wikipedia.org/wiki/Cl%C3%A9op%C3%A2tre_VII",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%82%AA%E3%83%91%E3%83%88%E3%83%A97%E4%B8%96"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1ec1e51225328105bfe5f"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1ec1e51225328105bfe60"
+    },
+    "en": "Ned Stark",
+    "fr": "Eddard Stark",
+    "ja": "エダード・”ネッド”・スターク"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1ec1e51225328105bfe61"
+    },
+    "en": "https://en.wikipedia.org/wiki/Ned_Stark",
+    "fr": "https://fr.wikipedia.org/wiki/Eddard_Stark",
+    "ja": "https://ja.wikipedia.org/wiki/%E6%B0%B7%E3%81%A8%E7%82%8E%E3%81%AE%E6%AD%8C%E3%81%AE%E8%AB%B8%E5%90%8D%E5%AE%B6#%E3%82%A8%E3%83%80%E3%83%BC%E3%83%89%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AF"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Ned_Stark-Sean_Bean.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1ed0251225328105bfe67"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1ed0251225328105bfe68"
+    },
+    "en": "Esmeralda (The Hunchback of Notre-Dame)",
+    "fr": "La Esmeralda (personnage)",
+    "ja": "エスメラルダ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1ed0251225328105bfe69"
+    },
+    "en": "https://en.wikipedia.org/wiki/Esmeralda_(The_Hunchback_of_Notre-Dame)",
+    "fr": "https://fr.wikipedia.org/wiki/La_Esmeralda_(personnage)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%88%E3%83%AB%E3%83%80%E3%83%A0%E3%81%AE%E9%90%98#1"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/La_Esmeralda_from_Victor_Hugo_and_His_Time.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1eda151225328105bfe6c"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1eda151225328105bfe6d"
+    },
+    "en": "The Bride (Kill Bill)",
+    "fr": "Beatrix Kiddo",
+    "ja": "ザ・ブライド"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1eda151225328105bfe6e"
+    },
+    "en": "https://en.wikipedia.org/wiki/The_Bride_(Kill_Bill)",
+    "fr": "https://fr.wikipedia.org/wiki/Beatrix_Kiddo",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%AB%E3%83%BB%E3%83%93%E3%83%AB"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7d/The_bride_%28kill_bill%29.JPG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1edee51225328105bfe71"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1edee51225328105bfe72"
+    },
+    "en": "Babar the Elephant",
+    "fr": "Babar",
+    "ja": "ババール"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1edee51225328105bfe73"
+    },
+    "en": "https://en.wikipedia.org/wiki/Babar_the_Elephant",
+    "fr": "https://fr.wikipedia.org/wiki/Babar",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%90%E3%83%BC%E3%83%AB"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0f/Babar1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1ee5c51225328105bfe76"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1ee5c51225328105bfe77"
+    },
+    "en": "Bambi (character)",
+    "fr": "Bambi (personnage)",
+    "ja": "バンビ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1ee5c51225328105bfe78"
+    },
+    "en": "https://en.wikipedia.org/wiki/Bambi_(character)",
+    "fr": "https://fr.wikipedia.org/wiki/Bambi_(personnage)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%B3%E3%83%93_(%E6%98%A0%E7%94%BB)#%E7%99%BB%E5%A0%B4%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Bambi-Hans-Bertle.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1eeb951225328105bfe7b"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1eeb951225328105bfe7c"
+    },
+    "en": "The Unknown Soldier",
+    "fr": "Soldat inconnu",
+    "ja": "無名戦士"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1eeb951225328105bfe7d"
+    },
+    "en": "https://en.wikipedia.org/wiki/Tomb_of_the_Unknown_Soldier",
+    "fr": "https://fr.wikipedia.org/wiki/Tombe_du_Soldat_inconnu",
+    "ja": "https://ja.wikipedia.org/wiki/%E7%84%A1%E5%90%8D%E6%88%A6%E5%A3%AB%E3%81%AE%E5%A2%93"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Altare_della_Patria-July_2016_%2859%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1f47451225328105bff11"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1f47451225328105bff12"
+    },
+    "en": "Emmanuel Macron",
+    "fr": "Emmanuel Macron",
+    "ja": "エマニュエル・マクロン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1f47451225328105bff13"
+    },
+    "en": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+    "fr": "https://fr.wikipedia.org/wiki/Emmanuel_Macron",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%9E%E3%82%AF%E3%83%AD%E3%83%B3"
+  },
+  "inputLang": "fr",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Emmanuel_Macron_%28cropped%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1f4c151225328105bff16"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1f4c151225328105bff17"
+    },
+    "en": "Psy",
+    "fr": "Psy (chanteur)",
+    "ja": "PSY"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1f4c151225328105bff18"
+    },
+    "en": "https://en.wikipedia.org/wiki/Psy",
+    "fr": "https://fr.wikipedia.org/wiki/Psy_(chanteur)",
+    "ja": "https://ja.wikipedia.org/wiki/PSY"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1f70419909b1bc8a65f75"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1f70419909b1bc8a65f76"
+    },
+    "en": "Jisoo",
+    "fr": "Kim Ji-soo",
+    "ja": "ジス (BLACKPINK)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1f70419909b1bc8a65f77"
+    },
+    "en": "https://en.wikipedia.org/wiki/Jisoo",
+    "fr": "https://fr.wikipedia.org/wiki/Kim_Ji-soo",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%B9_(BLACKPINK)"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kim_Ji-soo_at_Jimmy_Choo_Event_on_January_09%2C_2020_%284%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1f95119909b1bc8a65f7a"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1f95119909b1bc8a65f7b"
+    },
+    "en": "D.O. (entertainer)",
+    "fr": "D.O.",
+    "ja": "ディオ (歌手)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1f95119909b1bc8a65f7c"
+    },
+    "en": "https://en.wikipedia.org/wiki/D.O._(entertainer)",
+    "fr": "https://fr.wikipedia.org/wiki/D.O.",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA_(%E6%AD%8C%E6%89%8B)"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fa0019909b1bc8a65f7f"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fa0019909b1bc8a65f80"
+    },
+    "en": "Spider-Man",
+    "fr": "Spider-Man",
+    "ja": "スパイダーマン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fa0019909b1bc8a65f81"
+    },
+    "en": "https://en.wikipedia.org/wiki/Spider-Man",
+    "fr": "https://fr.wikipedia.org/wiki/Spider-Man",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fa8e19909b1bc8a65f84"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fa8e19909b1bc8a65f85"
+    },
+    "en": "Lisa (rapper)",
+    "fr": "Lisa (rappeuse)",
+    "ja": "リサ (BLACKPINK)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fa8e19909b1bc8a65f86"
+    },
+    "en": "https://en.wikipedia.org/wiki/Lisa_(rapper)",
+    "fr": "https://fr.wikipedia.org/wiki/Lisa_(rappeuse)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B5_(BLACKPINK)"
+  },
+  "inputLang": "fr",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/180819_%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_%EC%BD%94%EC%97%91%EC%8A%A4_%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%94%84%EB%9D%BC%EC%9E%90_%EB%A6%AC%EC%82%AC.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fa9019909b1bc8a65f89"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fa9019909b1bc8a65f8a"
+    },
+    "en": "Chibi Maruko-chan",
+    "fr": "Chibi Maruko-chan",
+    "ja": "ちびまる子ちゃん"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fa9019909b1bc8a65f8b"
+    },
+    "en": "https://en.wikipedia.org/wiki/Chibi_Maruko-chan",
+    "fr": "https://fr.wikipedia.org/wiki/Chibi_Maruko-chan",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%B3%E3%81%BE%E3%82%8B%E5%AD%90%E3%81%A1%E3%82%83%E3%82%93"
+  },
+  "inputLang": "ja",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Chibi_maruko-chan_comic_no_1_cover.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fab019909b1bc8a65fa5"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fab019909b1bc8a65fa6"
+    },
+    "en": "Doraemon",
+    "fr": "Doraemon",
+    "ja": "ドラえもん"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fab019909b1bc8a65fa7"
+    },
+    "en": "https://en.wikipedia.org/wiki/Doraemon",
+    "fr": "https://fr.wikipedia.org/wiki/Doraemon",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Doraemon_volume_1_cover.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fac719909b1bc8a65fab"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fac719909b1bc8a65fac"
+    },
+    "en": "Anpanman",
+    "fr": "Anpanman",
+    "ja": "アンパンマン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fac719909b1bc8a65fad"
+    },
+    "en": "https://en.wikipedia.org/wiki/Anpanman",
+    "fr": "https://fr.wikipedia.org/wiki/Anpanman",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/AnpanMasterpieceBook1.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fb6319909b1bc8a65fb0"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fb6319909b1bc8a65fb1"
+    },
+    "en": "Hayao Miyazaki",
+    "fr": "Hayao Miyazaki",
+    "ja": "宮崎駿"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fb6319909b1bc8a65fb2"
+    },
+    "en": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
+    "fr": "https://fr.wikipedia.org/wiki/Hayao_Miyazaki",
+    "ja": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%B4%8E%E9%A7%BF"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fbbc19909b1bc8a65fb5"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fbbc19909b1bc8a65fb6"
+    },
+    "en": "Alan Turing",
+    "fr": "Alan Turing",
+    "ja": "アラン・チューリング"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fbbc19909b1bc8a65fb7"
+    },
+    "en": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "fr": "https://fr.wikipedia.org/wiki/Alan_Turing",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A9%E3%83%B3%E3%83%BB%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d1fc6e986ec80cb84f7858"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d1fc6e986ec80cb84f7859"
+    },
+    "en": "Elsa (Frozen)",
+    "fr": "Elsa (Disney)",
+    "ja": "エルサ (キャラクター)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d1fc6e986ec80cb84f785a"
+    },
+    "en": "https://en.wikipedia.org/wiki/Elsa_(Frozen)",
+    "fr": "https://fr.wikipedia.org/wiki/Elsa_(Disney)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%82%B5_(%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Elsa_from_Disney%27s_Frozen.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29de9b5439b3724cf12e9"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29de9b5439b3724cf12ea"
+    },
+    "en": "Lady Gaga",
+    "fr": "Lady Gaga",
+    "ja": "レディー・ガガ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29de9b5439b3724cf12eb"
+    },
+    "en": "https://en.wikipedia.org/wiki/Lady_Gaga",
+    "fr": "https://fr.wikipedia.org/wiki/Lady_Gaga",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%BB%E3%82%AC%E3%82%AC"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/210120-D-WD757-1720_%2850861332387%29_%28cropped%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29e0bb5439b3724cf12ee"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29e0bb5439b3724cf12ef"
+    },
+    "en": "Arnold Schwarzenegger",
+    "fr": "Arnold Schwarzenegger",
+    "ja": "アーノルド・シュワルツェネッガー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29e0bb5439b3724cf12f0"
+    },
+    "en": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
+    "fr": "https://fr.wikipedia.org/wiki/Arnold_Schwarzenegger",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%8E%E3%83%AB%E3%83%89%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%AF%E3%83%AB%E3%83%84%E3%82%A7%E3%83%8D%E3%83%83%E3%82%AC%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29e32b5439b3724cf12f3"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29e32b5439b3724cf12f4"
+    },
+    "en": "Katy Perry",
+    "fr": "Katy Perry",
+    "ja": "ケイティ・ペリー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29e32b5439b3724cf12f5"
+    },
+    "en": "https://en.wikipedia.org/wiki/Katy_Perry",
+    "fr": "https://fr.wikipedia.org/wiki/Katy_Perry",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9A%E3%83%AA%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katy_Perry_and_Greg_%2847870635411%29_%28cropped%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29e5eb5439b3724cf12f8"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29e5eb5439b3724cf12f9"
+    },
+    "en": "Mario",
+    "fr": "Mario (personnage)",
+    "ja": "マリオ (ゲームキャラクター)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29e5eb5439b3724cf12fa"
+    },
+    "en": "https://en.wikipedia.org/wiki/Mario",
+    "fr": "https://fr.wikipedia.org/wiki/Mario_(personnage)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%82%AA_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29ebfb5439b3724cf12fd"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29ebfb5439b3724cf12fe"
+    },
+    "en": "Sonic the Hedgehog (character)",
+    "fr": "Sonic",
+    "ja": "ソニック・ザ・ヘッジホッグ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29ebfb5439b3724cf12ff"
+    },
+    "en": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
+    "fr": "https://fr.wikipedia.org/wiki/Sonic",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%98%E3%83%83%E3%82%B8%E3%83%9B%E3%83%83%E3%82%B0"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Sonic_modern_and_classic_designs.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d29ef0b5439b3724cf1302"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d29ef0b5439b3724cf1303"
+    },
+    "en": "Homer Simpson",
+    "fr": "Homer Simpson",
+    "ja": "ホーマー・シンプソン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d29ef0b5439b3724cf1304"
+    },
+    "en": "https://en.wikipedia.org/wiki/Homer_Simpson",
+    "fr": "https://fr.wikipedia.org/wiki/Homer_Simpson",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%B3%E3%83%97%E3%82%BD%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2b1f4b5439b3724cf1307"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d2b1f4b5439b3724cf1308"
+    },
+    "en": "Jean Dujardin",
+    "fr": "Jean Dujardin",
+    "ja": "ジャン・デュジャルダン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d2b1f4b5439b3724cf1309"
+    },
+    "en": "https://en.wikipedia.org/wiki/Jean_Dujardin",
+    "fr": "https://fr.wikipedia.org/wiki/Jean_Dujardin",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%83%87%E3%83%A5%E3%82%B8%E3%83%A3%E3%83%AB%E3%83%80%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Christophe_Lambert_et_Jean_Dujardin_%28Cropped%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d32260dccf3b425cb9b785"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d32260dccf3b425cb9b786"
+    },
+    "en": "Bill Gates",
+    "fr": "Bill Gates",
+    "ja": "ビル・ゲイツ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d32260dccf3b425cb9b787"
+    },
+    "en": "https://en.wikipedia.org/wiki/Bill_Gates",
+    "fr": "https://fr.wikipedia.org/wiki/Bill_Gates",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d54eee98d24c31d054a14c"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d54eee98d24c31d054a14d"
+    },
+    "en": "Princess Zelda",
+    "fr": "Princesse Zelda",
+    "ja": "ゼルダ (ゲームキャラクター)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d54eee98d24c31d054a14e"
+    },
+    "en": "https://en.wikipedia.org/wiki/Princess_Zelda",
+    "fr": "https://fr.wikipedia.org/wiki/Princesse_Zelda",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Zelda_%28character%29.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5502098d24c31d054a156"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5502098d24c31d054a157"
+    },
+    "en": "Iron Man",
+    "fr": "Iron Man (comics)",
+    "ja": "トニー・スターク"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5502098d24c31d054a158"
+    },
+    "en": "https://en.wikipedia.org/wiki/Iron_Man",
+    "fr": "https://fr.wikipedia.org/wiki/Iron_Man_(comics)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%8B%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AF"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/47/Iron_Man_%28circa_2018%29.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d550b398d24c31d054a15b"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d550b398d24c31d054a15c"
+    },
+    "en": "Bugs Bunny",
+    "fr": "Bugs Bunny",
+    "ja": "バッグス・バニー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d550b398d24c31d054a15d"
+    },
+    "en": "https://en.wikipedia.org/wiki/Bugs_Bunny",
+    "fr": "https://fr.wikipedia.org/wiki/Bugs_Bunny",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%82%B0%E3%82%B9%E3%83%BB%E3%83%90%E3%83%8B%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Bugs_Bunny.svg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5b50e98d24c31d054a1b0"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5b50e98d24c31d054a1b1"
+    },
+    "en": "Thanos",
+    "fr": "Thanos (Marvel Comics)",
+    "ja": "サノス"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5b50e98d24c31d054a1b2"
+    },
+    "en": "https://en.wikipedia.org/wiki/Thanos",
+    "fr": "https://fr.wikipedia.org/wiki/Thanos_(Marvel_Comics)",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%8E%E3%82%B9"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Thanos_Infinity_4.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5b52a98d24c31d054a1b5"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5b52a98d24c31d054a1b6"
+    },
+    "en": "Freddie Mercury",
+    "fr": "Freddie Mercury",
+    "ja": "フレディ・マーキュリー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5b52a98d24c31d054a1b7"
+    },
+    "en": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+    "fr": "https://fr.wikipedia.org/wiki/Freddie_Mercury",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BB%E3%83%9E%E3%83%BC%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Freddie_Mercury_performing_in_New_Haven%2C_CT%2C_November_1977.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5c0bab1663a293c35fdbe"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5c0bab1663a293c35fdbf"
+    },
+    "en": "Zodiac Killer",
+    "fr": "Tueur du Zodiaque",
+    "ja": "ゾディアック事件"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5c0bab1663a293c35fdc0"
+    },
+    "en": "https://en.wikipedia.org/wiki/Zodiac_Killer",
+    "fr": "https://fr.wikipedia.org/wiki/Tueur_du_Zodiaque",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%BE%E3%83%87%E3%82%A3%E3%82%A2%E3%83%83%E3%82%AF%E4%BA%8B%E4%BB%B6"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Zodiac-Killer.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5c152b1663a293c35fdc3"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5c152b1663a293c35fdc4"
+    },
+    "en": "Akira Kurosawa",
+    "fr": "Akira Kurosawa",
+    "ja": "黒澤明"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5c152b1663a293c35fdc5"
+    },
+    "en": "https://en.wikipedia.org/wiki/Akira_Kurosawa",
+    "fr": "https://fr.wikipedia.org/wiki/Akira_Kurosawa",
+    "ja": "https://ja.wikipedia.org/wiki/%E9%BB%92%E6%BE%A4%E6%98%8E"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5c173b1663a293c35fdc8"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5c173b1663a293c35fdc9"
+    },
+    "en": "Marie Kondo",
+    "fr": "Marie Kondō",
+    "ja": "近藤麻理恵"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5c173b1663a293c35fdca"
+    },
+    "en": "https://en.wikipedia.org/wiki/Marie_Kondo",
+    "fr": "https://fr.wikipedia.org/wiki/Marie_Kond%C5%8D",
+    "ja": "https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E9%BA%BB%E7%90%86%E6%81%B5"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d5c1b3b1663a293c35fdcd"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d5c1b3b1663a293c35fdce"
+    },
+    "en": "Hokusai",
+    "fr": "Hokusai",
+    "ja": "葛飾北斎"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d5c1b3b1663a293c35fdcf"
+    },
+    "en": "https://en.wikipedia.org/wiki/Hokusai",
+    "fr": "https://fr.wikipedia.org/wiki/Hokusai",
+    "ja": "https://ja.wikipedia.org/wiki/%E8%91%9B%E9%A3%BE%E5%8C%97%E6%96%8E"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hokusai_Katsushika%2C_Selfportrait_at_the_age_of_eighty-three_%28crop%29.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d696626b4b1d0fc09e811a"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d696626b4b1d0fc09e811b"
+    },
+    "en": "Don Juan",
+    "fr": "Don Juan",
+    "ja": "ドン・ファン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d696626b4b1d0fc09e811c"
+    },
+    "en": "https://en.wikipedia.org/wiki/Don_Juan",
+    "fr": "https://fr.wikipedia.org/wiki/Don_Juan",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%B3%E3%83%BB%E3%83%95%E3%82%A1%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Max_Slevogt_Francisco_d%27Andrade_as_Don_Giovanni.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d6b4386b4b1d0fc09e811f"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d6b4386b4b1d0fc09e8120"
+    },
+    "en": "Kurt Cobain",
+    "fr": "Kurt Cobain",
+    "ja": "カート・コバーン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d6b4386b4b1d0fc09e8121"
+    },
+    "en": "https://en.wikipedia.org/wiki/Kurt_Cobain",
+    "fr": "https://fr.wikipedia.org/wiki/Kurt_Cobain",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%88%E3%83%BB%E3%82%B3%E3%83%90%E3%83%BC%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Kurt_Cobain_1991_cropped.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d6bcba6b4b1d0fc09e81b0"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d6bcba6b4b1d0fc09e81b1"
+    },
+    "en": "Jack Sparrow",
+    "fr": "Jack Sparrow",
+    "ja": "ジャック・スパロウ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d6bcba6b4b1d0fc09e81b2"
+    },
+    "en": "https://en.wikipedia.org/wiki/Jack_Sparrow",
+    "fr": "https://fr.wikipedia.org/wiki/Jack_Sparrow",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%91%E3%83%AD%E3%82%A6"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Jack_Sparrow_In_Pirates_of_the_Caribbean-_At_World%27s_End.JPG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8638aa02ea4452c4033fe"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8638aa02ea4452c4033ff"
+    },
+    "en": "Takeshi Kitano",
+    "fr": "Takeshi Kitano",
+    "ja": "ビートたけし"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8638aa02ea4452c403400"
+    },
+    "en": "https://en.wikipedia.org/wiki/Takeshi_Kitano",
+    "fr": "https://fr.wikipedia.org/wiki/Takeshi_Kitano",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%BC%E3%83%88%E3%81%9F%E3%81%91%E3%81%97"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Takeshi_Kitano_2017.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d89e3cbcf3682f3cb2e445"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d89e3cbcf3682f3cb2e446"
+    },
+    "en": "Eren Yeager",
+    "fr": "Eren Jäger",
+    "ja": "エレン・イェーガー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d89e3cbcf3682f3cb2e447"
+    },
+    "en": "https://en.wikipedia.org/wiki/Eren_Yeager",
+    "fr": "https://fr.wikipedia.org/wiki/Eren_J%C3%A4ger",
+    "ja": "https://ja.wikipedia.org/wiki/%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9#%E3%82%A8%E3%83%AC%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/ErenYeagerIsayama.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a2e9bcf3682f3cb2e44d"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a2e9bcf3682f3cb2e44e"
+    },
+    "en": "Samus Aran",
+    "fr": "Samus Aran",
+    "ja": "サムス・アラン"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a2e9bcf3682f3cb2e44f"
+    },
+    "en": "https://en.wikipedia.org/wiki/Samus_Aran",
+    "fr": "https://fr.wikipedia.org/wiki/Samus_Aran",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A0%E3%82%B9%E3%83%BB%E3%82%A2%E3%83%A9%E3%83%B3"
+  },
+  "inputLang": "en",
+  "difficulty": "hard",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Samus_Aran.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a36fbcf3682f3cb2e452"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a36fbcf3682f3cb2e453"
+    },
+    "en": "Pope John Paul II",
+    "fr": "Jean-Paul II",
+    "ja": "ヨハネ・パウロ2世 (ローマ教皇)"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a36fbcf3682f3cb2e454"
+    },
+    "en": "https://en.wikipedia.org/wiki/Pope_John_Paul_II",
+    "fr": "https://fr.wikipedia.org/wiki/Jean-Paul_II",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%8F%E3%83%8D%E3%83%BB%E3%83%91%E3%82%A6%E3%83%AD2%E4%B8%96_(%E3%83%AD%E3%83%BC%E3%83%9E%E6%95%99%E7%9A%87)"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ioannes_Paulus_II%2C_in_Austria%2C_1988.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a3cfbcf3682f3cb2e457"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a3cfbcf3682f3cb2e458"
+    },
+    "en": "Mickey Mouse",
+    "fr": "Mickey Mouse",
+    "ja": "ミッキーマウス"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a3cfbcf3682f3cb2e459"
+    },
+    "en": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+    "fr": "https://fr.wikipedia.org/wiki/Mickey_Mouse",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9E%E3%82%A6%E3%82%B9"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/Mickey_Mouse_%28fair_use%29.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a45fbcf3682f3cb2e45c"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a45fbcf3682f3cb2e45d"
+    },
+    "en": "Joël Robuchon",
+    "fr": "Joël Robuchon",
+    "ja": "ジョエル・ロブション"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a45fbcf3682f3cb2e45e"
+    },
+    "en": "https://en.wikipedia.org/wiki/Jo%C3%ABl_Robuchon",
+    "fr": "https://fr.wikipedia.org/wiki/Jo%C3%ABl_Robuchon",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%AD%E3%83%96%E3%82%B7%E3%83%A7%E3%83%B3"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Jo%C3%ABl_Robuchon.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a52cbcf3682f3cb2e461"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a52cbcf3682f3cb2e462"
+    },
+    "en": "Paul Bocuse",
+    "fr": "Paul Bocuse",
+    "ja": "ポール・ボキューズ"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a52cbcf3682f3cb2e463"
+    },
+    "en": "https://en.wikipedia.org/wiki/Paul_Bocuse",
+    "fr": "https://fr.wikipedia.org/wiki/Paul_Bocuse",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9C%E3%82%AD%E3%83%A5%E3%83%BC%E3%82%BA"
+  },
+  "inputLang": "en",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Paul_Bocuse2.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8a627bcf3682f3cb2e47b"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d8a627bcf3682f3cb2e47c"
+    },
+    "en": "James Watt",
+    "fr": "James Watt",
+    "ja": "ジェームズ・ワット"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d8a627bcf3682f3cb2e47d"
+    },
+    "en": "https://en.wikipedia.org/wiki/James_Watt",
+    "fr": "https://fr.wikipedia.org/wiki/James_Watt",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA%E3%83%BB%E3%83%AF%E3%83%83%E3%83%88"
+  },
+  "inputLang": "fr",
+  "difficulty": "medium",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Watt_James_von_Breda.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d9a8a0a7df16434c7c37f7"
+  },
+  "person": {
+    "_id": {
+      "$oid": "60d9a8a0a7df16434c7c37f8"
+    },
+    "en": "Yoshi",
+    "fr": "Yoshi",
+    "ja": "ヨッシー"
+  },
+  "wikipedia": {
+    "_id": {
+      "$oid": "60d9a8a0a7df16434c7c37f9"
+    },
+    "en": "https://en.wikipedia.org/wiki/Yoshi",
+    "fr": "https://fr.wikipedia.org/wiki/Yoshi",
+    "ja": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%83%E3%82%B7%E3%83%BC"
+  },
+  "inputLang": "en",
+  "difficulty": "easy",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Yoshi_%28Nintendo_character%29.png",
+  "__v": 0
+}]

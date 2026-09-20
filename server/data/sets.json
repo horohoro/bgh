@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fdlm",
+    "name": "Fiesta de los Muertos",
+    "description": "Cards of historical and famous deceased figures in multiple languages with Wikipedia links and images.",
+    "fields": [
+      {
+        "key": "title",
+        "label": "Person Name",
+        "type": "multilingual",
+        "isDecked": false,
+        "isDisplay": true,
+        "isFilter": false,
+        "description": "Names in English, French, Japanese, etc."
+      },
+      {
+        "key": "difficulty",
+        "label": "Difficulty",
+        "type": "select",
+        "isDecked": true,
+        "isDisplay": true,
+        "isFilter": true,
+        "options": [
+          "easy",
+          "medium",
+          "hard"
+        ],
+        "description": "Card difficulty level"
+      },
+      {
+        "key": "edition",
+        "label": "Edition",
+        "type": "select",
+        "isDecked": true,
+        "isDisplay": true,
+        "isFilter": true,
+        "options": [
+          "Base",
+          "Custom"
+        ],
+        "description": "Base game, expansion, or custom card"
+      },
+      {
+        "key": "imageUrl",
+        "label": "Portrait Image",
+        "type": "image",
+        "isDecked": false,
+        "isDisplay": true,
+        "isFilter": false,
+        "description": "Portrait thumbnail"
+      },
+      {
+        "key": "wikipedia",
+        "label": "Wikipedia Article",
+        "type": "wikipedia",
+        "isDecked": false,
+        "isDisplay": true,
+        "isFilter": false,
+        "description": "Wikipedia reference links"
+      }
+    ],
+    "createdAt": 1789901251417
+  },
+  {
+    "id": "things-in-rings",
+    "name": "Things in Rings",
+    "description": "Secret Venn diagram rules categorized by stars (1–3 stars), categories (Attribute, Word, Context), and edition (Base / Custom).",
+    "fields": [
+      {
+        "key": "text",
+        "label": "Rule Description",
+        "type": "text",
+        "isDecked": false,
+        "isDisplay": true,
+        "isFilter": false,
+        "description": "The hidden rule for the ring"
+      },
+      {
+        "key": "level",
+        "label": "Difficulty Level",
+        "type": "select",
+        "isDecked": true,
+        "isDisplay": true,
+        "isFilter": true,
+        "options": [
+          "1 star",
+          "2 stars",
+          "3 stars"
+        ],
+        "description": "Star rating"
+      },
+      {
+        "key": "category",
+        "label": "Rule Category",
+        "type": "select",
+        "isDecked": true,
+        "isDisplay": true,
+        "isFilter": true,
+        "options": [
+          "Attribute",
+          "Word",
+          "Context"
+        ],
+        "description": "Rule category"
+      },
+      {
+        "key": "edition",
+        "label": "Edition",
+        "type": "select",
+        "isDecked": true,
+        "isDisplay": true,
+        "isFilter": true,
+        "options": [
+          "Base",
+          "Custom"
+        ],
+        "description": "Base game, expansion, or custom rule"
+      }
+    ],
+    "createdAt": 1789901251457
+  }
+]
