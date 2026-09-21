@@ -27,8 +27,12 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(rings, 'Things in Rings set must exist');
     assert.ok(rings.fields.some(f => f.key === 'edition' && f.isFilter), 'Things in Rings set must have filterable edition field');
     const ringsCards = db.getCards('things-in-rings');
-    assert.ok(ringsCards.length >= 60, 'Should have seeded at least 60 Things in Rings rules');
-    assert.ok(ringsCards.every(c => c.data.edition === 'Custom'), 'All seeded Things in Rings cards should have edition=Custom');
+    assert.ok(ringsCards.length >= 81, 'Should have seeded Things in Rings rules');
+    const ringsBase = ringsCards.filter(c => c.data.edition === 'Base');
+    const ringsCustom = ringsCards.filter(c => c.data.edition === 'Custom');
+    assert.strictEqual(ringsBase.length, 81, 'Should have exactly 81 Base Things in Rings cards from physical scans');
+    assert.strictEqual(ringsCustom.length, 44, 'Should have 44 unique Custom Things in Rings rules (duplicates removed)');
+    assert.ok(ringsCards.every(c => c.data.text && c.data.text.en && c.data.text.fr && c.data.text.ja), 'All Things in Rings cards must have EN, FR, and JA translations');
   });
 
   test('Dynamic Deck Partitioning by Metadata including Edition', () => {
@@ -66,6 +70,46 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     const aliasKeys = Object.keys(aliasDecks);
     assert.ok(aliasKeys.includes('base') && aliasKeys.includes('custom'), 'Should resolve source alias to base and custom');
     assert.ok(!aliasKeys.some(k => k.includes('unknown')), 'Must NEVER produce an Unknown deck');
+  });
+
+  test('Deck Filtering by Metadata Tags', async () => {
+    // 1. Filter FDLM cards to Base edition only (130 cards)
+    const baseOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Base'] });
+    const totalBaseCards = Object.values(baseOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalBaseCards, 130, 'Base edition only must contain exactly 130 cards');
+
+    // 2. Filter FDLM cards to Custom edition only (40 cards)
+    const customOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Custom'] });
+    const totalCustomCards = Object.values(customOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalCustomCards, 40, 'Custom edition only must contain exactly 40 cards');
+
+    // 3. Filter Things in Rings to 1 star and 2 stars only
+    const ringsLevelDecks = RoomManager.generateDecks('things-in-rings', ['level'], new Set(), { level: ['1 star', '2 stars'] });
+    const ringsLevelKeys = Object.keys(ringsLevelDecks);
+    assert.ok(ringsLevelKeys.some(k => k.includes('1_star')), 'Must have 1 star deck');
+    assert.ok(ringsLevelKeys.some(k => k.includes('2_star')), 'Must have 2 star deck');
+    assert.ok(!ringsLevelKeys.some(k => k.includes('3_star')), 'Must NOT have 3 star deck');
+
+    // 4. Test room-level setDeckFilters and configureDeckSplitting with filters
+    const { room } = await RoomManager.createRoom('HostFilter', 'fdlm');
+    const totalInitial = Object.values(room.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalInitial, 170, 'Initial room must have 170 cards');
+
+    // Apply filter: Base edition only
+    const rFiltered = await RoomManager.setDeckFilters(room.id, { edition: ['Base'] });
+    assert.deepStrictEqual(rFiltered.deckFilters?.edition, ['Base']);
+    const totalFiltered = Object.values(rFiltered.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalFiltered, 130, 'Filtered room must have 130 cards in decks');
+
+    // Reshuffle round: filter persists
+    const rReset = await RoomManager.resetRound(room.id, true);
+    const totalReset = Object.values(rReset.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalReset, 130, 'Reset round must preserve deck filters');
+
+    // Clear filters: resets back to 170
+    const rCleared = await RoomManager.setDeckFilters(room.id, {});
+    const totalCleared = Object.values(rCleared.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(totalCleared, 170, 'Clearing filters must restore all 170 cards');
   });
 
   test('Lobby lifecycle, player join, and atomic card drawing', async () => {
@@ -145,6 +189,12 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.strictEqual(updatedRoom.scoreTable.scores[hostId][colId], 15);
     assert.strictEqual(updatedRoom.scoreTable.scores[dave.id][colId], 25);
     assert.strictEqual(updatedRoom.scoreTable.scores[eveId][colId], 30);
+
+    // Remove guest player
+    const r3 = await RoomManager.removeCustomScorePlayer(room.id, eveId);
+    assert.strictEqual(r3.scoreTable.customPlayers.length, 0);
+    assert.strictEqual(r3.scoreTable.scores[eveId], undefined);
+    assert.strictEqual(r3.turnOrder.order.includes(eveId), false);
   });
 
   test('Turn Order Randomizer and Dice Roller', async () => {

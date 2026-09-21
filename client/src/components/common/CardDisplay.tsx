@@ -117,26 +117,30 @@ export const CardDisplay: React.FC<CardDisplayProps> = ({ card, set, compact = f
           </div>
         )}
 
-        {/* Multilingual Names if present (ignoring _id) */}
-        {data.title && typeof data.title === 'object' && (
-          <div className="flex flex-wrap gap-2 mb-3">
-            {data.title.en && typeof data.title.en === 'string' && (
-              <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
-                🇺🇸 {data.title.en}
-              </span>
-            )}
-            {data.title.fr && typeof data.title.fr === 'string' && (
-              <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
-                🇫🇷 {data.title.fr}
-              </span>
-            )}
-            {data.title.ja && typeof data.title.ja === 'string' && (
-              <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
-                🇯🇵 {data.title.ja}
-              </span>
-            )}
-          </div>
-        )}
+        {/* Multilingual Names or Rules if present (ignoring _id) */}
+        {(() => {
+          const multi = (data.title && typeof data.title === 'object') ? data.title : (data.text && typeof data.text === 'object') ? data.text : null;
+          if (!multi) return null;
+          return (
+            <div className="flex flex-wrap gap-2 mb-3">
+              {multi.en && typeof multi.en === 'string' && (
+                <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
+                  🇬🇧 {multi.en}
+                </span>
+              )}
+              {multi.fr && typeof multi.fr === 'string' && (
+                <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
+                  🇫🇷 {multi.fr}
+                </span>
+              )}
+              {multi.ja && typeof multi.ja === 'string' && (
+                <span className="text-xs bg-slate-700/80 px-2 py-1 rounded-md text-slate-200 font-medium">
+                  🇯🇵 {multi.ja}
+                </span>
+              )}
+            </div>
+          );
+        })()}
 
         {/* Wikipedia Links if present */}
         {validWikiLinks.length > 0 && (
@@ -159,11 +163,21 @@ export const CardDisplay: React.FC<CardDisplayProps> = ({ card, set, compact = f
 
         {/* Display-only text/custom fields from set definition */}
         {displayOnlyFields.map(f => {
-          if (f.key === 'title' || f.key === 'imageUrl' || f.key === 'wikipedia' || f.type === 'multilingual' || f.type === 'image' || f.type === 'wikipedia') {
+          if (
+            f.key === 'title' ||
+            f.key === 'text' ||
+            f.key === 'name' ||
+            f.key === 'imageUrl' ||
+            f.key === 'wikipedia' ||
+            f.type === 'multilingual' ||
+            f.type === 'image' ||
+            f.type === 'wikipedia'
+          ) {
             return null;
           }
           const val = data[f.key];
           if (val === undefined || val === null || val === '') return null;
+          if (typeof val === 'object') return null;
           if (f.type === 'text' && f.key === 'text' && val === titleStr) return null;
 
           return (

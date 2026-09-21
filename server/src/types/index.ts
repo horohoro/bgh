@@ -99,6 +99,7 @@ export interface RoomState {
   id: string; // 4-letter room code (e.g. ABCD)
   activeSetId: string;
   deckGroupByKeys: string[];
+  deckFilters?: Record<string, string[]>;
   decks: Record<string, Deck>;
   hands: Record<string, PlayerHandCard[]>; // playerId -> list of cards in hand
   discards: string[]; // cardIds

@@ -39,3 +39,6 @@ Thumbs.db
 
 # Agent metadata
 .gemini/
+
+# Internal tools & extraction scripts
+tools/

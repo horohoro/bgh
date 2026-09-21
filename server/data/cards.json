@@ -3573,31 +3573,11 @@
     "id": "ring_rule_1",
     "setId": "things-in-rings",
     "data": {
-      "text": "Made primarily of metal",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_2",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Made primarily of wood or paper",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_3",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Made primarily of plastic or rubber",
+      "text": {
+        "en": "MADE PRIMARILY OF METAL",
+        "fr": "PRINCIPALEMENT EN MÉTAL",
+        "ja": "主に金属でできている"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3609,19 +3589,11 @@
     "id": "ring_rule_4",
     "setId": "things-in-rings",
     "data": {
-      "text": "Smaller than a standard soccer ball",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_5",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Larger than an adult human",
+      "text": {
+        "en": "SMALLER THAN A STANDARD SOCCER BALL",
+        "fr": "PLUS PETIT QU'UN BALLON DE FOOTBALL STANDARD",
+        "ja": "一般的なサッカーボールより小さい"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3633,19 +3605,11 @@
     "id": "ring_rule_6",
     "setId": "things-in-rings",
     "data": {
-      "text": "Weighs less than 1 kilogram (2.2 lbs)",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_7",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Weighs more than 20 kilograms (44 lbs)",
+      "text": {
+        "en": "WEIGHS LESS THAN 1 KILOGRAM (2.2 LBS)",
+        "fr": "PÈSE MOINS DE 1 KILOGRAMME (1 KG)",
+        "ja": "重さが1kg未満"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3657,7 +3621,11 @@
     "id": "ring_rule_8",
     "setId": "things-in-rings",
     "data": {
-      "text": "Can easily fit in a standard shoe box",
+      "text": {
+        "en": "CAN EASILY FIT IN A STANDARD SHOE BOX",
+        "fr": "RENTRE FACILEMENT DANS UNE BOÎTE À CHAUSSURES STANDARD",
+        "ja": "靴箱に簡単に入る"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3669,7 +3637,11 @@
     "id": "ring_rule_9",
     "setId": "things-in-rings",
     "data": {
-      "text": "Typically black, white, or grey",
+      "text": {
+        "en": "TYPICALLY BLACK, WHITE, OR GREY",
+        "fr": "GÉNÉRALEMENT NOIR, BLANC OU GRIS",
+        "ja": "一般的に黒、白、または灰色"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3681,19 +3653,11 @@
     "id": "ring_rule_10",
     "setId": "things-in-rings",
     "data": {
-      "text": "Typically bright or colorful (red, yellow, blue, green)",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_11",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Has sharp edges or pointed corners",
+      "text": {
+        "en": "TYPICALLY BRIGHT OR COLORFUL (RED, YELLOW, BLUE, GREEN)",
+        "fr": "GÉNÉRALEMENT VIF OU COLORÉ (ROUGE, JAUNE, BLEU, VERT)",
+        "ja": "一般的に鮮やか、またはカラフル"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3705,7 +3669,11 @@
     "id": "ring_rule_12",
     "setId": "things-in-rings",
     "data": {
-      "text": "Flexible, bendable, or foldable",
+      "text": {
+        "en": "FLEXIBLE, BENDABLE, OR FOLDABLE",
+        "fr": "FLEXIBLE, PLIABLE OU SE TORD FACILEMENT",
+        "ja": "柔軟性がある、曲げられる、または折れる"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3717,19 +3685,11 @@
     "id": "ring_rule_13",
     "setId": "things-in-rings",
     "data": {
-      "text": "Completely solid (cannot be compressed)",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_14",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Liquid, gas, or contains liquid",
+      "text": {
+        "en": "COMPLETELY SOLID (CANNOT BE COMPRESSED)",
+        "fr": "TOTALEMENT SOLIDE (INCOMPRESSIBLE)",
+        "ja": "完全に固体 (圧縮できない)"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3741,7 +3701,11 @@
     "id": "ring_rule_15",
     "setId": "things-in-rings",
     "data": {
-      "text": "Has wheels or rotates to function",
+      "text": {
+        "en": "HAS WHEELS OR ROTATES TO FUNCTION",
+        "fr": "POSSÈDE DES ROUES OU TOURNE SUR LUI-MÊME POUR FONCTIONNER",
+        "ja": "車輪がある、または回転して機能する"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3753,19 +3717,11 @@
     "id": "ring_rule_16",
     "setId": "things-in-rings",
     "data": {
-      "text": "Has moving mechanical or physical parts",
-      "level": "1 star",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_17",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Has electrical or electronic parts",
+      "text": {
+        "en": "HAS MOVING MECHANICAL OR PHYSICAL PARTS",
+        "fr": "COMPORTE DES PIÈCES MÉCANIQUES OU MOBILES",
+        "ja": "動く機械的または物理的な部品がある"
+      },
       "level": "1 star",
       "category": "Attribute",
       "edition": "Custom",
@@ -3777,33 +3733,13 @@
     "id": "ring_rule_18",
     "setId": "things-in-rings",
     "data": {
-      "text": "Has a handle, strap, or grip",
+      "text": {
+        "en": "HAS A HANDLE, STRAP, OR GRIP",
+        "fr": "POSSÈDE UNE POIGNÉE, UNE SANGLE OU UN MANCHE",
+        "ja": "取っ手、ストラップ、またはグリップがある"
+      },
       "level": "1 star",
       "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_19",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Starts with a vowel (A, E, I, O, U)",
-      "level": "1 star",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_20",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Starts with a consonant",
-      "level": "1 star",
-      "category": "Word",
       "edition": "Custom",
       "source": "Custom"
     },
@@ -3813,43 +3749,11 @@
     "id": "ring_rule_21",
     "setId": "things-in-rings",
     "data": {
-      "text": "Name consists of exactly one single word",
-      "level": "1 star",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_22",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Short name (5 letters or fewer)",
-      "level": "1 star",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_23",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Long name (8 letters or more)",
-      "level": "1 star",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_24",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Starts with the letters A through M",
+      "text": {
+        "en": "NAME CONSISTS OF EXACTLY ONE SINGLE WORD",
+        "fr": "LE NOM EST COMPOSÉ D'UN SEUL MOT UNIQUE",
+        "ja": "名称が単一の単語で構成されている"
+      },
       "level": "1 star",
       "category": "Word",
       "edition": "Custom",
@@ -3861,45 +3765,13 @@
     "id": "ring_rule_25",
     "setId": "things-in-rings",
     "data": {
-      "text": "Starts with the letters N through Z",
+      "text": {
+        "en": "STARTS WITH THE LETTERS N THROUGH Z",
+        "fr": "COMMENCE PAR UNE LETTRE DE « N » À « Z »",
+        "ja": "読み仮名が「な行」〜「わ行」で始まる"
+      },
       "level": "1 star",
       "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_26",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "A living plant or animal",
-      "level": "1 star",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_27",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Found inside an ordinary house or apartment",
-      "level": "1 star",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_28",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Found outdoors in nature",
-      "level": "1 star",
-      "category": "Context",
       "edition": "Custom",
       "source": "Custom"
     },
@@ -3909,7 +3781,11 @@
     "id": "ring_rule_29",
     "setId": "things-in-rings",
     "data": {
-      "text": "Edible or meant to be consumed by humans",
+      "text": {
+        "en": "EDIBLE OR MEANT TO BE CONSUMED BY HUMANS",
+        "fr": "COMESTIBLE OU DESTINÉ À LA CONSOMMATION HUMAINE",
+        "ja": "食用、または人間が口にするもの"
+      },
       "level": "1 star",
       "category": "Context",
       "edition": "Custom",
@@ -3921,7 +3797,11 @@
     "id": "ring_rule_30",
     "setId": "things-in-rings",
     "data": {
-      "text": "Worn on the human body (clothing, accessory, footwear)",
+      "text": {
+        "en": "WORN ON THE HUMAN BODY (CLOTHING, ACCESSORY, FOOTWEAR)",
+        "fr": "SE PORTE SUR LE CORPS (VÊTEMENT, ACCESSOIRE, CHAUSSURE)",
+        "ja": "身につけるもの (衣服、装飾品、履物)"
+      },
       "level": "1 star",
       "category": "Context",
       "edition": "Custom",
@@ -3933,19 +3813,11 @@
     "id": "ring_rule_31",
     "setId": "things-in-rings",
     "data": {
-      "text": "Costs less than $10 USD in a regular store",
-      "level": "1 star",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_32",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Costs more than $500 USD to purchase brand new",
+      "text": {
+        "en": "COSTS LESS THAN $10 USD IN A REGULAR STORE",
+        "fr": "COÛTE MOINS DE 10 € DANS UN MAGASIN ORDINAIRE",
+        "ja": "一般の店で1500円未満で買える"
+      },
       "level": "1 star",
       "category": "Context",
       "edition": "Custom",
@@ -3957,7 +3829,11 @@
     "id": "ring_rule_33",
     "setId": "things-in-rings",
     "data": {
-      "text": "Used as a tool, utensil, or instrument",
+      "text": {
+        "en": "USED AS A TOOL, UTENSIL, OR INSTRUMENT",
+        "fr": "UTILISÉ COMME OUTIL, USTENSILE OU INSTRUMENT",
+        "ja": "道具、器具、または楽器として使われる"
+      },
       "level": "1 star",
       "category": "Context",
       "edition": "Custom",
@@ -3969,21 +3845,13 @@
     "id": "ring_rule_34",
     "setId": "things-in-rings",
     "data": {
-      "text": "Used for transportation of people or cargo",
+      "text": {
+        "en": "USED FOR TRANSPORTATION OF PEOPLE OR CARGO",
+        "fr": "UTILISÉ POUR LE TRANSPORT DE PERSONNES OU DE MARCHANDISES",
+        "ja": "人や荷物の移動・運搬に使われる"
+      },
       "level": "1 star",
       "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_35",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Naturally floats on water without sinking",
-      "level": "2 stars",
-      "category": "Attribute",
       "edition": "Custom",
       "source": "Custom"
     },
@@ -3993,19 +3861,11 @@
     "id": "ring_rule_36",
     "setId": "things-in-rings",
     "data": {
-      "text": "Emits light, glow, or fire when active",
-      "level": "2 stars",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_37",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Emits an audible sound, beep, or noise when in use",
+      "text": {
+        "en": "EMITS LIGHT, GLOW, OR FIRE WHEN ACTIVE",
+        "fr": "ÉMET DE LA LUMIÈRE, UNE LUEUR OU DU FEU EN FONCTIONNEMENT",
+        "ja": "作動時に光、輝き、または火を発する"
+      },
       "level": "2 stars",
       "category": "Attribute",
       "edition": "Custom",
@@ -4017,69 +3877,13 @@
     "id": "ring_rule_38",
     "setId": "things-in-rings",
     "data": {
-      "text": "Has a symmetrical shape (cylindrical, spherical, or bilateral)",
+      "text": {
+        "en": "HAS A SYMMETRICAL SHAPE (CYLINDRICAL, SPHERICAL, OR BILATERAL)",
+        "fr": "A UNE FORME SYMÉTRIQUE (CYLINDRIQUE, SPHÉRIQUE OU BILATÉRALE)",
+        "ja": "対称的な形状をしている (円筒形、球形、または左右対称)"
+      },
       "level": "2 stars",
       "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_39",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Made from multiple distinct materials combined together",
-      "level": "2 stars",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_40",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Has an opening, cavity, hollow interior, or lid",
-      "level": "2 stars",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_41",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Fragile: Breaks or shatters easily if dropped on concrete",
-      "level": "2 stars",
-      "category": "Attribute",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_42",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Name contains at least two distinct vowels",
-      "level": "2 stars",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_43",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Name contains double consecutive identical letters (e.g. \"coffee\", \"apple\")",
-      "level": "2 stars",
-      "category": "Word",
       "edition": "Custom",
       "source": "Custom"
     },
@@ -4089,19 +3893,11 @@
     "id": "ring_rule_44",
     "setId": "things-in-rings",
     "data": {
-      "text": "Ends with the letter \"E\", \"S\", or \"Y\"",
-      "level": "2 stars",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_45",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Compound word (two smaller words joined together, e.g. \"sunflower\")",
+      "text": {
+        "en": "ENDS WITH THE LETTER \"E\", \"S\", OR \"Y\"",
+        "fr": "SE TERMINE PAR LA LETTRE « E », « S » OU « Y »",
+        "ja": "読み仮名の末尾が「え段」「す」「い」"
+      },
       "level": "2 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4113,7 +3909,11 @@
     "id": "ring_rule_46",
     "setId": "things-in-rings",
     "data": {
-      "text": "Starts and ends with the same type of letter (both vowels or both consonants)",
+      "text": {
+        "en": "STARTS AND ENDS WITH THE SAME TYPE OF LETTER (BOTH VOWELS OR BOTH CONSONANTS)",
+        "fr": "COMMENCE ET SE TERMINE PAR LE MÊME TYPE DE LETTRE (DEUX VOYELLES OU DEUX CONSONNES)",
+        "ja": "先頭と末尾が同じ種類の文字"
+      },
       "level": "2 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4125,7 +3925,11 @@
     "id": "ring_rule_47",
     "setId": "things-in-rings",
     "data": {
-      "text": "Contains the letter \"R\", \"S\", or \"T\"",
+      "text": {
+        "en": "CONTAINS THE LETTER \"R\", \"S\", OR \"T\"",
+        "fr": "CONTIENT LA LETTRE « R », « S » OU « T »",
+        "ja": "表記に特定の母音や文字を含む"
+      },
       "level": "2 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4137,7 +3941,11 @@
     "id": "ring_rule_48",
     "setId": "things-in-rings",
     "data": {
-      "text": "Found in a standard kitchen or dining area",
+      "text": {
+        "en": "FOUND IN A STANDARD KITCHEN OR DINING AREA",
+        "fr": "SE TROUVE DANS UNE CUISINE OU UNE SALLE À MANGER STANDARD",
+        "ja": "一般的なキッチンやダイニングにある"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4149,31 +3957,11 @@
     "id": "ring_rule_49",
     "setId": "things-in-rings",
     "data": {
-      "text": "Found in a bathroom or hygiene setting",
-      "level": "2 stars",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_50",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Frequently used in an office, school, or study",
-      "level": "2 stars",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_51",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Requires batteries or a power cord to function",
+      "text": {
+        "en": "FOUND IN A BATHROOM OR HYGIENE SETTING",
+        "fr": "SE TROUVE DANS UNE SALLE DE BAINS OU UN ESPACE D'HYGIÈNE",
+        "ja": "浴室や衛生環境にある"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4185,7 +3973,11 @@
     "id": "ring_rule_52",
     "setId": "things-in-rings",
     "data": {
-      "text": "Normally held or operated using two hands",
+      "text": {
+        "en": "NORMALLY HELD OR OPERATED USING TWO HANDS",
+        "fr": "SE TIENT OU S'UTILISE NORMALEMENT À DEUX MAINS",
+        "ja": "通常、両手で持つか操作する"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4197,7 +3989,11 @@
     "id": "ring_rule_53",
     "setId": "things-in-rings",
     "data": {
-      "text": "Associated with sports, fitness, or outdoor recreation",
+      "text": {
+        "en": "ASSOCIATED WITH SPORTS, FITNESS, OR OUTDOOR RECREATION",
+        "fr": "ASSOCIÉ AU SPORT, AU FITNESS OU AUX LOISIRS DE PLEIN AIR",
+        "ja": "スポーツ、フィットネス、またはアウトドアに関連する"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4209,19 +4005,11 @@
     "id": "ring_rule_54",
     "setId": "things-in-rings",
     "data": {
-      "text": "Associated with a specific profession or occupation",
-      "level": "2 stars",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_55",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Can be legally carried on a commercial airplane carry-on bag",
+      "text": {
+        "en": "ASSOCIATED WITH A SPECIFIC PROFESSION OR OCCUPATION",
+        "fr": "ASSOCIÉ À UNE PROFESSION OU UN MÉTIER SPÉCIFIQUE",
+        "ja": "特定の職業や専門職に関連する"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4233,19 +4021,11 @@
     "id": "ring_rule_56",
     "setId": "things-in-rings",
     "data": {
-      "text": "Used primarily when cleaning or maintaining hygiene",
-      "level": "2 stars",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_57",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Manufactured/mass-produced rather than naturally occurring",
+      "text": {
+        "en": "USED PRIMARILY WHEN CLEANING OR MAINTAINING HYGIENE",
+        "fr": "UTILISÉ PRINCIPALEMENT POUR LE MÉNAGE OU L'HYGIÈNE",
+        "ja": "主に掃除や衛生維持に使われる"
+      },
       "level": "2 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4257,7 +4037,11 @@
     "id": "ring_rule_58",
     "setId": "things-in-rings",
     "data": {
-      "text": "Naturally biodegradable within less than a year",
+      "text": {
+        "en": "NATURALLY BIODEGRADABLE WITHIN LESS THAN A YEAR",
+        "fr": "NATURELLEMENT BIODÉGRADABLE EN MOINS D'UN AN",
+        "ja": "1年未満で自然に生分解される"
+      },
       "level": "3 stars",
       "category": "Attribute",
       "edition": "Custom",
@@ -4269,7 +4053,11 @@
     "id": "ring_rule_59",
     "setId": "things-in-rings",
     "data": {
-      "text": "Designed specifically to protect or shield something else",
+      "text": {
+        "en": "DESIGNED SPECIFICALLY TO PROTECT OR SHIELD SOMETHING ELSE",
+        "fr": "CONÇU SPÉCIFIQUEMENT POUR PROTÉGER OU COUVRIR QUELQUE CHOSE",
+        "ja": "他のものを保護・防御するために特別に設計されている"
+      },
       "level": "3 stars",
       "category": "Attribute",
       "edition": "Custom",
@@ -4281,7 +4069,11 @@
     "id": "ring_rule_60",
     "setId": "things-in-rings",
     "data": {
-      "text": "Can be inflated, filled with air, or contains gas under pressure",
+      "text": {
+        "en": "CAN BE INFLATED, FILLED WITH AIR, OR CONTAINS GAS UNDER PRESSURE",
+        "fr": "PEUT ÊTRE GONFLÉ, REMPLI D'AIR OU CONTIENT DU GAZ SOUS PRESSION",
+        "ja": "膨らませることができる、空気を入れる、または高圧ガスを含む"
+      },
       "level": "3 stars",
       "category": "Attribute",
       "edition": "Custom",
@@ -4293,7 +4085,11 @@
     "id": "ring_rule_61",
     "setId": "things-in-rings",
     "data": {
-      "text": "Temperature-sensitive: Damaged or altered significantly by mild heat (under 60°C/140°F)",
+      "text": {
+        "en": "TEMPERATURE-SENSITIVE: DAMAGED OR ALTERED SIGNIFICANTLY BY MILD HEAT (UNDER 60°C/140°F)",
+        "fr": "SENSIBLE À LA CHALEUR: ENDOMMAGÉ OU ALTÉRÉ PAR UNE CHALEUR MODÉRÉE (< 60 °C)",
+        "ja": "熱に弱い: ぬるい熱 (60℃未満) で破損・著しく変質する"
+      },
       "level": "3 stars",
       "category": "Attribute",
       "edition": "Custom",
@@ -4305,7 +4101,11 @@
     "id": "ring_rule_62",
     "setId": "things-in-rings",
     "data": {
-      "text": "Name has an odd number of total letters",
+      "text": {
+        "en": "NAME HAS AN ODD NUMBER OF TOTAL LETTERS",
+        "fr": "LE NOM COMPORTE UN NOMBRE IMPAIR DE LETTRES",
+        "ja": "名称の文字数が奇数"
+      },
       "level": "3 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4317,19 +4117,11 @@
     "id": "ring_rule_63",
     "setId": "things-in-rings",
     "data": {
-      "text": "Name has an even number of total letters",
-      "level": "3 stars",
-      "category": "Word",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_64",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Can function grammatically as both a noun and a verb in English",
+      "text": {
+        "en": "NAME HAS AN EVEN NUMBER OF TOTAL LETTERS",
+        "fr": "LE NOM COMPORTE UN NOMBRE PAIR DE LETTRES",
+        "ja": "名称の文字数が偶数"
+      },
       "level": "3 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4341,7 +4133,11 @@
     "id": "ring_rule_65",
     "setId": "things-in-rings",
     "data": {
-      "text": "Contains zero letters with descenders (no g, j, p, q, y)",
+      "text": {
+        "en": "CONTAINS ZERO LETTERS WITH DESCENDERS (NO G, J, P, Q, Y)",
+        "fr": "NE CONTIENT AUCUNE LETTRE AVEC JAMBAGE INFÉRIEUR (PAS DE G, J, P, Q, Y)",
+        "ja": "下に突き出る文字を含まない"
+      },
       "level": "3 stars",
       "category": "Word",
       "edition": "Custom",
@@ -4353,19 +4149,11 @@
     "id": "ring_rule_66",
     "setId": "things-in-rings",
     "data": {
-      "text": "Invented or developed within the last 150 years (since 1875)",
-      "level": "3 stars",
-      "category": "Context",
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251459
-  },
-  {
-    "id": "ring_rule_67",
-    "setId": "things-in-rings",
-    "data": {
-      "text": "Existed in prehistoric times or ancient civilizations",
+      "text": {
+        "en": "INVENTED OR DEVELOPED WITHIN THE LAST 150 YEARS (SINCE 1875)",
+        "fr": "INVENTÉ OU DÉVELOPPÉ AU COURS DES 150 DERNIÈRES ANNÉES (DEPUIS 1875)",
+        "ja": "過去150年以内 (1875年以降) に発明・開発された"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4377,7 +4165,11 @@
     "id": "ring_rule_68",
     "setId": "things-in-rings",
     "data": {
-      "text": "Associated with cold weather, winter, or ice",
+      "text": {
+        "en": "ASSOCIATED WITH COLD WEATHER, WINTER, OR ICE",
+        "fr": "ASSOCIÉ AU TEMPS FROID, À L'HIVER OU À LA GLACE",
+        "ja": "寒い気候、冬、または氷に関連する"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4389,7 +4181,11 @@
     "id": "ring_rule_69",
     "setId": "things-in-rings",
     "data": {
-      "text": "Associated with summer, beach, heat, or sun",
+      "text": {
+        "en": "ASSOCIATED WITH SUMMER, BEACH, HEAT, OR SUN",
+        "fr": "ASSOCIÉ À L'ÉTÉ, À LA PLAGE, À LA CHALEUR OU AU SOLEIL",
+        "ja": "夏、ビーチ、暑さ、または太陽に関連する"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4401,7 +4197,11 @@
     "id": "ring_rule_70",
     "setId": "things-in-rings",
     "data": {
-      "text": "Often rented or borrowed rather than exclusively bought",
+      "text": {
+        "en": "OFTEN RENTED OR BORROWED RATHER THAN EXCLUSIVELY BOUGHT",
+        "fr": "SOUVENT LOUÉ OU EMPRUNTÉ PLUTÔT QU'ACHETÉ EXCLUSIVEMENT",
+        "ja": "購入するだけでなく、レンタルや借りることが多い"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4413,7 +4213,11 @@
     "id": "ring_rule_71",
     "setId": "things-in-rings",
     "data": {
-      "text": "Associated with sleep, bedtime, or nighttime",
+      "text": {
+        "en": "ASSOCIATED WITH SLEEP, BEDTIME, OR NIGHTTIME",
+        "fr": "ASSOCIÉ AU SOMMEIL, AU COUCHER OU À LA NUIT",
+        "ja": "睡眠、就寝時、または夜に関連する"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4425,7 +4229,11 @@
     "id": "ring_rule_72",
     "setId": "things-in-rings",
     "data": {
-      "text": "Primarily associated with childhood or toys",
+      "text": {
+        "en": "PRIMARILY ASSOCIATED WITH CHILDHOOD OR TOYS",
+        "fr": "ASSOCIÉ PRINCIPALEMENT À L'ENFANCE OU AUX JOUETS",
+        "ja": "主に子供時代やおもちゃに関連する"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4437,7 +4245,11 @@
     "id": "ring_rule_73",
     "setId": "things-in-rings",
     "data": {
-      "text": "Contains a warning label or safety precaution in commercial packaging",
+      "text": {
+        "en": "CONTAINS A WARNING LABEL OR SAFETY PRECAUTION IN COMMERCIAL PACKAGING",
+        "fr": "COMPORTE UN AVERTISSEMENT OU UNE CONSIGNE DE SÉCURITÉ SUR L'EMBALLAGE",
+        "ja": "市販パッケージに警告ラベルや安全上の注意が記載されている"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
@@ -4449,12 +4261,1312 @@
     "id": "ring_rule_74",
     "setId": "things-in-rings",
     "data": {
-      "text": "Requires periodic maintenance, charging, or refilling to stay usable",
+      "text": {
+        "en": "REQUIRES PERIODIC MAINTENANCE, CHARGING, OR REFILLING TO STAY USABLE",
+        "fr": "NÉCESSITE UN ENTRETIEN, UNE RECHARGE OU UN REMPLISSAGE PÉRIODIQUE",
+        "ja": "使い続けるために定期的なメンテナンス、充電、または補充が必要"
+      },
       "level": "3 stars",
       "category": "Context",
       "edition": "Custom",
       "source": "Custom"
     },
     "createdAt": 1789901251459
+  },
+  {
+    "id": "tir_base_01",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS ONE OR MORE HOLES",
+        "fr": "A UN OU PLUSIEURS TROUS",
+        "ja": "穴がある"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183282
+  },
+  {
+    "id": "tir_base_02",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "WEIGHS MORE THAN A CHAIR",
+        "fr": "PÈSE PLUS LOURD QU'UNE CHAISE",
+        "ja": "椅子よりも重い"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183283
+  },
+  {
+    "id": "tir_base_03",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "ALIVE",
+        "fr": "VIVANT",
+        "ja": "生きている"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183284
+  },
+  {
+    "id": "tir_base_04",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CONTAINS WOOD",
+        "fr": "CONTIENT DU BOIS",
+        "ja": "木を含む"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183285
+  },
+  {
+    "id": "tir_base_05",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "OFTEN HAS SPOTS OR STRIPES",
+        "fr": "A SOUVENT DES TACHES OU DES RAYURES",
+        "ja": "斑点や縞模様があることが多い"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183286
+  },
+  {
+    "id": "tir_base_06",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "WOULD HURT IF DROPPED ON YOU",
+        "fr": "FERAIT MAL EN TOMBANT SUR VOUS",
+        "ja": "自分に落とすと怪我をする"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183287
+  },
+  {
+    "id": "tir_base_07",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "FLAMMABLE",
+        "fr": "INFLAMMABLE",
+        "ja": "燃えやすい"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183288
+  },
+  {
+    "id": "tir_base_08",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "BIGGER THAN A PERSON",
+        "fr": "PLUS GRAND QU'UN ÊTRE HUMAIN",
+        "ja": "人より大きい"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183289
+  },
+  {
+    "id": "tir_base_09",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CONTAINS LIQUID",
+        "fr": "CONTIENT DU LIQUIDE",
+        "ja": "液体を含む"
+      },
+      "level": "1 star",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183290
+  },
+  {
+    "id": "tir_base_10",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MADE OF MULTIPLE PIECES",
+        "fr": "COMPOSÉ DE PLUSIEURS PIÈCES",
+        "ja": "複数の部品でできている"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183291
+  },
+  {
+    "id": "tir_base_11",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "FLOATS IN WATER",
+        "fr": "FLOTTE SUR L'EAU",
+        "ja": "水に浮く"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183292
+  },
+  {
+    "id": "tir_base_12",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "YOU CAN LOOK THROUGH IT",
+        "fr": "ON PEUT VOIR À TRAVERS",
+        "ja": "透けて見える"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183293
+  },
+  {
+    "id": "tir_base_13",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS A POINT OR SPIKE",
+        "fr": "A UNE POINTE OU UNE ÉPINE",
+        "ja": "尖っている"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183294
+  },
+  {
+    "id": "tir_base_14",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CONTAINS PLASTIC",
+        "fr": "CONTIENT DU PLASTIQUE",
+        "ja": "プラスチックを含む"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183295
+  },
+  {
+    "id": "tir_base_15",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "OFTEN MAKES A SOUND",
+        "fr": "ÉMET SOUVENT UN SON",
+        "ja": "音がすることが多い"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183296
+  },
+  {
+    "id": "tir_base_16",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY ROUND OR CURVED",
+        "fr": "GÉNÉRALEMENT ROND OU INCURVÉ",
+        "ja": "一般的に円形か湾曲している"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183297
+  },
+  {
+    "id": "tir_base_17",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "SHINY OR REFLECTIVE",
+        "fr": "BRILLANT OU RÉFLÉCHISSANT",
+        "ja": "光っているか光を反射する"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183298
+  },
+  {
+    "id": "tir_base_18",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EASY TO DESTROY",
+        "fr": "FACILE À DÉTRUIRE",
+        "ja": "壊れやすい"
+      },
+      "level": "2 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183299
+  },
+  {
+    "id": "tir_base_19",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS A STANDARD SIZE",
+        "fr": "A UNE TAILLE STANDARD",
+        "ja": "規定の大きさがある"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183300
+  },
+  {
+    "id": "tir_base_20",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "TYPICALLY THE SAME SIZE",
+        "fr": "GÉNÉRALEMENT TOUJOURS DE LA MÊME TAILLE",
+        "ja": "一般的にどれも同じ大きさ"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183301
+  },
+  {
+    "id": "tir_base_21",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EASY TO CLEAN",
+        "fr": "FACILE À NETTOYER",
+        "ja": "掃除が簡単"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183302
+  },
+  {
+    "id": "tir_base_22",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USES ELECTRICITY",
+        "fr": "UTILISE DE L'ÉLECTRICITÉ",
+        "ja": "電気を使う"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183303
+  },
+  {
+    "id": "tir_base_23",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY A SINGLE COLOR",
+        "fr": "GÉNÉRALEMENT D'UNE SEULE COULEUR",
+        "ja": "一般的に単色"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183304
+  },
+  {
+    "id": "tir_base_24",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS A STRONG TASTE",
+        "fr": "A UN GOÛT PRONONCÉ",
+        "ja": "味が濃い"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183305
+  },
+  {
+    "id": "tir_base_25",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "OFTEN HAS WRITING ON IT",
+        "fr": "COMPORTE SOUVENT DES INSCRIPTIONS",
+        "ja": "文字が記されていることが多い"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183306
+  },
+  {
+    "id": "tir_base_26",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "COULD BE HELD WITH ONE HAND",
+        "fr": "PEUT ÊTRE TENU D'UNE SEULE MAIN",
+        "ja": "片手で持てる"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183307
+  },
+  {
+    "id": "tir_base_27",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "SHOULDN'T GET WET",
+        "fr": "NE DOIT PAS ÊTRE MOUILLÉ",
+        "ja": "濡れてはいけない"
+      },
+      "level": "3 stars",
+      "category": "Attribute",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183308
+  },
+  {
+    "id": "tir_base_28",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "YOU EXPECT TO FIND IT IN AN OFFICE",
+        "fr": "SE TROUVE SOUVENT DANS UN BUREAU",
+        "ja": "職場にある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183309
+  },
+  {
+    "id": "tir_base_29",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MOST PEOPLE HAVE TOUCHED IT",
+        "fr": "LA PLUPART DES GENS Y ONT DÉJÀ TOUCHÉ",
+        "ja": "ほとんどの人が触ったことがある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183310
+  },
+  {
+    "id": "tir_base_30",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "YOU EXPECT TO FIND IT AT A SCHOOL",
+        "fr": "SE TROUVE SOUVENT DANS UNE ÉCOLE",
+        "ja": "学校にある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183311
+  },
+  {
+    "id": "tir_base_31",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "COMES IN PACKAGING",
+        "fr": "LIVRÉ OU VENDU DANS UN EMBALLAGE",
+        "ja": "宅配便で届く"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183312
+  },
+  {
+    "id": "tir_base_32",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MOSTLY FOUND OUTSIDE",
+        "fr": "SE TROUVE PRINCIPALEMENT EN EXTÉRIEUR",
+        "ja": "主に屋外にある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183313
+  },
+  {
+    "id": "tir_base_33",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CAN BE DANGEROUS",
+        "fr": "PEUT ÊTRE DANGEREUX",
+        "ja": "危険性がある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183314
+  },
+  {
+    "id": "tir_base_34",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MOST PEOPLE HAVE IT AT HOME",
+        "fr": "LA PLUPART DES GENS EN ONT CHEZ EUX",
+        "ja": "ほとんどの人の自宅にある"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183315
+  },
+  {
+    "id": "tir_base_35",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USEFUL",
+        "fr": "UTILE",
+        "ja": "役に立つ"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183316
+  },
+  {
+    "id": "tir_base_36",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MAN-MADE",
+        "fr": "FABRIQUÉ PAR L'HOMME",
+        "ja": "人工物"
+      },
+      "level": "1 star",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183317
+  },
+  {
+    "id": "tir_base_37",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY ONLY OWNED BY RICH PEOPLE",
+        "fr": "GÉNÉRALEMENT POSSÉDÉ PAR DES GENS RICHES",
+        "ja": "一般的に金持ちだけが持っている"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183318
+  },
+  {
+    "id": "tir_base_38",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "YOU CAN FIND IT WITHIN AN HOUR FROM HERE",
+        "fr": "ON PEUT EN TROUVER À MOINS D'UNE HEURE D'ICI",
+        "ja": "今から1時間以内に見つけられる"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183319
+  },
+  {
+    "id": "tir_base_39",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY FOUND WITH OTHERS NEARBY",
+        "fr": "SOUVENT TROUVÉ EN GROUPE OU À PROXIMITÉ D'AUTRES",
+        "ja": "一般的にそれと同じ物が近くにある"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183320
+  },
+  {
+    "id": "tir_base_40",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EASILY FOUND IF LOST",
+        "fr": "FACILE À RETROUVER SI ON LE PERD",
+        "ja": "失くしても簡単に見つけられる"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183321
+  },
+  {
+    "id": "tir_base_41",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MAKES PEOPLE HAPPY",
+        "fr": "REND LES GENS HEUREUX",
+        "ja": "人を幸せにする"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183322
+  },
+  {
+    "id": "tir_base_42",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY WORTH MORE THAN $100",
+        "fr": "VAUT GÉNÉRALEMENT PLUS DE 100 €",
+        "ja": "一般的に一万円以上の価値がある"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183323
+  },
+  {
+    "id": "tir_base_43",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CAN BE BOUGHT IN A STORE",
+        "fr": "S'ACHÈTE DANS UN MAGASIN",
+        "ja": "店で買える"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183324
+  },
+  {
+    "id": "tir_base_44",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EASILY PURCHASED ONLINE",
+        "fr": "S'ACHÈTE FACILEMENT EN LIGNE",
+        "ja": "ネットで簡単に買える"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183325
+  },
+  {
+    "id": "tir_base_45",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "SINGLE-USE",
+        "fr": "À USAGE UNIQUE",
+        "ja": "使い捨て"
+      },
+      "level": "2 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183326
+  },
+  {
+    "id": "tir_base_46",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "USUALLY FOUND IN RURAL AREAS",
+        "fr": "SE TROUVE GÉNÉRALEMENT À LA CAMPAGNE",
+        "ja": "一般的に田舎にもある"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183327
+  },
+  {
+    "id": "tir_base_47",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "PASSENGERS CAN CARRY IT ON AN AIRPLANE",
+        "fr": "LES PASSAGERS PEUVENT L'EMPORTER EN AVION",
+        "ja": "乗客が飛行機に持ち込める"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183328
+  },
+  {
+    "id": "tir_base_48",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "MOST PEOPLE SEE IT REGULARLY",
+        "fr": "LA PLUPART DES GENS EN VOIENT RÉGULIÈREMENT",
+        "ja": "ほとんどの人が定期的に目にする"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183329
+  },
+  {
+    "id": "tir_base_49",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "COMMONLY FOUND IN A D&D CAMPAIGN",
+        "fr": "SE TROUVE COURAMMENT DANS UNE PARTIE DE D&D",
+        "ja": "ダンジョンズ＆ドラゴンズでよく見る"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183330
+  },
+  {
+    "id": "tir_base_50",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "SUBJECT OF MYTH OR LEGEND",
+        "fr": "SUJET DE MYTHES OU DE LÉGENDES",
+        "ja": "神話や伝説の題材となる"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183331
+  },
+  {
+    "id": "tir_base_51",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "COULD HELP YOU SURVIVE IN THE WILDERNESS",
+        "fr": "PEUT AIDER À SURVIVRE EN PLEINE NATURE",
+        "ja": "荒野で生き残るのに役立つ"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183332
+  },
+  {
+    "id": "tir_base_52",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "PRE-DATES THE USA (1776)",
+        "fr": "ANTÉRIEUR À LA CRÉATION DES ÉTATS-UNIS (1776)",
+        "ja": "江戸幕府の成立 (1603年) よりも古い"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183333
+  },
+  {
+    "id": "tir_base_53",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CAN BE FOUND IN THIS BUILDING",
+        "fr": "SE TROUVE DANS CE BÂTIMENT",
+        "ja": "この建物内にある"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183334
+  },
+  {
+    "id": "tir_base_54",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EXPECTED TO LAST 100+ YEARS",
+        "fr": "CONÇU POUR DURER PLUS DE 100 ANS",
+        "ja": "100年以上保つと思われる"
+      },
+      "level": "3 stars",
+      "category": "Context",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183335
+  },
+  {
+    "id": "tir_base_55",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "5 OR FEWER LETTERS LONG",
+        "fr": "COMPORTE 5 LETTRES OU MOINS",
+        "ja": "読み仮名が3文字以下"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183336
+  },
+  {
+    "id": "tir_base_56",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "CONTAINS AN E",
+        "fr": "CONTIENT LA LETTRE « E »",
+        "ja": "読み仮名に「え」を含む"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183337
+  },
+  {
+    "id": "tir_base_57",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS AN \"O\"",
+        "fr": "CONTIENT LA LETTRE « O »",
+        "ja": "表記が漢字1文字"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183338
+  },
+  {
+    "id": "tir_base_58",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 2 SYLLABLES",
+        "fr": "COMPORTE 2 SYLLABES",
+        "ja": "読み仮名に促音・拗音 (小さい文字) を含む"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183339
+  },
+  {
+    "id": "tir_base_59",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 1 SYLLABLE",
+        "fr": "COMPORTE 1 SEULE SYLLABE",
+        "ja": "読み仮名に濁点、半濁点を含む"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183340
+  },
+  {
+    "id": "tir_base_60",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS AN \"R\"",
+        "fr": "CONTIENT LA LETTRE « R »",
+        "ja": "表記にひらがなを含む"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183341
+  },
+  {
+    "id": "tir_base_61",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS A CONSECUTIVE DOUBLE LETTER (E.G. \"TT\", \"LL\", \"EE\")",
+        "fr": "CONTIENT UNE DOUBLE LETTRE CONSÉCUTIVE (EX. « TT », « LL », « EE »)",
+        "ja": "表記にカタカナを含む"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183342
+  },
+  {
+    "id": "tir_base_62",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "STARTS WITH A VOWEL OR \"Y\"",
+        "fr": "COMMENCE PAR UNE VOYELLE OU UN « Y »",
+        "ja": "読み仮名が母音で始まる"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183343
+  },
+  {
+    "id": "tir_base_63",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "EXACTLY 5 LETTERS LONG",
+        "fr": "COMPORTE EXACTEMENT 5 LETTRES",
+        "ja": "読み仮名がちょうど4文字"
+      },
+      "level": "1 star",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183344
+  },
+  {
+    "id": "tir_base_64",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "STARTS WITH 2 OR MORE CONSONANTS (E.G. CHAIR, STRIKE)",
+        "fr": "COMMENCE PAR 2 CONSONNES OU PLUS (EX. CHAISE, TRAIN)",
+        "ja": "読み仮名が子音2つ以上連続して始まる (例: つくえ、すとらいき)"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183345
+  },
+  {
+    "id": "tir_base_65",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "IS A COMPOUND WORD (E.G. SKYLINE, UNDERGROUND)",
+        "fr": "EST UN MOT COMPOSÉ (EX. PORTE-MONNAIE, TOURNEVIS)",
+        "ja": "読み仮名に長音 (伸ばし棒) を含む"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183346
+  },
+  {
+    "id": "tir_base_66",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "FIRST LETTER IS REPEATED WITHIN THE WORD (E.G. RURAL, EERIE)",
+        "fr": "LA PREMIÈRE LETTRE EST RÉPÉTÉE PLUS LOIN DANS LE MOT (EX. RURAL)",
+        "ja": "読み仮名に「ん」を含む"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183347
+  },
+  {
+    "id": "tir_base_67",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 2 OR MORE DIFFERENT VOWELS",
+        "fr": "COMPORTE AU MOINS 2 VOYELLES DIFFÉRENTES",
+        "ja": "読み仮名が7文字以上"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183348
+  },
+  {
+    "id": "tir_base_68",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 4 OR FEWER UNIQUE LETTERS",
+        "fr": "COMPORTE 4 LETTRES UNIQUES OU MOINS",
+        "ja": "読み仮名に4種類以上の文字がある"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183349
+  },
+  {
+    "id": "tir_base_69",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "STARTS WITH A LETTER FROM \"A\"-\"M\"",
+        "fr": "COMMENCE PAR UNE LETTRE DE « A » À « M »",
+        "ja": "読み仮名が「あ行」〜「た行」の文字で始まる"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183350
+  },
+  {
+    "id": "tir_base_70",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 3 OR MORE CONSECUTIVE CONSONANTS (E.G. FIGHT, PEBBLE)",
+        "fr": "COMPORTE 3 CONSONNES CONSÉCUTIVES OU PLUS",
+        "ja": "読み仮名に子音が3つ以上連続している (例: せんとう、みずたまり)"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183351
+  },
+  {
+    "id": "tir_base_71",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "ENDS WITH A CONSONANT OR \"Y\"",
+        "fr": "SE TERMINE PAR UNE CONSONNE OU UN « Y »",
+        "ja": "読み仮名に「お」を含む"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183352
+  },
+  {
+    "id": "tir_base_72",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 1 OR MORE REPEATED LETTERS (E.G. KEEP, TOTAL)",
+        "fr": "COMPORTE UNE OU PLUSIEURS LETTRES RÉPÉTÉES",
+        "ja": "表記に漢字を含む"
+      },
+      "level": "2 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183353
+  },
+  {
+    "id": "tir_base_73",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 2 OR MORE CONSECUTIVE VOWELS (NOT INCLUDING \"Y\") (E.G. \"EE\", \"OU\", \"AI\")",
+        "fr": "COMPORTE 2 VOYELLES CONSÉCUTIVES OU PLUS (SANS LE « Y ») (EX. « OU », « AI », « EA »)",
+        "ja": "読み仮名が子音で始まる"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183354
+  },
+  {
+    "id": "tir_base_74",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "6-8 LETTERS LONG",
+        "fr": "COMPORTE ENTRE 6 ET 8 LETTRES",
+        "ja": "読み仮名が5〜6文字"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183355
+  },
+  {
+    "id": "tir_base_75",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "IS BOTH A NOUN AND A VERB",
+        "fr": "PEUT ÊTRE À LA FOIS UN NOM ET UN VERBE",
+        "ja": "同音異義語がある"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183356
+  },
+  {
+    "id": "tir_base_76",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "FIRST 2 LETTERS ARE IN ALPHABETICAL ORDER",
+        "fr": "LES 2 PREMIÈRES LETTRES SONT DANS L'ORDRE ALPHABÉTIQUE",
+        "ja": "読み仮名が子音で終わる"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183357
+  },
+  {
+    "id": "tir_base_77",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS EXACTLY 1 VOWEL (NOT INCLUDING \"Y\")",
+        "fr": "COMPORTE EXACTEMENT 1 SEULE VOYELLE (SANS LE « Y »)",
+        "ja": "読み仮名の母音が1文字だけ"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183358
+  },
+  {
+    "id": "tir_base_78",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "4-6 LETTERS LONG",
+        "fr": "COMPORTE ENTRE 4 ET 6 LETTRES",
+        "ja": "読み仮名に母音がない"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183359
+  },
+  {
+    "id": "tir_base_79",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "ENDS WITH A LETTER FROM \"N\"-\"Z\"",
+        "fr": "SE TERMINE PAR UNE LETTRE DE « N » À « Z »",
+        "ja": "読み仮名の末尾が「な行」〜「わ行」"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183360
+  },
+  {
+    "id": "tir_base_80",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "ENDS WITH 2 CONSONANTS",
+        "fr": "SE TERMINE PAR 2 CONSONNES",
+        "ja": "読み仮名の末尾2文字が子音"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183361
+  },
+  {
+    "id": "tir_base_81",
+    "setId": "things-in-rings",
+    "data": {
+      "text": {
+        "en": "HAS 1 OR MORE REPEATED VOWELS",
+        "fr": "COMPORTE UNE OU PLUSIEURS VOYELLES RÉPÉTÉES",
+        "ja": "読み仮名に同じ文字が2つ以上ある"
+      },
+      "level": "3 stars",
+      "category": "Word",
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789961183362
   }
 ]

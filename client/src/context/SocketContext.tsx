@@ -20,7 +20,8 @@ interface SocketContextType {
   removePlayer: (playerId: string) => Promise<void>;
   // Set & Deck Actions
   switchSet: (setId: string) => Promise<void>;
-  configureDecks: (groupByKeys: string[]) => Promise<void>;
+  configureDecks: (groupByKeys?: string[], filters?: Record<string, string[]>) => Promise<void>;
+  setDeckFilters: (filters: Record<string, string[]>) => Promise<void>;
   drawCards: (deckId: string, count?: number) => Promise<void>;
   discardCard: (cardId: string) => Promise<void>;
   returnCard: (cardId: string, targetDeckId?: string) => Promise<void>;
@@ -36,6 +37,7 @@ interface SocketContextType {
   removeScoreColumn: (columnId: string) => Promise<void>;
   renameScoreColumn: (columnId: string, label: string) => Promise<void>;
   addScorePlayer: (name: string) => Promise<void>;
+  removeScorePlayer: (playerId: string) => Promise<void>;
   // Tools
   randomizeOrder: (direction?: 'clockwise' | 'counter-clockwise') => Promise<void>;
   rollDice: (dice: DiceDie[], modifier?: number) => Promise<void>;
@@ -238,9 +240,18 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     socket.emit('set:switch', { roomId: room.id, setId });
   };
 
-  const configureDecks = async (groupByKeys: string[]) => {
+  const configureDecks = async (groupByKeys?: string[], filters?: Record<string, string[]>) => {
     if (!socket || !room) return;
-    socket.emit('decks:configure', { roomId: room.id, groupByKeys });
+    socket.emit('decks:configure', {
+      roomId: room.id,
+      groupByKeys: groupByKeys ?? room.deckGroupByKeys,
+      filters: filters ?? room.deckFilters
+    });
+  };
+
+  const setDeckFilters = async (filters: Record<string, string[]>) => {
+    if (!socket || !room) return;
+    socket.emit('decks:setFilters', { roomId: room.id, filters });
   };
 
   const drawCards = async (deckId: string, count: number = 1) => {
@@ -310,6 +321,11 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     socket.emit('score:addPlayer', { roomId: room.id, name });
   };
 
+  const removeScorePlayer = async (playerId: string) => {
+    if (!socket || !room) return;
+    socket.emit('score:removePlayer', { roomId: room.id, playerId });
+  };
+
   // Tools Actions
   const randomizeOrder = async (direction?: 'clockwise' | 'counter-clockwise') => {
     if (!socket || !room) return;
@@ -329,7 +345,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         room,
         player,
         sets,
-        activeSet,
+        activeSet: room ? sets.find(s => s.id === room.activeSetId) || null : null,
         cardsMap,
         recentRoll,
         error,
@@ -340,6 +356,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         removePlayer,
         switchSet,
         configureDecks,
+        setDeckFilters,
         drawCards,
         discardCard,
         returnCard,
@@ -353,6 +370,7 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         removeScoreColumn,
         renameScoreColumn,
         addScorePlayer,
+        removeScorePlayer,
         randomizeOrder,
         rollDice,
         refreshSetsAndCards

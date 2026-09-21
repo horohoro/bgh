@@ -99,6 +99,7 @@ export interface RoomState {
   id: string;
   activeSetId: string;
   deckGroupByKeys: string[];
+  deckFilters?: Record<string, string[]>;
   decks: Record<string, Deck>;
   hands: Record<string, PlayerHandCard[]>;
   discards: string[];

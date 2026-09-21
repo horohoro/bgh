@@ -69,7 +69,7 @@
       {
         "key": "text",
         "label": "Rule Description",
-        "type": "text",
+        "type": "multilingual",
         "isDecked": false,
         "isDisplay": true,
         "isFilter": false,

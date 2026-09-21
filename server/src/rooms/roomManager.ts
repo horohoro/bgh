@@ -59,10 +59,72 @@ function getAvailablePlayerColor(currentPlayers: Record<string, Player>, exclude
 }
 
 export class RoomManager {
-  // Generate Decks based on Set cards and groupBy keys
-  static generateDecks(setId: string, groupByKeys: string[], excludedCardIds: Set<string> = new Set()): Record<string, Deck> {
-    const cards = db.getCards(setId).filter(c => !excludedCardIds.has(c.id));
+  // Generate Decks based on Set cards, groupBy keys, and metadata filters
+  static generateDecks(
+    setId: string,
+    groupByKeys: string[],
+    excludedCardIds: Set<string> = new Set(),
+    filters?: Record<string, string[] | string>
+  ): Record<string, Deck> {
+    let cards = db.getCards(setId).filter(c => !excludedCardIds.has(c.id));
     const decks: Record<string, Deck> = {};
+
+    // 1. Filter cards by metadata if filters are provided
+    if (filters && Object.keys(filters).length > 0) {
+      cards = cards.filter(card => {
+        for (const [rawKey, filterVal] of Object.entries(filters)) {
+          if (!filterVal) continue;
+          const key = rawKey === 'source' ? 'edition' : rawKey;
+
+          let allowedValues: string[] = [];
+          if (Array.isArray(filterVal)) {
+            allowedValues = filterVal;
+          } else if (typeof filterVal === 'string') {
+            allowedValues = [filterVal];
+          }
+
+          // If allowedValues is empty or includes 'all', ignore this filter
+          if (allowedValues.length === 0 || allowedValues.some(v => v.toLowerCase() === 'all')) {
+            continue;
+          }
+
+          let val = card.data[key];
+          if (val === undefined || val === null || val === '') {
+            if (key === 'edition') val = card.data.source ?? 'Base';
+            else if (key === 'source') val = card.data.edition ?? 'Base';
+            else {
+              const lower = key.toLowerCase();
+              for (const [k, v] of Object.entries(card.data)) {
+                if (k.toLowerCase() === lower && v !== undefined && v !== null && v !== '') {
+                  val = v;
+                  break;
+                }
+              }
+            }
+          }
+          if (val === undefined || val === null || val === '') {
+            val = 'Standard';
+          }
+
+          const cardValStr = String(val).toLowerCase();
+          const matches = allowedValues.some(v => v.toLowerCase() === cardValStr);
+          if (!matches) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
+
+    if (cards.length === 0) {
+      decks['all'] = {
+        id: 'all',
+        label: 'Main Deck',
+        filter: {},
+        cardIds: []
+      };
+      return decks;
+    }
 
     if (!groupByKeys || groupByKeys.length === 0) {
       const allIds = shuffle(cards.map(c => c.id));
@@ -160,13 +222,15 @@ export class RoomManager {
     const set = db.getSet(activeSetId);
     const filterFields = set?.fields.filter(f => f.isDecked || f.isFilter).map(f => f.key) || [];
     const deckGroupByKeys = [...filterFields];
+    const deckFilters: Record<string, string[]> = {};
 
-    const decks = this.generateDecks(activeSetId, deckGroupByKeys);
+    const decks = this.generateDecks(activeSetId, deckGroupByKeys, new Set(), deckFilters);
 
     const room: RoomState = {
       id: roomId,
       activeSetId,
       deckGroupByKeys,
+      deckFilters,
       decks,
       hands: { [hostId]: [] },
       discards: [],
@@ -337,7 +401,8 @@ export class RoomManager {
     room.activeSetId = setId;
     const filterFields = set.fields.filter(f => f.isDecked || f.isFilter).map(f => f.key);
     room.deckGroupByKeys = [...filterFields];
-    room.decks = this.generateDecks(setId, room.deckGroupByKeys);
+    room.deckFilters = {};
+    room.decks = this.generateDecks(setId, room.deckGroupByKeys, new Set(), room.deckFilters);
     room.discards = [];
     room.tablePool = { cards: [], isRevealed: false, revealedOrder: [] };
     for (const pId of Object.keys(room.hands)) {
@@ -348,14 +413,34 @@ export class RoomManager {
     return room;
   }
 
-  // Configure Deck Splitting
-  static async configureDeckSplitting(roomId: string, groupByKeys: string[]): Promise<RoomState> {
+  // Configure Deck Splitting & Filters
+  static async configureDeckSplitting(
+    roomId: string,
+    groupByKeys?: string[],
+    filters?: Record<string, string[] | string>
+  ): Promise<RoomState> {
     const room = db.getRoom(roomId);
     if (!room) throw new Error('Room not found');
 
-    // Normalize groupByKeys: migrate any 'source' to 'edition'
-    const normalizedKeys = (groupByKeys || []).map(k => k === 'source' ? 'edition' : k);
-    room.deckGroupByKeys = normalizedKeys;
+    if (groupByKeys !== undefined) {
+      // Normalize groupByKeys: migrate any 'source' to 'edition'
+      const normalizedKeys = (groupByKeys || []).map(k => k === 'source' ? 'edition' : k);
+      room.deckGroupByKeys = normalizedKeys;
+    }
+
+    if (filters !== undefined) {
+      const normalizedFilters: Record<string, string[]> = {};
+      for (const [k, v] of Object.entries(filters)) {
+        const normKey = k === 'source' ? 'edition' : k;
+        if (Array.isArray(v)) {
+          normalizedFilters[normKey] = v;
+        } else if (typeof v === 'string') {
+          normalizedFilters[normKey] = [v];
+        }
+      }
+      room.deckFilters = normalizedFilters;
+    }
+
     // Exclude cards currently in hands, discards, or table pool
     const activeCards = new Set<string>();
     for (const cards of Object.values(room.hands)) {
@@ -364,10 +449,22 @@ export class RoomManager {
     room.discards.forEach(cId => activeCards.add(cId));
     room.tablePool.cards.forEach(c => activeCards.add(c.cardId));
 
-    room.decks = this.generateDecks(room.activeSetId, normalizedKeys, activeCards);
+    room.decks = this.generateDecks(
+      room.activeSetId,
+      room.deckGroupByKeys || [],
+      activeCards,
+      room.deckFilters
+    );
     room.lastActive = Date.now();
     await db.saveRoom(room);
     return room;
+  }
+
+  static async setDeckFilters(
+    roomId: string,
+    filters: Record<string, string[] | string>
+  ): Promise<RoomState> {
+    return this.configureDeckSplitting(roomId, undefined, filters);
   }
 
   // Draw cards from a specific deck
@@ -536,8 +633,8 @@ export class RoomManager {
     if (!room) throw new Error('Room not found');
 
     if (reshuffleDecks) {
-      // Re-generate decks from scratch
-      room.decks = this.generateDecks(room.activeSetId, room.deckGroupByKeys);
+      // Re-generate decks from scratch respecting filters
+      room.decks = this.generateDecks(room.activeSetId, room.deckGroupByKeys, new Set(), room.deckFilters);
       room.discards = [];
     } else {
       // Move all hand cards and pool cards to discards
@@ -644,6 +741,21 @@ export class RoomManager {
     if (!room.turnOrder.order.includes(customId)) {
       room.turnOrder.order.push(customId);
     }
+
+    room.lastActive = Date.now();
+    await db.saveRoom(room);
+    return room;
+  }
+
+  static async removeCustomScorePlayer(roomId: string, playerId: string): Promise<RoomState> {
+    const room = db.getRoom(roomId);
+    if (!room) throw new Error('Room not found');
+
+    room.scoreTable.customPlayers = room.scoreTable.customPlayers.filter(p => p.id !== playerId);
+    if (room.scoreTable.scores[playerId]) {
+      delete room.scoreTable.scores[playerId];
+    }
+    room.turnOrder.order = room.turnOrder.order.filter(id => id !== playerId);
 
     room.lastActive = Date.now();
     await db.saveRoom(room);

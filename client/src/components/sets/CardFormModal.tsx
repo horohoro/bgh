@@ -133,7 +133,7 @@ export const CardFormModal: React.FC<CardFormModalProps> = ({ set, onClose, onCa
                 onChange={e => setWikiLang(e.target.value as any)}
                 className="bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-2 py-1.5 focus:outline-none"
               >
-                <option value="en">🇺🇸 EN</option>
+                <option value="en">🇬🇧 EN</option>
                 <option value="fr">🇫🇷 FR</option>
                 <option value="ja">🇯🇵 JA</option>
               </select>
@@ -166,7 +166,7 @@ export const CardFormModal: React.FC<CardFormModalProps> = ({ set, onClose, onCa
                   <label className="block text-xs font-semibold text-slate-300">{field.label}</label>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                     <div className="flex items-center gap-1.5 bg-slate-800 border border-slate-700 rounded-lg px-2.5 py-1.5">
-                      <span className="text-xs">🇺🇸</span>
+                      <span className="text-xs">🇬🇧</span>
                       <input
                         type="text"
                         placeholder="English"
@@ -224,7 +224,7 @@ export const CardFormModal: React.FC<CardFormModalProps> = ({ set, onClose, onCa
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                     <input
                       type="text"
-                      placeholder="🇺🇸 EN URL"
+                      placeholder="🇬🇧 EN URL"
                       value={wikiVal.en || ''}
                       onChange={e =>
                         setFormData(prev => ({

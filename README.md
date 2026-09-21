@@ -145,7 +145,7 @@ A generalized scoring table designed to work for any board game (e.g., *Flip 7*,
   - Add new cards to any set at any time.
   - For multilingual sets: Type a person or subject name in English, French, or Japanese and tap **"Auto-fill"**.
   - The backend queries the Wikipedia MediaWiki API to automatically populate:
-    1. Canonical multilingual names (🇺🇸 English, 🇫🇷 French, 🇯🇵 Japanese)
+    1. Canonical multilingual names (🇬🇧 English, 🇫🇷 French, 🇯🇵 Japanese)
     2. Wikipedia article URLs
     3. Official high-resolution thumbnail images
 

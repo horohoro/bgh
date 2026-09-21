@@ -7,6 +7,7 @@ import { db } from './db/store.js';
 import { RoomManager } from './rooms/roomManager.js';
 import { setRouter } from './routes/setRoutes.js';
 import { wikiRouter } from './routes/wikiRoutes.js';
+import { printServerStartupBanner } from './utils/qr.js';
 
 export function createAppServer() {
   const app = express();
@@ -92,10 +93,20 @@ export function createAppServer() {
       }
     });
 
-    // Configure Deck Splitting
-    socket.on('decks:configure', async (data: { roomId: string; groupByKeys: string[] }, callback) => {
+    // Configure Deck Splitting & Filters
+    socket.on('decks:configure', async (data: { roomId: string; groupByKeys?: string[]; filters?: Record<string, string[] | string> }, callback) => {
       try {
-        const room = await RoomManager.configureDeckSplitting(data.roomId, data.groupByKeys);
+        const room = await RoomManager.configureDeckSplitting(data.roomId, data.groupByKeys, data.filters);
+        io.to(room.id).emit('room:updated', room);
+        callback?.({ success: true, room });
+      } catch (err: any) {
+        callback?.({ success: false, error: err.message });
+      }
+    });
+
+    socket.on('decks:setFilters', async (data: { roomId: string; filters: Record<string, string[] | string> }, callback) => {
+      try {
+        const room = await RoomManager.setDeckFilters(data.roomId, data.filters);
         io.to(room.id).emit('room:updated', room);
         callback?.({ success: true, room });
       } catch (err: any) {
@@ -246,6 +257,17 @@ export function createAppServer() {
       }
     });
 
+    // Score Table: Remove Custom/Guest Player
+    socket.on('score:removePlayer', async (data: { roomId: string; playerId: string }, callback) => {
+      try {
+        const room = await RoomManager.removeCustomScorePlayer(data.roomId, data.playerId);
+        io.to(room.id).emit('room:updated', room);
+        callback?.({ success: true, room });
+      } catch (err: any) {
+        callback?.({ success: false, error: err.message });
+      }
+    });
+
     // Turn Order: Randomize
     socket.on('order:randomize', async (data: { roomId: string; direction?: 'clockwise' | 'counter-clockwise' }, callback) => {
       try {
@@ -341,8 +363,8 @@ const isMain = process.argv[1] &&
 if (isMain) {
   const { server } = createAppServer();
   seedDatabase().then(() => {
-    server.listen(PORT, () => {
-      console.log(`BGH (Board Game Helper) backend listening on http://localhost:${PORT}`);
+    server.listen(PORT, async () => {
+      await printServerStartupBanner(Number(PORT), 5173);
     });
   }).catch(console.error);
 }

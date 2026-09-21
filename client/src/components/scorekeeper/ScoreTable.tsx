@@ -10,7 +10,8 @@ export const ScoreTable: React.FC = () => {
     addScoreColumn,
     removeScoreColumn,
     renameScoreColumn,
-    addScorePlayer
+    addScorePlayer,
+    removeScorePlayer
   } = useSocket();
 
   const [editingCell, setEditingCell] = useState<{ playerId: string; columnId: string; playerName: string; colLabel: string; value: number } | null>(null);
@@ -163,14 +164,28 @@ export const ScoreTable: React.FC = () => {
                 return (
                   <tr key={p.id} className={`hover:bg-slate-800/40 transition ${isMe ? 'bg-slate-800/20' : ''}`}>
                     {/* Player Name Cell */}
-                    <td className="py-2.5 px-3 font-semibold text-slate-100 sticky left-0 bg-slate-900 z-10 border-r border-slate-800 flex items-center gap-2">
-                      <span
-                        className="w-2.5 h-2.5 rounded-full shrink-0"
-                        style={{ backgroundColor: p.color || '#94a3b8' }}
-                      />
-                      <span className="truncate">{p.name}</span>
-                      {isMe && <span className="text-[10px] text-emerald-400 font-bold">(You)</span>}
-                      {p.isGuest && <span className="text-[10px] text-slate-500">(Guest)</span>}
+                    <td className="py-2.5 px-3 font-semibold text-slate-100 sticky left-0 bg-slate-900 z-10 border-r border-slate-800 flex items-center justify-between gap-2 group">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span
+                          className="w-2.5 h-2.5 rounded-full shrink-0"
+                          style={{ backgroundColor: p.color || '#94a3b8' }}
+                        />
+                        <span className="truncate">{p.name}</span>
+                        {isMe && <span className="text-[10px] text-emerald-400 font-bold shrink-0">(You)</span>}
+                        {p.isGuest && <span className="text-[10px] text-slate-500 shrink-0">(Guest)</span>}
+                      </div>
+                      {p.isGuest && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            removeScorePlayer(p.id);
+                          }}
+                          className="p-1 text-slate-500 hover:text-rose-400 hover:bg-slate-800 rounded transition shrink-0 ml-1"
+                          title={`Remove guest ${p.name}`}
+                        >
+                          <Trash2 size={12} />
+                        </button>
+                      )}
                     </td>
 
                     {/* Column Score Cells */}
