@@ -2,6 +2,7 @@
   "name": "bgh-server",
   "version": "1.0.0",
   "description": "Backend server for BGH (Board Game Helper)",
+  "license": "CC-BY-NC-4.0",
   "main": "src/index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",

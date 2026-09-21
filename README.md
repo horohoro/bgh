@@ -1,5 +1,7 @@
 # BGH (Board Game Helper) 🎲🃏
 
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-ED8936?style=for-the-badge&logo=creative-commons)
+
 A modern, mobile-first companion web application designed for players to run on their smartphones and laptops around a physical tabletop game.
 
 It replaces the legacy `fdlm-scratch` with a modern, extensible, and completely game-agnostic architecture:
@@ -29,6 +31,7 @@ It replaces the legacy `fdlm-scratch` with a modern, extensible, and completely 
 5. [Getting Started & Local Network Setup](#-getting-started--local-network-setup)
 6. [Verification & Testing](#-verification--testing)
 7. [Project Structure](#-project-structure)
+8. [License & Commercial Rights](#-license--commercial-rights)
 
 ---
 
@@ -334,10 +337,18 @@ bgh/
 ├── scripts/
 │   └── show-qr.js                   # Standalone QR code CLI helper
 ├── run.bat                          # One-click Windows startup script
+├── LICENSE                          # CC BY-NC 4.0 License file
 └── README.md                        # Documentation
 ```
 
 ---
 
-## 📄 License
-MIT License. Built for tabletop enthusiasts. Free to use, adapt, and expand for any board game!
+## 📄 License & Commercial Rights
+
+Copyright (c) 2026 **horohoro** ([github.com/horohoro](https://github.com/horohoro)).
+
+This repository is licensed under **[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE)**:
+- **Personal / Non-Commercial Use**: You are free to use, copy, modify, and study this project for personal, academic, or non-commercial purposes.
+- **Commercial Use**: Any commercial use, commercial distribution, or commercial integration into a paid product/service is strictly prohibited without explicit permission or a commercial license agreement.
+
+📩 **For commercial licensing inquiries**: Please contact **horohoro** directly on GitHub (https://github.com/horohoro).

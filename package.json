@@ -2,6 +2,7 @@
   "name": "bgh",
   "version": "1.0.0",
   "description": "BGH (Board Game Helper) - Universal multiplayer companion web application",
+  "license": "CC-BY-NC-4.0",
   "scripts": {
     "dev:server": "npm --prefix server run dev",
     "dev:client": "npm --prefix client run dev",
