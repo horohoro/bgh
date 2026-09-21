@@ -5589,5 +5589,26 @@
       "source": "Base"
     },
     "createdAt": 1789961183362
+  },
+  {
+    "id": "c_1789996085615_5ajsw",
+    "setId": "fdlm",
+    "data": {
+      "title": {
+        "fr": "Édouard Balladur",
+        "en": "Édouard Balladur",
+        "ja": "エドゥアール・バラデュール"
+      },
+      "difficulty": "hard",
+      "edition": "Base",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%C3%89douard_Balladur_-_1993_%28cropped%29.jpg/960px-%C3%89douard_Balladur_-_1993_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "wikipedia": {
+        "fr": "https://fr.wikipedia.org/wiki/%C3%89douard_Balladur",
+        "en": "https://en.wikipedia.org/wiki/%C3%89douard%20Balladur",
+        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%82%A5%E3%82%A2%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%90%E3%83%A9%E3%83%87%E3%83%A5%E3%83%BC%E3%83%AB"
+      },
+      "source": "Base"
+    },
+    "createdAt": 1789996085615
   }
 ]
