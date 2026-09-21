@@ -567,72 +567,23 @@ export class RoomManager {
     return room;
   }
 
-  // Add dummy/noise cards from a deck or metadata criteria directly into Table Pool face-down
+  // Add dummy/noise cards from a specific active deck directly into Table Pool face-down
   static async addDummyCardsToPool(
     roomId: string,
-    target: string | { deckId?: string; criteria?: Record<string, any>; filter?: Record<string, any> },
+    deckId: string,
     count: number = 1
   ): Promise<RoomState> {
     const room = db.getRoom(roomId);
     if (!room) throw new Error('Room not found');
 
-    const targetDeckId = typeof target === 'string' ? target : target.deckId;
-    const targetCriteria = typeof target === 'object' ? (target.criteria || target.filter) : undefined;
+    const deck = room.decks[deckId];
+    if (!deck) throw new Error(`Deck "${deckId}" not found`);
+    if (deck.cardIds.length === 0) throw new Error(`Deck "${deckId}" is empty`);
 
-    let drawnIds: string[] = [];
+    const drawCount = Math.min(count, deck.cardIds.length);
+    const drawnIds = deck.cardIds.splice(0, drawCount);
 
-    // 1. If targetDeckId exists in room.decks and has enough cards, draw from it directly
-    if (targetDeckId && room.decks[targetDeckId] && room.decks[targetDeckId].cardIds.length > 0) {
-      const deck = room.decks[targetDeckId];
-      const drawCount = Math.min(count, deck.cardIds.length);
-      drawnIds = deck.cardIds.splice(0, drawCount);
-    } else if (targetCriteria && Object.keys(targetCriteria).length > 0) {
-      // 2. Target by metadata criteria (e.g. { difficulty: 'easy', edition: 'Base' })
-      const allCards = db.getCards(room.activeSetId);
-      const takenIds = new Set<string>();
-      Object.values(room.hands).forEach(h => h.forEach(c => takenIds.add(c.cardId)));
-      room.discards.forEach(id => takenIds.add(id));
-      room.tablePool.cards.forEach(c => takenIds.add(c.cardId));
-
-      const matching = allCards.filter(c => {
-        if (takenIds.has(c.id)) return false;
-        for (const [rawKey, rawVal] of Object.entries(targetCriteria)) {
-          if (rawVal === undefined || rawVal === null || rawVal === '') continue;
-          const key = rawKey === 'source' ? 'edition' : rawKey;
-          let val = c.data[key];
-          if (val === undefined || val === null || val === '') {
-            if (key === 'edition') val = c.data.source ?? 'Base';
-            else if (key === 'source') val = c.data.edition ?? 'Base';
-          }
-          if (normalizeText(String(val)) !== normalizeText(String(rawVal))) {
-            return false;
-          }
-        }
-        return true;
-      });
-
-      if (matching.length === 0) {
-        throw new Error('No matching cards available for the requested dummy criteria.');
-      }
-
-      const drawCount = Math.min(count, matching.length);
-      const shuffled = shuffle(matching);
-      drawnIds = shuffled.slice(0, drawCount).map(c => c.id);
-    } else if (targetDeckId && !room.decks[targetDeckId]) {
-      throw new Error(`Deck "${targetDeckId}" not found`);
-    } else {
-      // Fallback: draw from first non-empty deck in room
-      const firstAvailableDeck = Object.values(room.decks).find(d => d.cardIds.length > 0);
-      if (!firstAvailableDeck) throw new Error('No cards available in decks');
-      const drawCount = Math.min(count, firstAvailableDeck.cardIds.length);
-      drawnIds = firstAvailableDeck.cardIds.splice(0, drawCount);
-    }
-
-    if (drawnIds.length === 0) {
-      throw new Error('Not enough cards available to draw dummy cards');
-    }
-
-    // 3. Purge drawn card IDs from ANY deck in room.decks to guarantee consistency
+    // Purge drawn card IDs from ANY deck in room.decks to guarantee consistency
     const drawnSet = new Set(drawnIds);
     for (const d of Object.values(room.decks)) {
       d.cardIds = d.cardIds.filter(id => !drawnSet.has(id));

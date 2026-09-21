@@ -159,12 +159,9 @@ export function createAppServer() {
     });
 
     // Add Dummy/Noise cards to Table Pool face-down
-    socket.on('pool:addDummy', async (data: { roomId: string; deckId?: string; criteria?: Record<string, any>; filter?: Record<string, any>; count: number }, callback) => {
+    socket.on('pool:addDummy', async (data: { roomId: string; deckId: string; count?: number }, callback) => {
       try {
-        const target = data.criteria || data.filter
-          ? { deckId: data.deckId, criteria: data.criteria || data.filter }
-          : (data.deckId || 'all');
-        const room = await RoomManager.addDummyCardsToPool(data.roomId, target, data.count || 1);
+        const room = await RoomManager.addDummyCardsToPool(data.roomId, data.deckId, data.count || 1);
         io.to(room.id).emit('room:updated', room);
         callback?.({ success: true, room });
       } catch (err: any) {
