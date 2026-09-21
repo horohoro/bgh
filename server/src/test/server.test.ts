@@ -168,6 +168,43 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.strictEqual(r9.tablePool.revealedOrder.length, 4, 'Revealed order has all 4 cards');
   });
 
+  test('Dummy card selection with metadata criteria and cross-deck purging', async () => {
+    // 1. Create a room with FDLM
+    const { room, hostId } = await RoomManager.createRoom('DummyTester', 'fdlm');
+    const initialCardsInDecks = Object.values(room.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(initialCardsInDecks, 171);
+
+    // 2. Add 2 dummy cards specifying criteria { edition: 'Custom' }
+    const r1 = await RoomManager.addDummyCardsToPool(room.id, { criteria: { edition: 'Custom' } }, 2);
+    assert.strictEqual(r1.tablePool.cards.length, 2, 'Pool should have 2 dummy cards');
+    assert.ok(r1.tablePool.cards.every(c => c.isDummy), 'All cards should be marked as dummy');
+
+    // Verify drawn cards belong to Custom edition
+    const allCards = db.getCards('fdlm');
+    const fdlmMap = new Map(allCards.map(c => [c.id, c]));
+    for (const poolCard of r1.tablePool.cards) {
+      const card = fdlmMap.get(poolCard.cardId);
+      assert.ok(card, 'Card must exist');
+      assert.strictEqual(card.data.edition, 'Custom', 'Drawn dummy card must match requested criteria');
+    }
+
+    // Verify cross-deck purging: total cards in room.decks must be reduced by 2
+    const cardsAfterCriteria = Object.values(r1.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
+    assert.strictEqual(cardsAfterCriteria, 169, 'Drawn dummy cards must be purged from all room decks');
+
+    // 3. Add 1 dummy card specifying object with deckId { deckId: splitKey }
+    const splitKey = Object.keys(r1.decks).find(k => k.includes('easy') && k.includes('base')) || Object.keys(r1.decks)[0];
+    const initialSplitCount = r1.decks[splitKey].cardIds.length;
+    const r2 = await RoomManager.addDummyCardsToPool(room.id, { deckId: splitKey }, 1);
+    assert.strictEqual(r2.tablePool.cards.length, 3, 'Pool should now have 3 dummy cards');
+    assert.strictEqual(r2.decks[splitKey].cardIds.length, initialSplitCount - 1, 'Split deck count should be decremented');
+
+    // 4. Reveal pool and check revealedOrder
+    const r3 = await RoomManager.revealTablePool(room.id);
+    assert.strictEqual(r3.tablePool.isRevealed, true);
+    assert.strictEqual(r3.tablePool.revealedOrder.length, 3);
+  });
+
   test('Generic Score Matrix functionality', async () => {
     const { room, hostId } = await RoomManager.createRoom('Charlie');
     const { player: dave } = await RoomManager.joinRoom(room.id, 'Dave');

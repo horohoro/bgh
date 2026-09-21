@@ -27,7 +27,7 @@ interface SocketContextType {
   returnCard: (cardId: string, targetDeckId?: string) => Promise<void>;
   // Table Pool Actions
   submitToPool: (cardId: string) => Promise<void>;
-  addDummyToPool: (deckId: string, count: number) => Promise<void>;
+  addDummyToPool: (target: string | { deckId?: string; criteria?: Record<string, any>; filter?: Record<string, any> }, count?: number) => Promise<void>;
   revealPool: () => Promise<void>;
   resetPool: (discard?: boolean) => Promise<void>;
   resetRound: (reshuffleDecks?: boolean) => Promise<void>;
@@ -275,9 +275,16 @@ export const SocketProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     socket.emit('pool:submit', { roomId: room.id, playerId: player.id, cardId });
   };
 
-  const addDummyToPool = async (deckId: string, count: number) => {
+  const addDummyToPool = async (
+    target: string | { deckId?: string; criteria?: Record<string, any>; filter?: Record<string, any> },
+    count: number = 1
+  ) => {
     if (!socket || !room) return;
-    socket.emit('pool:addDummy', { roomId: room.id, deckId, count });
+    if (typeof target === 'string') {
+      socket.emit('pool:addDummy', { roomId: room.id, deckId: target, count });
+    } else {
+      socket.emit('pool:addDummy', { roomId: room.id, ...target, count });
+    }
   };
 
   const revealPool = async () => {

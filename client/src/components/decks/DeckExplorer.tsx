@@ -3,10 +3,12 @@ import { useSocket } from '../../context/SocketContext';
 import { SetFieldDef } from '../../types';
 import { PlayerHand } from './PlayerHand';
 import { TablePool } from './TablePool';
-import { Layers, SlidersHorizontal, RotateCcw, Sparkles, Filter } from 'lucide-react';
+import { DeckSplitControls } from './DeckSplitControls';
+import { DeckFilterControls } from './DeckFilterControls';
+import { Layers, RotateCcw, Sparkles, Plus } from 'lucide-react';
 
 export const DeckExplorer: React.FC = () => {
-  const { room, activeSet, cardsMap, configureDecks, setDeckFilters, drawCards, resetRound } = useSocket();
+  const { room, activeSet, cardsMap, configureDecks, setDeckFilters, drawCards, addDummyToPool, resetRound } = useSocket();
 
   if (!room) return null;
 
@@ -142,114 +144,21 @@ export const DeckExplorer: React.FC = () => {
         {/* Dynamic Deck Splitting & Filtering Controls (Decked Metadata) */}
         {deckedFields.length > 0 && (
           <div className="mb-4 p-3 bg-slate-800/70 border border-slate-700/70 rounded-xl space-y-3">
-            {/* Splitting Section */}
-            <div>
-              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <span className="text-xs font-bold text-slate-200 flex items-center gap-1.5">
-                  <SlidersHorizontal size={13} className="text-emerald-400" />
-                  <span>Split cards into Decks by metadata:</span>
-                </span>
-                <div className="flex items-center gap-1.5">
-                  <button
-                    onClick={() => configureDecks(deckedFields.map(f => f.key))}
-                    className="text-[11px] px-2 py-0.5 rounded-md text-emerald-300 hover:bg-emerald-950/40 border border-emerald-800/40 transition font-medium"
-                    title="Enable all metadata splits to get maximum decks"
-                  >
-                    Select All (Max Split)
-                  </button>
-                  <button
-                    onClick={() => configureDecks([])}
-                    className="text-[11px] px-2 py-0.5 rounded-md text-slate-400 hover:text-rose-300 hover:bg-slate-700 transition"
-                    title="Combine all cards into a single deck"
-                  >
-                    Single Deck
-                  </button>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-2">
-                {deckedFields.map(f => {
-                  const isActive = currentGroupBy.includes(f.key);
-                  return (
-                    <button
-                      key={f.key}
-                      onClick={() => toggleFilterKey(f.key)}
-                      className={`text-xs px-3 py-1.5 rounded-lg font-semibold border transition flex items-center gap-1.5 shadow-sm active:scale-95 ${
-                        isActive
-                          ? 'bg-emerald-600 text-white border-emerald-500 shadow-emerald-950/40'
-                          : 'bg-slate-900/80 text-slate-400 border-slate-700 hover:text-slate-200 hover:border-slate-600'
-                      }`}
-                    >
-                      <span>{isActive ? '✓' : '+'}</span>
-                      <span>{f.label}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Filtering Section */}
-            <div className="pt-3 border-t border-slate-700/70 space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-slate-200 flex items-center gap-1.5">
-                  <Filter size={13} className="text-emerald-400" />
-                  <span>Filter cards included in decks:</span>
-                </span>
-                {hasActiveDeckFilters && (
-                  <button
-                    onClick={clearDeckFilters}
-                    className="flex items-center gap-1 text-[11px] text-emerald-400 hover:text-emerald-300 font-medium transition"
-                  >
-                    <RotateCcw size={11} />
-                    <span>Reset Filters</span>
-                  </button>
-                )}
-              </div>
-
-              {deckedFields.map(field => {
-                const options = getFieldOptions(field);
-                const normKey = field.key === 'source' ? 'edition' : field.key;
-                const activeVals = (currentFilters[normKey] || []).map(v => v.toLowerCase());
-                const isAll = activeVals.length === 0 || activeVals.includes('all');
-
-                return (
-                  <div key={field.key} className="flex flex-wrap items-center gap-1.5 text-xs">
-                    <span className="font-semibold text-slate-400 min-w-[90px] shrink-0 flex items-center gap-1">
-                      <Filter size={11} className="text-emerald-400" />
-                      <span>{field.label}:</span>
-                    </span>
-                    <div className="flex flex-wrap items-center gap-1 overflow-x-auto pb-0.5">
-                      <button
-                        onClick={() => setFieldFilterToAll(field.key)}
-                        className={`text-xs px-2.5 py-1 rounded-lg font-medium transition ${
-                          isAll
-                            ? 'bg-emerald-600 text-white shadow-sm'
-                            : 'bg-slate-900/80 text-slate-400 hover:text-slate-200 hover:bg-slate-700'
-                        }`}
-                      >
-                        All
-                      </button>
-                      {options.map(opt => {
-                        const isSelected = !isAll && activeVals.includes(opt.toLowerCase());
-                        return (
-                          <button
-                            key={opt}
-                            onClick={() => toggleFilterOption(field.key, opt, options)}
-                            className={`text-xs px-2.5 py-1 rounded-lg font-medium capitalize transition whitespace-nowrap ${
-                              isSelected
-                                ? 'bg-emerald-600 text-white shadow-sm'
-                                : 'bg-slate-900/80 text-slate-400 hover:text-slate-200 hover:bg-slate-700'
-                            }`}
-                          >
-                            {opt}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+            <DeckSplitControls
+              deckedFields={deckedFields}
+              currentGroupBy={currentGroupBy}
+              onToggleKey={toggleFilterKey}
+              onSelectAll={() => configureDecks(deckedFields.map(f => f.key))}
+              onSingleDeck={() => configureDecks([])}
+            />
+            <DeckFilterControls
+              deckedFields={deckedFields}
+              currentFilters={currentFilters}
+              getFieldOptions={getFieldOptions}
+              onToggleOption={toggleFilterOption}
+              onSetAll={setFieldFilterToAll}
+              onClearAll={clearDeckFilters}
+            />
           </div>
         )}
 
@@ -300,15 +209,25 @@ export const DeckExplorer: React.FC = () => {
                     </h3>
                   </div>
 
-                  {/* Draw Button */}
-                  <div className="pt-2 border-t border-slate-700/50">
+                  {/* Draw & Dummy Action Buttons */}
+                  <div className="pt-2 border-t border-slate-700/50 flex items-center gap-2">
                     <button
                       onClick={() => drawCards(deck.id, 1)}
                       disabled={isEmpty}
-                      className="w-full bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 shadow-md transition active:scale-95"
+                      className="flex-1 bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-600 text-white font-bold py-2.5 px-3 rounded-xl text-xs flex items-center justify-center gap-1.5 shadow-md transition active:scale-95"
+                      title="Draw 1 card into your private hand"
                     >
                       <Sparkles size={14} />
                       <span>{isEmpty ? 'Deck Empty' : 'Draw Card'}</span>
+                    </button>
+                    <button
+                      onClick={() => addDummyToPool(deck.id, 1)}
+                      disabled={isEmpty}
+                      className="bg-slate-800 hover:bg-slate-700 hover:border-slate-500 border border-slate-700 disabled:opacity-40 text-slate-300 hover:text-white font-semibold py-2.5 px-2.5 rounded-xl text-xs flex items-center justify-center gap-1 shadow-sm transition active:scale-95"
+                      title="Draw 1 dummy card directly into Table Pool face-down"
+                    >
+                      <Plus size={13} className="text-emerald-400" />
+                      <span>Dummy</span>
                     </button>
                   </div>
                 </div>

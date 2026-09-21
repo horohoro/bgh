@@ -104,14 +104,18 @@ stateDiagram-v2
 ## 🎛️ Feature Breakdown
 
 ### 1. Decks, Private Hands & Shared Table Pool
-* **Active Decks & Tag Filtering**: Shows remaining card counts with empty deck state protection. Filter decks on the fly using metadata tag pills (by edition, difficulty, level, category) with real-time card counters. Tap **"Draw Card"** to draw directly into your hand.
+* **Active Decks & Dynamic Splitting**: Shows remaining card counts with empty deck state protection. Split decks dynamically using decked metadata keys (`[✓ Difficulty]`, `[✓ Edition]`, `[✓ Level]`, etc.) or reset to a single deck. Filter decks on the fly using metadata tag pills (`[All]`, `[Base]`, `[Custom]`, etc.) with real-time card counters.
+* **1-Click Actions on Decks**:
+  - Tap **"Draw Card"** to draw directly into your private hand.
+  - Tap **"+ Dummy"** to instantly add a face-down dummy card from that specific deck directly into the Table Pool.
 * **Private Hand ("Tap to Peek")**:
   - Kept completely hidden from other table members.
   - Cards default to a secret face-down state (`EyeOff` privacy shield). Tap to reveal; tap again to conceal.
   - Actions per card: **Peek/Hide**, **To Pool** (face-down submission), **Return to Deck**, or **Discard**.
-* **Shared Table Pool & Reveal Phase**:
+* **Shared Table Pool & Refined Dummy Selection**:
   - **Submit Face-Down**: Players secretly submit their cards to the pool.
-  - **Add Dummy / Noise Cards**: Anyone can tap "+ Add Dummy Cards" to draw $N$ unassigned cards from any deck directly into the pool face-down (essential for *Fiesta de los Muertos* deduction).
+  - **Refined Dummy Card Modal**: Reuses the same dynamic grouping splits (`DeckSplitControls`) and tag filters (`DeckFilterControls`) as the main deck view. Choose quantity (`1`, `2`, `3`, `4`), view live remaining counts per deck split, and pick which subset of cards the noise cards should be pulled from.
+  - **Game-Agnostic & Cross-Deck Purging**: Decks are dynamic subsets rather than rigid IDs; the default selection dynamically defaults to the first active split or unsplitted deck. When dummy cards are drawn, the backend automatically purges them across all room decks so total card pool counts remain strictly synchronized across all clients.
   - **Reveal All**: Shuffles player and dummy cards together and flips them face-up on all connected devices simultaneously.
   - **Zoom Lightbox**: Tap any portrait to view high-resolution historical images in a full-screen modal without head/face cropping.
   - **Direct Wikipedia Links**: Click any language badge (🇬🇧 `EN`, 🇫🇷 `FR`, 🇯🇵 `JA`) to open the subject's canonical Wikipedia biography.
@@ -190,7 +194,7 @@ A generalized scoring table designed to work for any board game (e.g., *Flip 7*,
 3. **Draw Cards**: Each player draws 1 card from their preferred deck (e.g., `Easy | Base` or `Medium | Base`).
 4. **Secret Clue**: Tap to peek at your secret figure and write your physical clue on your board.
 5. **Submit to Pool**: Tap **"To Pool"** on your drawn card to submit it face-down to the shared table pool.
-6. **Add Dummy Cards**: A player taps **"Add Dummy Cards"**, selects a deck, and adds 2–4 unassigned cards face-down into the pool.
+6. **Add Dummy Cards**: Add 2–4 unassigned cards face-down into the pool either by clicking **"+ Dummy"** directly on any active deck card, or by tapping **"+ Add Dummy Cards"** in Table Pool to refine grouping splits and tag filters.
 7. **Reveal Phase**: Tap **"Reveal All"**. The server shuffles all player cards and dummy cards together and reveals them face-up on all screens with flags and Wikipedia links for the table deduction phase.
 8. **Next Round**: Tap the circular reset icon in Table Pool to clear the pool and prepare for the next round.
 
