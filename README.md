@@ -6,7 +6,8 @@ It replaces the legacy `fdlm-scratch` with a modern, extensible, and completely 
 * **No hardcoded game logic**: Cards and rules are defined through generic Card Sets with dynamic metadata schemas.
 * **Multi-device real-time sync**: Fast 4-letter room codes (e.g., `WORD`, `RING`) powered by WebSockets.
 * **Mobile-first UX**: Dark mode interface designed for quick one-thumb interactions, privacy shields for secret cards, and instant phone sleep recovery.
-* **Pre-seeded & ready to play**: Includes **170 cards** for *Fiesta de los Muertos* (accurately classified into 130 Base and 40 Custom cards) and **74 diverse rules** for *Things in Rings*.
+* **Pre-seeded & ready to play**: Includes **170 cards** for *Fiesta de los Muertos* (130 Base and 40 Custom cards) and **125 rules** for *Things in Rings* (81 physical Base cards with EN/FR/JA rules and 44 unique Custom rules, 0 duplicates, in `ALL_CAPS`).
+* **Scan & Play QR Code**: Double-click `run.bat` to print an ASCII QR code directly into your terminal; players can simply point their smartphone camera at the monitor to join instantly.
 
 ---
 
@@ -58,6 +59,10 @@ $$\text{Active Decks} = \prod_{k \in \text{deckGroupByKeys}} \text{distinctValue
 * **Instant Deck Splitting Controls**: Players can toggle any decked metadata field on or off with single-tap pills (`✓ Difficulty`, `✓ Edition`), or use 1-click presets:
   - **`Select All (Max Split)`**: Re-enables all metadata splits for maximum granularity.
   - **`Single Deck`**: Pools all cards together into one large draw deck.
+* **Interactive Metadata Tag Filtering**: In addition to splitting decks, players can filter which cards are included in the active decks using tag pills (`Edition: [All] [Base] [Custom]`, `Difficulty: [All] [easy] [medium] [hard]`, `Level: [All] [1 star] [2 stars] [3 stars]`):
+  - **Multi-Selection**: Select combinations of values (e.g., play with 1-star + 2-star cards while excluding 3-star cards, or Base only while omitting Custom).
+  - **1-Click All & Reset**: Tap `All` to include all values for a category, or tap `Reset Filters` to restore the full card pool.
+  - **Dynamic Card Counts**: Header dynamically shows the total number of cards across all active decks in real time.
 * **Robust Alias Resolution**: The partitioning engine automatically resolves legacy property keys (such as `source` $\leftrightarrow$ `edition`) and performs case-insensitive lookups, preventing empty decks or `"Unknown"` deck labels.
 
 ---
@@ -99,7 +104,7 @@ stateDiagram-v2
 ## 🎛️ Feature Breakdown
 
 ### 1. Decks, Private Hands & Shared Table Pool
-* **Active Decks**: Shows remaining card counts with empty deck state protection. Tap **"Draw Card"** to draw directly into your hand.
+* **Active Decks & Tag Filtering**: Shows remaining card counts with empty deck state protection. Filter decks on the fly using metadata tag pills (by edition, difficulty, level, category) with real-time card counters. Tap **"Draw Card"** to draw directly into your hand.
 * **Private Hand ("Tap to Peek")**:
   - Kept completely hidden from other table members.
   - Cards default to a secret face-down state (`EyeOff` privacy shield). Tap to reveal; tap again to conceal.
@@ -109,7 +114,7 @@ stateDiagram-v2
   - **Add Dummy / Noise Cards**: Anyone can tap "+ Add Dummy Cards" to draw $N$ unassigned cards from any deck directly into the pool face-down (essential for *Fiesta de los Muertos* deduction).
   - **Reveal All**: Shuffles player and dummy cards together and flips them face-up on all connected devices simultaneously.
   - **Zoom Lightbox**: Tap any portrait to view high-resolution historical images in a full-screen modal without head/face cropping.
-  - **Direct Wikipedia Links**: Click any language badge (`EN`, `FR`, `JA`) to open the subject's canonical Wikipedia biography.
+  - **Direct Wikipedia Links**: Click any language badge (🇬🇧 `EN`, 🇫🇷 `FR`, 🇯🇵 `JA`) to open the subject's canonical Wikipedia biography.
 
 ---
 
@@ -120,7 +125,7 @@ A generalized scoring table designed to work for any board game (e.g., *Flip 7*,
 * **Custom Columns**: Tap "+ Add Column" to create columns with custom labels (e.g. `Military`, `Science`, `Treasury`). Double-click or tap to rename/delete columns.
 * **Quick Keypad**: Tap any cell to adjust points using convenient deltas (`+1`, `-1`, `+5`, `-5`, `+10`, `+15`, `0`) or input direct values.
 * **Auto-Summing & Leader Highlights**: Automatically calculates column totals and row sums. The leading player is marked with a gold trophy 👑.
-* **Offline Guests**: Tap "+ Guest" to add table players who do not have a phone.
+* **Offline Guests & Deletion**: Tap "+ Guest" to add table players who do not have a phone. Guest rows feature a 🗑️ trash button to cleanly remove them, purging their scores and turn order slot.
 
 ---
 
@@ -162,15 +167,18 @@ A generalized scoring table designed to work for any board game (e.g., *Flip 7*,
   - `Edition`: `Base`, `Custom`, `Expansion (<name>)`
 
 ### Things in Rings
-* **Total Rules**: 74 secret Venn diagram rules.
+* **Total Rules**: 125 rules (81 Base + 44 Custom, 0 duplicates).
+* **81 Official Base Game Cards**: Scanned from physical cards, featuring both English rules and specialized Japanese rules.
+* **44 Unique Custom Rules**: Deduplicated against the 81 physical base rules (pruned 30 redundant/duplicate custom rules).
+* **Trilingual Support (EN, FR, JA) & ALL_CAPS**: All 125 cards feature full French translations in `ALL_CAPS` (`text: { en: "...", fr: "...", ja: "..." }`) and use the UK flag (🇬🇧) for English.
 * **Rule Categories**:
-  - **Attribute** (e.g., *"Made primarily of metal"*, *"Can easily fit in a shoe box"*, *"Typically green"*).
-  - **Word** (e.g., *"Name contains exactly two syllables"*, *"Starts with a vowel"*, *"Spelled with 4 or fewer letters"*).
-  - **Context** (e.g., *"Found in a classroom"*, *"Requires electricity to function"*, *"Associated with summer"*).
+  - **Attribute** (e.g., *"CONTAINS WOOD"*, *"BIGGER THAN A PERSON"*, *"TYPICALLY GREEN"*).
+  - **Word** (e.g., *"NAME CONTAINS EXACTLY TWO SYLLABLES"*, *"STARTS WITH A VOWEL OR 'Y'"*, *"SPELLED WITH 4 OR FEWER LETTERS"*).
+  - **Context** (e.g., *"FOUND IN A CLASSROOM"*, *"REQUIRES ELECTRICITY TO FUNCTION"*, *"ASSOCIATED WITH SUMMER"*).
 * **Decked Metadata**:
   - `Difficulty Level`: `1 star`, `2 stars`, `3 stars`
   - `Rule Category`: `Attribute`, `Word`, `Context`
-  - `Edition`: `Custom` (All 74 community/assistant-authored rules)
+  - `Edition`: `Base`, `Custom`
 
 ---
 
@@ -201,7 +209,8 @@ Double-click `run.bat` in the project root:
 ```bat
 run.bat
 ```
-This automatically sets up Node.js paths, starts the backend server on port `3001`, and launches the Vite frontend on port `5173`.
+* **Instant Mobile Join (QR Code)**: The server automatically outputs a high-contrast terminal QR code and LAN network URL (`http://<LAN_IP>:5173`) directly in the server console upon startup. Point your smartphone camera at your monitor to join immediately!
+* **Clean 2-Window Setup**: Runs the backend server directly in the primary terminal window and starts the Vite frontend in a secondary window.
 
 ---
 
@@ -248,12 +257,13 @@ npm --prefix client run build
 
 ### Test Coverage Highlights
 * **Suite 1: Integration & Domain Logic**
-  - Database seed validation (130 Base vs. 40 Custom FDLM cards; 74 Custom Things in Rings rules).
+  - Database seed validation (130 Base vs. 40 Custom FDLM cards; 81 Base vs. 44 Custom Things in Rings rules).
   - Dynamic deck partitioning across all decked metadata combinations.
+  - Deck filtering by metadata tags (edition, difficulty, level combinations).
   - Key alias resolution (preventing `"Unknown"` decks).
   - Default full deck splitting on room creation and set switching.
   - Multi-client card drawing race condition immunity.
-  - Universal scorekeeper matrix cell arithmetic and leader calculation.
+  - Universal scorekeeper matrix cell arithmetic, leader calculation, and guest player deletion.
   - Explicit room leaving, host transfer, and player color collision prevention.
 * **Suite 2: Multi-Client Real-Time Socket E2E**
   - Simulated multi-client join, secret draws, face-down pool submissions, dummy card additions, pool reveals, live score sync, and dice broadcast feeds.
@@ -271,14 +281,14 @@ bgh/
 │   │   │   │   ├── CardDisplay.tsx  # Dynamic card face, decked badges & lightbox
 │   │   │   │   └── Navbar.tsx       # Bottom mobile tab navigation
 │   │   │   ├── decks/
-│   │   │   │   ├── DeckExplorer.tsx # Active decks, draw actions & split controls
+│   │   │   │   ├── DeckExplorer.tsx # Active decks, draw actions, split & filter controls
 │   │   │   │   ├── PlayerHand.tsx   # Private hand with tap-to-peek privacy
 │   │   │   │   └── TablePool.tsx    # Face-down shared pool, dummy cards & reveal
 │   │   │   ├── lobby/
 │   │   │   │   ├── JoinRoomModal.tsx# Create / Join room dialog
 │   │   │   │   └── LobbyHeader.tsx  # 4-letter code, player pills, leave button
 │   │   │   ├── scorekeeper/
-│   │   │   │   └── ScoreTable.tsx   # 2D scoring matrix with delta keypad & leader
+│   │   │   │   └── ScoreTable.tsx   # 2D scoring matrix with delta keypad & guest deletion
 │   │   │   ├── sets/
 │   │   │   │   ├── CardFormModal.tsx# Card creator with Wikipedia auto-enricher
 │   │   │   │   └── SetManager.tsx   # Card set library with decked metadata filters
@@ -303,7 +313,7 @@ bgh/
 │   │   │   ├── seed.ts              # Data seeding & migration logic
 │   │   │   └── store.ts             # Transactional atomic JSON store
 │   │   ├── rooms/
-│   │   │   └── roomManager.ts       # Room lifecycle, atomic draws, deck engine
+│   │   │   └── roomManager.ts       # Room lifecycle, atomic draws, deck & filter engine
 │   │   ├── routes/
 │   │   │   ├── setRoutes.ts         # REST API for CardSets and Cards
 │   │   │   └── wikiRoutes.ts        # Wikipedia MediaWiki enrichment API
@@ -312,9 +322,13 @@ bgh/
 │   │   │   └── e2e.test.ts          # Real-time multi-client socket E2E suite
 │   │   ├── types/
 │   │   │   └── index.ts             # Backend type definitions
+│   │   ├── utils/
+│   │   │   └── qr.ts                # Terminal QR code & LAN detection utility
 │   │   └── index.ts                 # Express app & Socket.io server entry
 │   └── tsconfig.json
 │
+├── scripts/
+│   └── show-qr.js                   # Standalone QR code CLI helper
 ├── run.bat                          # One-click Windows startup script
 └── README.md                        # Documentation
 ```
