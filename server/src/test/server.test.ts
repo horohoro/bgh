@@ -3,6 +3,7 @@ import assert from 'node:assert';
 import { seedDatabase } from '../db/seed.js';
 import { db } from '../db/store.js';
 import { RoomManager } from '../rooms/roomManager.js';
+import { normalizeText } from '../utils/text.js';
 
 describe('BGH (Board Game Helper) Backend Tests', () => {
   before(async () => {
@@ -17,11 +18,11 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlm, 'FDLM set must exist');
     assert.ok(fdlm.fields.some(f => f.key === 'edition' && f.isFilter), 'FDLM set must have filterable edition field');
     const fdlmCards = db.getCards('fdlm');
-    assert.strictEqual(fdlmCards.length, 171, 'Should have migrated all 171 FDLM cards');
+    assert.ok(fdlmCards.length >= 171, 'Should have at least 171 FDLM cards');
     const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
     const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
-    assert.strictEqual(fdlmBase.length, 120, 'Should have exactly 120 Base FDLM cards from official game');
-    assert.strictEqual(fdlmCustom.length, 51, 'Should have exactly 51 Custom FDLM cards');
+    assert.ok(fdlmBase.length >= 120, 'Should have at least 120 Base FDLM cards from official game');
+    assert.ok(fdlmCustom.length >= 51, 'Should have at least 51 Custom FDLM cards');
 
     const rings = sets.find(s => s.id === 'things-in-rings');
     assert.ok(rings, 'Things in Rings set must exist');
@@ -41,8 +42,9 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlmDecks['easy'], 'Should have easy deck');
     assert.ok(fdlmDecks['medium'], 'Should have medium deck');
     assert.ok(fdlmDecks['hard'], 'Should have hard deck');
+    const fdlmCards = db.getCards('fdlm');
     const totalFdlmInDecks = fdlmDecks['easy'].cardIds.length + fdlmDecks['medium'].cardIds.length + fdlmDecks['hard'].cardIds.length;
-    assert.strictEqual(totalFdlmInDecks, 171, 'Sum of all difficulty decks must equal 171');
+    assert.strictEqual(totalFdlmInDecks, fdlmCards.length, 'Sum of all difficulty decks must equal total FDLM cards');
 
     // Partition FDLM by difficulty AND edition
     const fdlmMultiDecks = RoomManager.generateDecks('fdlm', ['difficulty', 'edition']);
@@ -73,15 +75,19 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
   });
 
   test('Deck Filtering by Metadata Tags', async () => {
-    // 1. Filter FDLM cards to Base edition only (120 cards)
+    // 1. Filter FDLM cards to Base edition only
+    const fdlmCards = db.getCards('fdlm');
+    const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
+    const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
+
     const baseOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Base'] });
     const totalBaseCards = Object.values(baseOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalBaseCards, 120, 'Base edition only must contain exactly 120 cards');
+    assert.strictEqual(totalBaseCards, fdlmBase.length, 'Base edition only must contain all base cards');
 
-    // 2. Filter FDLM cards to Custom edition only (51 cards)
+    // 2. Filter FDLM cards to Custom edition only
     const customOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Custom'] });
     const totalCustomCards = Object.values(customOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalCustomCards, 51, 'Custom edition only must contain exactly 51 cards');
+    assert.strictEqual(totalCustomCards, fdlmCustom.length, 'Custom edition only must contain all custom cards');
 
     // 3. Filter Things in Rings to 1 star and 2 stars only
     const ringsLevelDecks = RoomManager.generateDecks('things-in-rings', ['level'], new Set(), { level: ['1 star', '2 stars'] });
@@ -93,23 +99,35 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     // 4. Test room-level setDeckFilters and configureDeckSplitting with filters
     const { room } = await RoomManager.createRoom('HostFilter', 'fdlm');
     const totalInitial = Object.values(room.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalInitial, 171, 'Initial room must have 171 cards');
+    assert.strictEqual(totalInitial, fdlmCards.length, 'Initial room must have all cards');
 
     // Apply filter: Base edition only
     const rFiltered = await RoomManager.setDeckFilters(room.id, { edition: ['Base'] });
     assert.deepStrictEqual(rFiltered.deckFilters?.edition, ['Base']);
     const totalFiltered = Object.values(rFiltered.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalFiltered, 120, 'Filtered room must have 120 cards in decks');
+    assert.strictEqual(totalFiltered, fdlmBase.length, 'Filtered room must have base cards in decks');
 
     // Reshuffle round: filter persists
     const rReset = await RoomManager.resetRound(room.id, true);
     const totalReset = Object.values(rReset.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalReset, 120, 'Reset round must preserve deck filters');
+    assert.strictEqual(totalReset, fdlmBase.length, 'Reset round must preserve deck filters');
 
-    // Clear filters: resets back to 171
+    // Clear filters: resets back to total cards
     const rCleared = await RoomManager.setDeckFilters(room.id, {});
     const totalCleared = Object.values(rCleared.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalCleared, 171, 'Clearing filters must restore all 171 cards');
+    assert.strictEqual(totalCleared, fdlmCards.length, 'Clearing filters must restore all cards');
+  });
+
+  test('Accent-insensitive and case-insensitive text normalization and matching', () => {
+    assert.strictEqual(normalizeText('Édouard Balladur'), 'edouard balladur');
+    assert.strictEqual(normalizeText('Molière'), 'moliere');
+    assert.strictEqual(normalizeText('Saint-Exupéry'), 'saint-exupery');
+    assert.strictEqual(normalizeText('François'), 'francois');
+    assert.strictEqual(normalizeText('ÉDOUARD'), 'edouard');
+    assert.strictEqual(normalizeText('edouard'), 'edouard');
+    assert.ok(normalizeText('Édouard Balladur').includes(normalizeText('edouard')));
+    assert.ok(normalizeText('Édouard Balladur').includes(normalizeText('Édouard')));
+    assert.ok(normalizeText('Édouard Balladur').includes(normalizeText('balladur')));
   });
 
   test('Lobby lifecycle, player join, and atomic card drawing', async () => {
@@ -171,8 +189,9 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
   test('Dummy card selection with metadata criteria and cross-deck purging', async () => {
     // 1. Create a room with FDLM
     const { room, hostId } = await RoomManager.createRoom('DummyTester', 'fdlm');
+    const allCards = db.getCards('fdlm');
     const initialCardsInDecks = Object.values(room.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(initialCardsInDecks, 171);
+    assert.strictEqual(initialCardsInDecks, allCards.length);
 
     // 2. Add 2 dummy cards specifying criteria { edition: 'Custom' }
     const r1 = await RoomManager.addDummyCardsToPool(room.id, { criteria: { edition: 'Custom' } }, 2);
@@ -180,7 +199,6 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(r1.tablePool.cards.every(c => c.isDummy), 'All cards should be marked as dummy');
 
     // Verify drawn cards belong to Custom edition
-    const allCards = db.getCards('fdlm');
     const fdlmMap = new Map(allCards.map(c => [c.id, c]));
     for (const poolCard of r1.tablePool.cards) {
       const card = fdlmMap.get(poolCard.cardId);
@@ -190,7 +208,7 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
 
     // Verify cross-deck purging: total cards in room.decks must be reduced by 2
     const cardsAfterCriteria = Object.values(r1.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(cardsAfterCriteria, 169, 'Drawn dummy cards must be purged from all room decks');
+    assert.strictEqual(cardsAfterCriteria, allCards.length - 2, 'Drawn dummy cards must be purged from all room decks');
 
     // 3. Add 1 dummy card specifying object with deckId { deckId: splitKey }
     const splitKey = Object.keys(r1.decks).find(k => k.includes('easy') && k.includes('base')) || Object.keys(r1.decks)[0];

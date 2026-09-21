@@ -3,6 +3,7 @@ import { useSocket } from '../../context/SocketContext';
 import { CardDisplay } from '../common/CardDisplay';
 import { CardFormModal } from './CardFormModal';
 import { SetFieldDef } from '../../types/index';
+import { matchesSearchQuery, normalizeText } from '../../utils/text';
 import { Plus, Search, Trash2, Library, BookOpen, RotateCcw, Filter } from 'lucide-react';
 
 export const SetManager: React.FC = () => {
@@ -51,22 +52,17 @@ export const SetManager: React.FC = () => {
 
   // Filter cards across search and all decked metadata fields
   const filteredCards = allCardsInSet.filter(c => {
-    // Search
+    // Accent-insensitive & case-insensitive search
     if (search.trim()) {
-      const q = search.toLowerCase();
-      const titleObj = c.data.title || c.data.name || c.data.text || '';
-      let textToSearch = '';
-      if (typeof titleObj === 'string') textToSearch = titleObj;
-      else if (typeof titleObj === 'object') textToSearch = Object.values(titleObj).join(' ');
-      if (!textToSearch.toLowerCase().includes(q)) return false;
+      if (!matchesSearchQuery(c.data, search)) return false;
     }
 
-    // Check each decked metadata filter
+    // Check each decked metadata filter (accent & case insensitive)
     for (const field of deckedFields) {
       const activeFilter = selectedFilters[field.key];
       if (activeFilter && activeFilter !== 'all') {
         const cardVal = String(c.data[field.key] ?? (field.key === 'edition' ? c.data.source : ''));
-        if (cardVal.toLowerCase() !== activeFilter.toLowerCase()) return false;
+        if (normalizeText(cardVal) !== normalizeText(activeFilter)) return false;
       }
     }
 

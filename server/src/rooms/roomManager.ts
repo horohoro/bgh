@@ -1,4 +1,5 @@
 import { db } from '../db/store.js';
+import { normalizeText } from '../utils/text.js';
 import {
   RoomState,
   Player,
@@ -106,8 +107,8 @@ export class RoomManager {
             val = 'Standard';
           }
 
-          const cardValStr = String(val).toLowerCase();
-          const matches = allowedValues.some(v => v.toLowerCase() === cardValStr);
+          const cardValStr = normalizeText(String(val));
+          const matches = allowedValues.some(v => normalizeText(v) === cardValStr);
           if (!matches) {
             return false;
           }
@@ -603,7 +604,7 @@ export class RoomManager {
             if (key === 'edition') val = c.data.source ?? 'Base';
             else if (key === 'source') val = c.data.edition ?? 'Base';
           }
-          if (String(val).toLowerCase() !== String(rawVal).toLowerCase()) {
+          if (normalizeText(String(val)) !== normalizeText(String(rawVal))) {
             return false;
           }
         }
