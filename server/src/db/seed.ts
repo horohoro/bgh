@@ -5,26 +5,68 @@ import { CardSet, Card } from '../types/index.js';
 import { RoomManager } from '../rooms/roomManager.js';
 
 const BACKUP_FILE = path.resolve(process.cwd(), 'data', 'fdlm_backup_20210628.json');
-const VANILLA_FILE = path.resolve(process.cwd(), 'data', 'fdlm_vanilla_20210622.json');
+
+// Official Base cards vs Custom additions for Fiesta de los Muertos
+// Ground truth: 119 Base cards verified against the 120-card physical game (only 'Dr. Lenoir' omitted).
+// Exactly 51 custom additions (video game, anime, pop culture icons, and later additions).
+const FDLM_CUSTOM_IDS = new Set<string>([
+  '60d5c152b1663a293c35fdc3', // Akira Kurosawa (Akira Kurosawa)
+  '60d1fbbc19909b1bc8a65fb5', // Alan Turing (Alan Turing)
+  '60d1fac719909b1bc8a65fab', // Anpanman (Anpanman)
+  '60d29e0bb5439b3724cf12ee', // Arnold Schwarzenegger (Arnold Schwarzenegger)
+  '60d099ec1814852f5cc86e76', // Batman (Batman)
+  '60d32260dccf3b425cb9b785', // Bill Gates (Bill Gates)
+  '60d550b398d24c31d054a15b', // Bugs Bunny (Bugs Bunny)
+  '60d1d5bbb671bb27f82baa64', // Captain America (Captain America)
+  '60d1fa9019909b1bc8a65f89', // Chibi Maruko-chan (Chibi Maruko-chan)
+  '60d1f95119909b1bc8a65f7a', // D.O. (D.O. (entertainer))
+  '60d1fab019909b1bc8a65fa5', // Doraemon (Doraemon)
+  '60d00eba9a1c0148047eb9d2', // Détective Conan (Case Closed)
+  '60d1fc6e986ec80cb84f7858', // Elsa (Disney) (Elsa (Frozen))
+  '60d1f47451225328105bff11', // Emmanuel Macron (Emmanuel Macron)
+  '60d89e3cbcf3682f3cb2e445', // Eren Jäger (Eren Yeager)
+  '60d5b52a98d24c31d054a1b5', // Freddie Mercury (Freddie Mercury)
+  '60d1fb6319909b1bc8a65fb0', // Hayao Miyazaki (Hayao Miyazaki)
+  '60d5c1b3b1663a293c35fdcd', // Hokusai (Hokusai)
+  '60d29ef0b5439b3724cf1302', // Homer Simpson (Homer Simpson)
+  '60d5502098d24c31d054a156', // Iron Man (comics) (Iron Man)
+  '60d6bcba6b4b1d0fc09e81b0', // Jack Sparrow (Jack Sparrow)
+  '60d8a627bcf3682f3cb2e47b', // James Watt (James Watt)
+  '60d2b1f4b5439b3724cf1307', // Jean Dujardin (Jean Dujardin)
+  '60d8a36fbcf3682f3cb2e452', // Jean-Paul II (Pope John Paul II)
+  '60d8a45fbcf3682f3cb2e45c', // Joël Robuchon (Joël Robuchon)
+  '60d29e32b5439b3724cf12f3', // Katy Perry (Katy Perry)
+  '60d1f70419909b1bc8a65f75', // Kim Ji-soo (Jisoo)
+  '60d6b4386b4b1d0fc09e811f', // Kurt Cobain (Kurt Cobain)
+  '60d29de9b5439b3724cf12e9', // Lady Gaga (Lady Gaga)
+  '60d09a4c1814852f5cc86e7a', // Link (The Legend of Zelda) (Link (The Legend of Zelda))
+  '60d1fa8e19909b1bc8a65f84', // Lisa (rappeuse) (Lisa (rapper))
+  '60d5c173b1663a293c35fdc8', // Marie Kondō (Marie Kondo)
+  '60d29e5eb5439b3724cf12f8', // Mario (personnage) (Mario)
+  '60d8a3cfbcf3682f3cb2e457', // Mickey Mouse (Mickey Mouse)
+  '60d1b01c08ed0935a0e88b76', // Nikola Tesla (Nikola Tesla)
+  '60d00e8a9a1c0148047eb9ce', // Oda Nobunaga (Oda Nobunaga)
+  '60d8a52cbcf3682f3cb2e461', // Paul Bocuse (Paul Bocuse)
+  '60d00f3b9a1c0148047eb9ea', // Pikachu (Pikachu)
+  '60d54eee98d24c31d054a14c', // Princesse Zelda (Princess Zelda)
+  '60d1f4c151225328105bff16', // Psy (chanteur) (Psy)
+  '60d011149a1c0148047eba1a', // Sacha (Pokémon) (Ash Ketchum)
+  '60d8a2e9bcf3682f3cb2e44d', // Samus Aran (Samus Aran)
+  '60d09407574da32a68377d00', // Shigeru Miyamoto (Shigeru Miyamoto)
+  '60d29ebfb5439b3724cf12fd', // Sonic (Sonic the Hedgehog (character))
+  '60d1fa0019909b1bc8a65f7f', // Spider-Man (Spider-Man)
+  '60d8638aa02ea4452c4033fe', // Takeshi Kitano (Takeshi Kitano)
+  '60d5b50e98d24c31d054a1b0', // Thanos (Marvel Comics) (Thanos)
+  '60d1b08808ed0935a0e88b7b', // Thomas Edison (Thomas Edison)
+  '60d5c0bab1663a293c35fdbe', // Tueur du Zodiaque (Zodiac Killer)
+  '60d9a8a0a7df16434c7c37f7', // Yoshi (Yoshi)
+  '60d0b7bf04e6a40e70432791', // Yoshihide Suga (Yoshihide Suga)
+]);
 
 export async function seedDatabase() {
   await db.init();
 
   const existingSets = db.getSets();
-
-  // Load vanilla base card IDs from 20210622(Vanilla).json
-  const vanillaIds = new Set<string>();
-  if (fs.existsSync(VANILLA_FILE)) {
-    try {
-      const vRaw = await fs.promises.readFile(VANILLA_FILE, 'utf-8');
-      const vCards = JSON.parse(vRaw);
-      vCards.forEach((c: any) => {
-        if (c._id && c._id.$oid) vanillaIds.add(c._id.$oid);
-      });
-    } catch (e) {
-      console.error('Failed to read vanilla cards:', e);
-    }
-  }
 
   // 1. Seed or update Fiesta de los Muertos Set
   const fdlmFields = [
@@ -52,17 +94,8 @@ export async function seedDatabase() {
   }
 
   // Helper to determine if a FDLM card is from the base game
-  const isFdlmBase = (cardId: string, titleObj: any): boolean => {
-    if (vanillaIds.has(cardId)) return true;
-    if (cardId === '60d011ea9a1c0148047eba56' || cardId === '60d0124c9a1c0148047eba62') return true;
-    if (titleObj && typeof titleObj === 'object') {
-      const en = (titleObj.en || '').toLowerCase();
-      const fr = (titleObj.fr || '').toLowerCase();
-      if (en.includes('don juan') || fr.includes('don juan') || en.includes('dom juan') || fr.includes('dom juan')) {
-        return true;
-      }
-    }
-    return false;
+  const isFdlmBase = (cardId: string): boolean => {
+    return !FDLM_CUSTOM_IDS.has(cardId);
   };
 
   // Check if FDLM cards are populated
@@ -95,7 +128,7 @@ export async function seedDatabase() {
         }
 
         const title = Object.keys(cleanTitle).length > 0 ? cleanTitle : { en: 'Unknown' };
-        const edition = isFdlmBase(id, title) ? 'Base' : 'Custom';
+        const edition = isFdlmBase(id) ? 'Base' : 'Custom';
 
         return {
           id,
@@ -129,7 +162,7 @@ export async function seedDatabase() {
         delete card.data.title._id;
         modified = true;
       }
-      const accurateEdition = isFdlmBase(card.id, card.data.title) ? 'Base' : 'Custom';
+      const accurateEdition = isFdlmBase(card.id) ? 'Base' : 'Custom';
       if (card.data.edition !== accurateEdition || card.data.source !== accurateEdition) {
         card.data.edition = accurateEdition;
         card.data.source = accurateEdition; // Alias for seamless backward-compatibility

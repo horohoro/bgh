@@ -6,7 +6,7 @@ It replaces the legacy `fdlm-scratch` with a modern, extensible, and completely 
 * **No hardcoded game logic**: Cards and rules are defined through generic Card Sets with dynamic metadata schemas.
 * **Multi-device real-time sync**: Fast 4-letter room codes (e.g., `WORD`, `RING`) powered by WebSockets.
 * **Mobile-first UX**: Dark mode interface designed for quick one-thumb interactions, privacy shields for secret cards, and instant phone sleep recovery.
-* **Pre-seeded & ready to play**: Includes **170 cards** for *Fiesta de los Muertos* (130 Base and 40 Custom cards) and **125 rules** for *Things in Rings* (81 physical Base cards with EN/FR/JA rules and 44 unique Custom rules, 0 duplicates, in `ALL_CAPS`).
+* **Pre-seeded & ready to play**: Includes **170 cards** for *Fiesta de los Muertos* (119 official Base cards and 51 Custom cards, verified against the official physical card decks) and **125 rules** for *Things in Rings* (81 physical Base cards with EN/FR/JA rules and 44 unique Custom rules, 0 duplicates, in `ALL_CAPS`).
 * **Scan & Play QR Code**: Double-click `run.bat` to print an ASCII QR code directly into your terminal; players can simply point their smartphone camera at the monitor to join instantly.
 
 ---
@@ -160,8 +160,8 @@ A generalized scoring table designed to work for any board game (e.g., *Flip 7*,
 
 ### Fiesta de los Muertos
 * **Total Cards**: 170 cards.
-* **130 Official Base Game Cards**: Accurately verified against the original vanilla database dump (`20210622(Vanilla).json`), featuring historical figures (e.g., *Cleopatra*, *Napoleon Bonaparte*, *Albert Einstein*, *Marie Curie*, *Mozart*, *Leonardo da Vinci*).
-* **40 Custom Cards**: Community and modern figures (e.g., *Emmanuel Macron*, *Spider-Man*, *Super Mario*, *Doraemon*, *Marilyn Monroe*).
+* **119 Official Base Game Cards**: Accurately verified against the official physical French edition card deck sheets (featuring historical figures like *Cleopatra*, *Napoleon Bonaparte*, *Albert Einstein*, *Marie Curie*, *Mozart*, *Leonardo da Vinci*, as well as official deceased fictional characters like *Son Goku*, *Mufasa*, and *Terminator*).
+* **51 Custom Cards**: Community and pop-culture figures (e.g., *Emmanuel Macron*, *Spider-Man*, *Super Mario*, *Doraemon*, *Marilyn Monroe*, *Shigeru Miyamoto*, *Link*, *Pikachu*).
 * **Decked Metadata**:
   - `Difficulty`: `easy`, `medium`, `hard`
   - `Edition`: `Base`, `Custom`, `Expansion (<name>)`

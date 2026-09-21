@@ -20,8 +20,8 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.strictEqual(fdlmCards.length, 170, 'Should have migrated all 170 FDLM cards');
     const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
     const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
-    assert.strictEqual(fdlmBase.length, 130, 'Should have exactly 130 Base FDLM cards from vanilla');
-    assert.strictEqual(fdlmCustom.length, 40, 'Should have exactly 40 Custom FDLM cards');
+    assert.strictEqual(fdlmBase.length, 119, 'Should have exactly 119 Base FDLM cards from official game');
+    assert.strictEqual(fdlmCustom.length, 51, 'Should have exactly 51 Custom FDLM cards');
 
     const rings = sets.find(s => s.id === 'things-in-rings');
     assert.ok(rings, 'Things in Rings set must exist');
@@ -73,15 +73,15 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
   });
 
   test('Deck Filtering by Metadata Tags', async () => {
-    // 1. Filter FDLM cards to Base edition only (130 cards)
+    // 1. Filter FDLM cards to Base edition only (119 cards)
     const baseOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Base'] });
     const totalBaseCards = Object.values(baseOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalBaseCards, 130, 'Base edition only must contain exactly 130 cards');
+    assert.strictEqual(totalBaseCards, 119, 'Base edition only must contain exactly 119 cards');
 
-    // 2. Filter FDLM cards to Custom edition only (40 cards)
+    // 2. Filter FDLM cards to Custom edition only (51 cards)
     const customOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Custom'] });
     const totalCustomCards = Object.values(customOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalCustomCards, 40, 'Custom edition only must contain exactly 40 cards');
+    assert.strictEqual(totalCustomCards, 51, 'Custom edition only must contain exactly 51 cards');
 
     // 3. Filter Things in Rings to 1 star and 2 stars only
     const ringsLevelDecks = RoomManager.generateDecks('things-in-rings', ['level'], new Set(), { level: ['1 star', '2 stars'] });
@@ -99,12 +99,12 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     const rFiltered = await RoomManager.setDeckFilters(room.id, { edition: ['Base'] });
     assert.deepStrictEqual(rFiltered.deckFilters?.edition, ['Base']);
     const totalFiltered = Object.values(rFiltered.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalFiltered, 130, 'Filtered room must have 130 cards in decks');
+    assert.strictEqual(totalFiltered, 119, 'Filtered room must have 119 cards in decks');
 
     // Reshuffle round: filter persists
     const rReset = await RoomManager.resetRound(room.id, true);
     const totalReset = Object.values(rReset.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalReset, 130, 'Reset round must preserve deck filters');
+    assert.strictEqual(totalReset, 119, 'Reset round must preserve deck filters');
 
     // Clear filters: resets back to 170
     const rCleared = await RoomManager.setDeckFilters(room.id, {});
