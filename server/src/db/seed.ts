@@ -7,7 +7,7 @@ import { RoomManager } from '../rooms/roomManager.js';
 const BACKUP_FILE = path.resolve(process.cwd(), 'data', 'fdlm_backup_20210628.json');
 
 // Official Base cards vs Custom additions for Fiesta de los Muertos
-// Ground truth: 119 Base cards verified against the 120-card physical game (only 'Dr. Lenoir' omitted).
+// Ground truth: All 120 Base cards verified against the official physical French edition (including 'Docteur Lenoir').
 // Exactly 51 custom additions (video game, anime, pop culture icons, and later additions).
 const FDLM_CUSTOM_IDS = new Set<string>([
   '60d5c152b1663a293c35fdc3', // Akira Kurosawa (Akira Kurosawa)
@@ -145,6 +145,32 @@ export async function seedDatabase() {
         };
       });
 
+      // Ensure Docteur Lenoir (official card omitted from legacy mongo backup) is included
+      const hasLenoir = cardsToSave.some(c => c.id === '60d012ee9a1c0148047eb999' || c.data.title?.fr?.toLowerCase().includes('lenoir'));
+      if (!hasLenoir) {
+        cardsToSave.push({
+          id: '60d012ee9a1c0148047eb999',
+          setId: 'fdlm',
+          data: {
+            title: {
+              fr: 'Docteur Lenoir',
+              en: 'Mr. Boddy (Dr. Black)',
+              ja: 'ボディ氏 (ドクター・ブラック)'
+            },
+            difficulty: 'easy',
+            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/6/61/Cluedo_1956_Small_Red_Box_Edition.jpg',
+            wikipedia: {
+              fr: 'https://fr.wikipedia.org/wiki/Cluedo#Personnages',
+              en: 'https://en.wikipedia.org/wiki/List_of_Cluedo_characters#Dr._Black_/_Mr._Boddy',
+              ja: 'https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%89'
+            },
+            edition: 'Base',
+            source: 'Base'
+          },
+          createdAt: 1789901251455
+        });
+      }
+
       await db.saveCards(cardsToSave);
       console.log(`Successfully migrated ${cardsToSave.length} cards into Fiesta de los Muertos!`);
     } catch (e) {
@@ -169,6 +195,34 @@ export async function seedDatabase() {
         modified = true;
       }
     }
+
+    // Ensure Docteur Lenoir exists
+    const hasLenoir = existingFdlmCards.some(c => c.id === '60d012ee9a1c0148047eb999' || c.data.title?.fr?.toLowerCase().includes('lenoir'));
+    if (!hasLenoir) {
+      existingFdlmCards.push({
+        id: '60d012ee9a1c0148047eb999',
+        setId: 'fdlm',
+        data: {
+          title: {
+            fr: 'Docteur Lenoir',
+            en: 'Mr. Boddy (Dr. Black)',
+            ja: 'ボディ氏 (ドクター・ブラック)'
+          },
+          difficulty: 'easy',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/en/6/61/Cluedo_1956_Small_Red_Box_Edition.jpg',
+          wikipedia: {
+            fr: 'https://fr.wikipedia.org/wiki/Cluedo#Personnages',
+            en: 'https://en.wikipedia.org/wiki/List_of_Cluedo_characters#Dr._Black_/_Mr._Boddy',
+            ja: 'https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%89'
+          },
+          edition: 'Base',
+          source: 'Base'
+        },
+        createdAt: 1789901251455
+      });
+      modified = true;
+    }
+
     if (modified) {
       await db.saveCards(existingFdlmCards);
       console.log('Classified FDLM cards into Base vs Custom editions accurately.');

@@ -17,10 +17,10 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlm, 'FDLM set must exist');
     assert.ok(fdlm.fields.some(f => f.key === 'edition' && f.isFilter), 'FDLM set must have filterable edition field');
     const fdlmCards = db.getCards('fdlm');
-    assert.strictEqual(fdlmCards.length, 170, 'Should have migrated all 170 FDLM cards');
+    assert.strictEqual(fdlmCards.length, 171, 'Should have migrated all 171 FDLM cards');
     const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
     const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
-    assert.strictEqual(fdlmBase.length, 119, 'Should have exactly 119 Base FDLM cards from official game');
+    assert.strictEqual(fdlmBase.length, 120, 'Should have exactly 120 Base FDLM cards from official game');
     assert.strictEqual(fdlmCustom.length, 51, 'Should have exactly 51 Custom FDLM cards');
 
     const rings = sets.find(s => s.id === 'things-in-rings');
@@ -42,7 +42,7 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlmDecks['medium'], 'Should have medium deck');
     assert.ok(fdlmDecks['hard'], 'Should have hard deck');
     const totalFdlmInDecks = fdlmDecks['easy'].cardIds.length + fdlmDecks['medium'].cardIds.length + fdlmDecks['hard'].cardIds.length;
-    assert.strictEqual(totalFdlmInDecks, 170, 'Sum of all difficulty decks must equal 170');
+    assert.strictEqual(totalFdlmInDecks, 171, 'Sum of all difficulty decks must equal 171');
 
     // Partition FDLM by difficulty AND edition
     const fdlmMultiDecks = RoomManager.generateDecks('fdlm', ['difficulty', 'edition']);
@@ -73,10 +73,10 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
   });
 
   test('Deck Filtering by Metadata Tags', async () => {
-    // 1. Filter FDLM cards to Base edition only (119 cards)
+    // 1. Filter FDLM cards to Base edition only (120 cards)
     const baseOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Base'] });
     const totalBaseCards = Object.values(baseOnlyDecks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalBaseCards, 119, 'Base edition only must contain exactly 119 cards');
+    assert.strictEqual(totalBaseCards, 120, 'Base edition only must contain exactly 120 cards');
 
     // 2. Filter FDLM cards to Custom edition only (51 cards)
     const customOnlyDecks = RoomManager.generateDecks('fdlm', ['difficulty'], new Set(), { edition: ['Custom'] });
@@ -93,23 +93,23 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     // 4. Test room-level setDeckFilters and configureDeckSplitting with filters
     const { room } = await RoomManager.createRoom('HostFilter', 'fdlm');
     const totalInitial = Object.values(room.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalInitial, 170, 'Initial room must have 170 cards');
+    assert.strictEqual(totalInitial, 171, 'Initial room must have 171 cards');
 
     // Apply filter: Base edition only
     const rFiltered = await RoomManager.setDeckFilters(room.id, { edition: ['Base'] });
     assert.deepStrictEqual(rFiltered.deckFilters?.edition, ['Base']);
     const totalFiltered = Object.values(rFiltered.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalFiltered, 119, 'Filtered room must have 119 cards in decks');
+    assert.strictEqual(totalFiltered, 120, 'Filtered room must have 120 cards in decks');
 
     // Reshuffle round: filter persists
     const rReset = await RoomManager.resetRound(room.id, true);
     const totalReset = Object.values(rReset.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalReset, 119, 'Reset round must preserve deck filters');
+    assert.strictEqual(totalReset, 120, 'Reset round must preserve deck filters');
 
-    // Clear filters: resets back to 170
+    // Clear filters: resets back to 171
     const rCleared = await RoomManager.setDeckFilters(room.id, {});
     const totalCleared = Object.values(rCleared.decks).reduce((acc, d) => acc + d.cardIds.length, 0);
-    assert.strictEqual(totalCleared, 170, 'Clearing filters must restore all 170 cards');
+    assert.strictEqual(totalCleared, 171, 'Clearing filters must restore all 171 cards');
   });
 
   test('Lobby lifecycle, player join, and atomic card drawing', async () => {

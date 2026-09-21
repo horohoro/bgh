@@ -3570,6 +3570,27 @@
     "createdAt": 1789901251455
   },
   {
+    "id": "60d012ee9a1c0148047eb999",
+    "setId": "fdlm",
+    "data": {
+      "title": {
+        "fr": "Docteur Lenoir",
+        "en": "Mr. Boddy (Dr. Black)",
+        "ja": "ボディ氏 (ドクター・ブラック)"
+      },
+      "difficulty": "easy",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/61/Cluedo_1956_Small_Red_Box_Edition.jpg",
+      "wikipedia": {
+        "fr": "https://fr.wikipedia.org/wiki/Cluedo#Personnages",
+        "en": "https://en.wikipedia.org/wiki/List_of_Cluedo_characters#Dr._Black_/_Mr._Boddy",
+        "ja": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%89"
+      },
+      "edition": "Base",
+      "source": "Base"
+    },
+    "createdAt": 1789901251455
+  },
+  {
     "id": "ring_rule_1",
     "setId": "things-in-rings",
     "data": {
