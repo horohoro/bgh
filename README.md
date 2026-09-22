@@ -71,7 +71,12 @@ $$\text{Active Decks} = \prod_{k \in \text{deckGroupByKeys}} \text{distinctValue
 ---
 
 ### 3. Atomic State & Zero-Config Storage
-* **Transactional JSON Datastore**: State is persisted in `server/data/` (`sets.json`, `cards.json`, `rooms.json`) using atomic write queues with retry locks.
+* **Hybrid Two-File Card Datastore**:
+  - **Committed Base Cards (`cards.json`)**: Official base cards and curated starter figures tracked in Git.
+  - **Local Uncommitted Custom Cards (`custom_cards.json`)**: Newly created or generated custom cards are automatically saved into a separate local file ignored by Git (`.gitignore`).
+  - **Seamless Combined Reads**: On server startup, both files are merged into memory so game rooms, deck partitioning, and filtering operate transparently across all cards.
+  - **Unified Schema Migrations**: When schema migrations or field updates run, updates are routed back to each card's respective file without cross-contaminating base cards.
+* **Transactional State**: State is persisted in `server/data/` (`sets.json`, `cards.json`, `custom_cards.json`, `rooms.json`) using atomic write queues with retry locks.
 * **Zero Race Conditions**: Card drawing, hand discards, and table pooling operations are executed atomically on the server. If two players tap "Draw Card" simultaneously, each player is guaranteed to receive a distinct, unique card.
 * **Zero External DB Dependencies**: Runs completely locally without requiring MongoDB, PostgreSQL, or Docker.
 
@@ -313,7 +318,8 @@ bgh/
 ├── server/                          # Node.js + Express + Socket.io Backend
 │   ├── data/                        # Persistent JSON datastore (zero-config)
 │   │   ├── sets.json                # CardSet definitions & metadata schemas
-│   │   ├── cards.json               # Seeded & user-created cards
+│   │   ├── cards.json               # Seeded & official base cards (committed)
+│   │   ├── custom_cards.json        # User custom cards (.gitignored, uncommitted)
 │   │   └── rooms.json               # Active game lobbies and player state
 │   ├── src/
 │   │   ├── db/

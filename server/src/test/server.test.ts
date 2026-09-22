@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { test, describe, before } from 'node:test';
 import assert from 'node:assert';
 import { seedDatabase } from '../db/seed.js';
@@ -322,5 +324,63 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     const { room: rRejoined2, player: ian } = await RoomManager.joinRoom(room.id, 'Ian');
     assert.notStrictEqual(ian.color, rRejoined2.players[henry.id].color, 'Ian must not share Henry color');
     assert.strictEqual(ian.color, '#3b82f6', 'Ian should get the first available color (blue)');
+  });
+
+  test('Hybrid Two-File Storage: Base cards in cards.json, new custom cards in custom_cards.json', async () => {
+    const dataDir = path.resolve(process.cwd(), 'data');
+    const baseCardsFile = path.join(dataDir, 'cards.json');
+    const customCardsFile = path.join(dataDir, 'custom_cards.json');
+
+    const baseRawBefore = fs.readFileSync(baseCardsFile, 'utf-8');
+    const customCountBefore = db.getCustomCards().length;
+
+    // 1. Create a new custom card
+    const testCustomCard = {
+      id: `test_custom_${Date.now()}`,
+      setId: 'fdlm',
+      data: {
+        title: { en: 'Test Hero', fr: 'Héros Test', ja: 'テストヒーロー' },
+        difficulty: 'easy',
+        edition: 'Custom'
+      },
+      createdAt: Date.now()
+    };
+
+    await db.saveCard(testCustomCard);
+
+    // 2. Verify that cards.json on disk was NOT modified
+    const baseRawAfter = fs.readFileSync(baseCardsFile, 'utf-8');
+    assert.strictEqual(baseRawBefore, baseRawAfter, 'Committed cards.json must NOT be modified when adding custom card');
+
+    // 3. Verify that custom_cards.json on disk was written and contains the new card
+    assert.ok(fs.existsSync(customCardsFile), 'custom_cards.json must exist');
+    const customJson = JSON.parse(fs.readFileSync(customCardsFile, 'utf-8'));
+    assert.ok(customJson.some((c: any) => c.id === testCustomCard.id), 'custom_cards.json must contain the new custom card');
+
+    // 4. Verify that db.getCards() returns both base and custom cards
+    const retrieved = db.getCard(testCustomCard.id);
+    assert.ok(retrieved, 'Card must be accessible via db.getCard');
+    assert.strictEqual(retrieved?.data.title.en, 'Test Hero');
+    assert.strictEqual(db.getCustomCards().length, customCountBefore + 1);
+
+    // 5. Update custom card -> updates custom_cards.json without touching cards.json
+    retrieved!.data.title.en = 'Test Hero Updated';
+    await db.saveCard(retrieved!);
+    const customJsonUpdated = JSON.parse(fs.readFileSync(customCardsFile, 'utf-8'));
+    const updatedCardInFile = customJsonUpdated.find((c: any) => c.id === testCustomCard.id);
+    assert.strictEqual(updatedCardInFile.data.title.en, 'Test Hero Updated');
+    assert.strictEqual(fs.readFileSync(baseCardsFile, 'utf-8'), baseRawBefore, 'cards.json must still remain untouched');
+
+    // 6. Delete custom card -> cleans up custom_cards.json
+    const deleted = await db.deleteCard(testCustomCard.id);
+    assert.strictEqual(deleted, true);
+    assert.strictEqual(db.getCard(testCustomCard.id), undefined);
+    const customJsonAfterDelete = JSON.parse(fs.readFileSync(customCardsFile, 'utf-8'));
+    assert.ok(!customJsonAfterDelete.some((c: any) => c.id === testCustomCard.id));
+
+    // If custom_cards.json is empty, delete it so repo remains pristine
+    if (customJsonAfterDelete.length === 0) {
+      fs.unlinkSync(customCardsFile);
+    }
   });
 });

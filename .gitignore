@@ -19,6 +19,12 @@ pnpm-debug.log*
 *.tmp
 *.tmp.*
 
+# Local uncommitted custom cards
+server/data/custom_cards.json
+server/data/cards.custom.json
+data/custom_cards.json
+data/cards.custom.json
+
 # Environment variables
 .env
 .env.local
