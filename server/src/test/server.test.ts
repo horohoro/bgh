@@ -18,11 +18,11 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlm, 'FDLM set must exist');
     assert.ok(fdlm.fields.some(f => f.key === 'edition' && f.isFilter), 'FDLM set must have filterable edition field');
     const fdlmCards = db.getCards('fdlm');
-    assert.ok(fdlmCards.length >= 171, 'Should have at least 171 FDLM cards');
+    assert.strictEqual(fdlmCards.length, 135, 'Should have exactly 135 FDLM cards (120 Base + 15 Custom deceased)');
     const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
     const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
-    assert.ok(fdlmBase.length >= 120, 'Should have at least 120 Base FDLM cards from official game');
-    assert.ok(fdlmCustom.length >= 51, 'Should have at least 51 Custom FDLM cards');
+    assert.strictEqual(fdlmBase.length, 120, 'Should have exactly 120 Base FDLM cards from official game');
+    assert.strictEqual(fdlmCustom.length, 15, 'Should have exactly 15 Custom FDLM cards (100% deceased figures)');
 
     const rings = sets.find(s => s.id === 'things-in-rings');
     assert.ok(rings, 'Things in Rings set must exist');
@@ -52,7 +52,8 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlmMultiKeys.some(k => k.includes('easy') && k.includes('base')), 'Should have easy base deck');
     assert.ok(fdlmMultiKeys.some(k => k.includes('medium') && k.includes('base')), 'Should have medium base deck');
     assert.ok(fdlmMultiKeys.some(k => k.includes('hard') && k.includes('base')), 'Should have hard base deck');
-    assert.ok(fdlmMultiKeys.some(k => k.includes('easy') && k.includes('custom')), 'Should have easy custom deck');
+    assert.ok(fdlmMultiKeys.some(k => k.includes('medium') && k.includes('custom')), 'Should have medium custom deck');
+    assert.ok(fdlmMultiKeys.some(k => k.includes('hard') && k.includes('custom')), 'Should have hard custom deck');
 
     // Partition Things in Rings by level: should yield 1 star, 2 stars, 3 stars
     const ringsDecks = RoomManager.generateDecks('things-in-rings', ['level']);

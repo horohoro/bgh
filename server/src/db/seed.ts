@@ -8,59 +8,188 @@ const BACKUP_FILE = path.resolve(process.cwd(), 'data', 'fdlm_backup_20210628.js
 
 // Official Base cards vs Custom additions for Fiesta de los Muertos
 // Ground truth: All 120 Base cards verified against the official physical French edition (including 'Docteur Lenoir').
-// Exactly 51 custom additions (video game, anime, pop culture icons, and later additions).
-const FDLM_CUSTOM_IDS = new Set<string>([
-  '60d5c152b1663a293c35fdc3', // Akira Kurosawa (Akira Kurosawa)
-  '60d1fbbc19909b1bc8a65fb5', // Alan Turing (Alan Turing)
-  '60d1fac719909b1bc8a65fab', // Anpanman (Anpanman)
-  '60d29e0bb5439b3724cf12ee', // Arnold Schwarzenegger (Arnold Schwarzenegger)
-  '60d099ec1814852f5cc86e76', // Batman (Batman)
-  '60d32260dccf3b425cb9b785', // Bill Gates (Bill Gates)
-  '60d550b398d24c31d054a15b', // Bugs Bunny (Bugs Bunny)
-  '60d1d5bbb671bb27f82baa64', // Captain America (Captain America)
-  '60d1fa9019909b1bc8a65f89', // Chibi Maruko-chan (Chibi Maruko-chan)
-  '60d1f95119909b1bc8a65f7a', // D.O. (D.O. (entertainer))
-  '60d1fab019909b1bc8a65fa5', // Doraemon (Doraemon)
-  '60d00eba9a1c0148047eb9d2', // Détective Conan (Case Closed)
-  '60d1fc6e986ec80cb84f7858', // Elsa (Disney) (Elsa (Frozen))
-  '60d1f47451225328105bff11', // Emmanuel Macron (Emmanuel Macron)
-  '60d89e3cbcf3682f3cb2e445', // Eren Jäger (Eren Yeager)
-  '60d5b52a98d24c31d054a1b5', // Freddie Mercury (Freddie Mercury)
-  '60d1fb6319909b1bc8a65fb0', // Hayao Miyazaki (Hayao Miyazaki)
-  '60d5c1b3b1663a293c35fdcd', // Hokusai (Hokusai)
-  '60d29ef0b5439b3724cf1302', // Homer Simpson (Homer Simpson)
-  '60d5502098d24c31d054a156', // Iron Man (comics) (Iron Man)
-  '60d6bcba6b4b1d0fc09e81b0', // Jack Sparrow (Jack Sparrow)
-  '60d8a627bcf3682f3cb2e47b', // James Watt (James Watt)
-  '60d2b1f4b5439b3724cf1307', // Jean Dujardin (Jean Dujardin)
-  '60d8a36fbcf3682f3cb2e452', // Jean-Paul II (Pope John Paul II)
-  '60d8a45fbcf3682f3cb2e45c', // Joël Robuchon (Joël Robuchon)
-  '60d29e32b5439b3724cf12f3', // Katy Perry (Katy Perry)
-  '60d1f70419909b1bc8a65f75', // Kim Ji-soo (Jisoo)
-  '60d6b4386b4b1d0fc09e811f', // Kurt Cobain (Kurt Cobain)
-  '60d29de9b5439b3724cf12e9', // Lady Gaga (Lady Gaga)
-  '60d09a4c1814852f5cc86e7a', // Link (The Legend of Zelda) (Link (The Legend of Zelda))
-  '60d1fa8e19909b1bc8a65f84', // Lisa (rappeuse) (Lisa (rapper))
-  '60d5c173b1663a293c35fdc8', // Marie Kondō (Marie Kondo)
-  '60d29e5eb5439b3724cf12f8', // Mario (personnage) (Mario)
-  '60d8a3cfbcf3682f3cb2e457', // Mickey Mouse (Mickey Mouse)
-  '60d1b01c08ed0935a0e88b76', // Nikola Tesla (Nikola Tesla)
-  '60d00e8a9a1c0148047eb9ce', // Oda Nobunaga (Oda Nobunaga)
-  '60d8a52cbcf3682f3cb2e461', // Paul Bocuse (Paul Bocuse)
-  '60d00f3b9a1c0148047eb9ea', // Pikachu (Pikachu)
-  '60d54eee98d24c31d054a14c', // Princesse Zelda (Princess Zelda)
-  '60d1f4c151225328105bff16', // Psy (chanteur) (Psy)
-  '60d011149a1c0148047eba1a', // Sacha (Pokémon) (Ash Ketchum)
-  '60d8a2e9bcf3682f3cb2e44d', // Samus Aran (Samus Aran)
-  '60d09407574da32a68377d00', // Shigeru Miyamoto (Shigeru Miyamoto)
-  '60d29ebfb5439b3724cf12fd', // Sonic (Sonic the Hedgehog (character))
-  '60d1fa0019909b1bc8a65f7f', // Spider-Man (Spider-Man)
-  '60d8638aa02ea4452c4033fe', // Takeshi Kitano (Takeshi Kitano)
-  '60d5b50e98d24c31d054a1b0', // Thanos (Marvel Comics) (Thanos)
-  '60d1b08808ed0935a0e88b7b', // Thomas Edison (Thomas Edison)
-  '60d5c0bab1663a293c35fdbe', // Tueur du Zodiaque (Zodiac Killer)
-  '60d9a8a0a7df16434c7c37f7', // Yoshi (Yoshi)
-  '60d0b7bf04e6a40e70432791', // Yoshihide Suga (Yoshihide Suga)
+const FDLM_BASE_IDS = new Set<string>([
+  '60cf5fbf0607fd44d8794729', // Sigmund Freud
+  '60cf5fe80607fd44d879472e', // Marie Curie
+  '60cf60350607fd44d8794733', // Friedrich Nietzsche
+  '60cf60490607fd44d8794737', // Margaret Thatcher
+  '60cf60600607fd44d879473c', // Karl Marx
+  '60cf606e0607fd44d8794740', // Michael Jackson
+  '60cf60770607fd44d8794744', // Mao Zedong
+  '60cf60910607fd44d879474c', // Hamlet
+  '60cf60a30607fd44d8794750', // Charles de Gaulle
+  '60cf60aa0607fd44d8794754', // Joker (comics)
+  '60cf773c4ffcc40ab01803b5', // Galilée (savant)
+  '60cf788e8cc0e64588150489', // Archimède
+  '60cf78af8cc0e6458815048d', // Martin Luther King
+  '60cf78c08cc0e64588150491', // Christophe Colomb
+  '60cf78ca8cc0e64588150495', // Héraclès
+  '60cf78e18cc0e64588150499', // Professeur Moriarty
+  '60cf78ee8cc0e6458815049d', // Al Capone
+  '60cf78f98cc0e645881504a1', // Marie-Antoinette d'Autriche
+  '60cf79178cc0e645881504a5', // Son Goku (Dragon Ball)
+  '60cf79398cc0e645881504a9', // Auguste Rodin
+  '60cf79778cc0e645881504ad', // Jules César
+  '60cf79a18cc0e645881504b5', // Mohandas Karamchand Gandhi
+  '60cf79d08cc0e645881504b9', // Mufasa
+  '60cf79e28cc0e645881504bd', // Vincent van Gogh
+  '60cf79ef8cc0e645881504c1', // Capitaine Crochet
+  '60cf79fc8cc0e645881504c5', // Isaac Newton
+  '60cf7a068cc0e645881504c9', // Diana Spencer
+  '60cf7a178cc0e645881504cd', // Mère Teresa
+  '60cf7a2b8cc0e645881504d1', // Barbe Noire
+  '60cf7a398cc0e645881504d5', // Léonard de Vinci
+  '60cf7a478cc0e645881504d9', // Jack Dawson
+  '60cf7a638cc0e645881504dd', // Bob Marley
+  '60cf7afe8cc0e645881504e1', // Sissi impératrice
+  '60cf7b0d8cc0e645881504e5', // Marilyn Monroe
+  '60cf7b178cc0e645881504e9', // Pythagore
+  '60cf7b218cc0e645881504ed', // Platon
+  '60cf7b2a8cc0e645881504f1', // Voldemort
+  '60cf7b3c8cc0e645881504f5', // Pocahontas
+  '60cf7b478cc0e645881504f9', // Albus Dumbledore
+  '60cf7b518cc0e645881504fd', // Roi Arthur
+  '60cf7b5d8cc0e64588150501', // D'Artagnan
+  '60cf7b738cc0e64588150505', // Anakin Skywalker
+  '60cf7b818cc0e64588150509', // J. R. R. Tolkien
+  '60cf7bd98cc0e64588150511', // Nelson Mandela
+  '60cf7be28cc0e64588150515', // Bruce Lee
+  '60cf7bf58cc0e64588150519', // Pablo Picasso
+  '60cf7c258cc0e6458815051d', // Andy Warhol
+  '60cf7c2d8cc0e64588150521', // Gollum
+  '60cf7c368cc0e64588150525', // Victor Hugo
+  '60cf7c468cc0e64588150529', // Pablo Escobar
+  '60cf7c568cc0e6458815052d', // Neil Armstrong
+  '60cf7c8d8cc0e64588150535', // William Shakespeare
+  '60d00d169a1c0148047eb9a2', // Coco Chanel
+  '60d00d739a1c0148047eb9a6', // Superman
+  '60d00d849a1c0148047eb9aa', // Napoléon Ier
+  '60d00dad9a1c0148047eb9ae', // Yoda
+  '60d00db79a1c0148047eb9b2', // Perceval
+  '60d00dc09a1c0148047eb9b6', // Attila
+  '60d00dcc9a1c0148047eb9ba', // Wolfgang Amadeus Mozart
+  '60d00dd59a1c0148047eb9be', // Achille
+  '60d00de69a1c0148047eb9c2', // La Petite Sirène
+  '60d00dfc9a1c0148047eb9c6', // Spartacus
+  '60d00e779a1c0148047eb9ca', // Steve Jobs
+  '60d00eca9a1c0148047eb9d6', // Le Petit Prince
+  '60d00ed49a1c0148047eb9da', // King Kong
+  '60d00edf9a1c0148047eb9de', // Charlie Chaplin
+  '60d00ef49a1c0148047eb9e2', // Ramsès II
+  '60d00f019a1c0148047eb9e6', // Don Quichotte
+  '60d00f469a1c0148047eb9ee', // Molière
+  '60d00f619a1c0148047eb9f2', // Jeanne d'Arc
+  '60d00f6b9a1c0148047eb9f6', // Godzilla
+  '60d00fcb9a1c0148047eb9fa', // Louis XIV
+  '60d00fe99a1c0148047eb9fe', // Gustave Eiffel
+  '60d00fef9a1c0148047eba02', // Judas Iscariote
+  '60d00fff9a1c0148047eba06', // Albert Einstein
+  '60d010099a1c0148047eba0a', // La Barbe bleue
+  '60d010b59a1c0148047eba0e', // T-800
+  '60d010c79a1c0148047eba12', // Ulysse
+  '60d010e09a1c0148047eba16', // Louis Pasteur
+  '60d011249a1c0148047eba1e', // Mohamed Ali
+  '60d0112f9a1c0148047eba22', // Jean Moulin
+  '60d0114d9a1c0148047eba26', // Lucy (australopithèque)
+  '60d011589a1c0148047eba2a', // Édith Piaf
+  '60d0116e9a1c0148047eba2e', // Agatha Christie
+  '60d0117d9a1c0148047eba32', // Che Guevara
+  '60d011869a1c0148047eba36', // Louis de Funès
+  '60d0118d9a1c0148047eba3a', // Crésus
+  '60d011989a1c0148047eba3e', // Arthur Rimbaud
+  '60d011a19a1c0148047eba42', // Casper le gentil fantôme
+  '60d011ae9a1c0148047eba46', // Calamity Jane
+  '60d011be9a1c0148047eba4a', // Minotaure
+  '60d011e09a1c0148047eba52', // Frida Kahlo
+  '60d012379a1c0148047eba5a', // Georges Brassens
+  '60d012409a1c0148047eba5e', // Buffalo Bill
+  '60d0124c9a1c0148047eba62', // Coluche
+  '60d012759a1c0148047eba66', // Vercingétorix
+  '60d0127f9a1c0148047eba6a', // Jacques-Yves Cousteau
+  '60d012899a1c0148047eba6e', // Geronimo
+  '60d012b39a1c0148047eba72', // La Petite Fille aux allumettes
+  '60d012bd9a1c0148047eba76', // Simone Veil
+  '60d012c89a1c0148047eba7a', // Alfred Hitchcock
+  '60d012d39a1c0148047eba7e', // Jack l'Éventreur
+  '60d012ee9a1c0148047eba82', // Abbé Pierre
+  '60d1d5efb671bb27f82baa69', // Dracula (personnage)
+  '60d1d628b671bb27f82baa6e', // Savinien de Cyrano de Bergerac
+  '60d1e315b671bb27f82baa73', // Reine-sorcière
+  '60d1e6a217db0527e4d8f999', // Jack Skellington
+  '60d1e7825f2fb708a44653dd', // Juliette Capulet
+  '60d1e98252148427a072d5f9', // Quasimodo (personnage)
+  '60d1e9b352148427a072d5fe', // Gavroche
+  '60d1eb8a51225328105bfe55', // Loup (personnage de conte)
+  '60d1ebba51225328105bfe5a', // Cléopâtre VII
+  '60d1ec1e51225328105bfe5f', // Eddard Stark
+  '60d1ed0251225328105bfe67', // La Esmeralda (personnage)
+  '60d1eda151225328105bfe6c', // Beatrix Kiddo
+  '60d1edee51225328105bfe71', // Babar
+  '60d1ee5c51225328105bfe76', // Bambi (personnage)
+  '60d1eeb951225328105bfe7b', // Soldat inconnu
+  '60d696626b4b1d0fc09e811a', // Don Juan
+  '60d012ee9a1c0148047eb999'  // Docteur Lenoir (Cluedo)
+]);
+
+// Verified deceased Custom cards for Fiesta de los Muertos
+// Exactly 15 custom cards: 12 historical deceased figures + 3 canonically deceased fictional characters.
+const FDLM_CUSTOM_DECEASED_IDS = new Set<string>([
+  '60d00e8a9a1c0148047eb9ce', // Oda Nobunaga (1534–1582)
+  '60d1b01c08ed0935a0e88b76', // Nikola Tesla (1856–1943)
+  '60d1b08808ed0935a0e88b7b', // Thomas Edison (1847–1931)
+  '60d1fbbc19909b1bc8a65fb5', // Alan Turing (1912–1954)
+  '60d5502098d24c31d054a156', // Iron Man (Tony Stark - canonically deceased)
+  '60d5b50e98d24c31d054a1b0', // Thanos (canonically deceased)
+  '60d5b52a98d24c31d054a1b5', // Freddie Mercury (1946–1991)
+  '60d5c152b1663a293c35fdc3', // Akira Kurosawa (1910–1998)
+  '60d5c1b3b1663a293c35fdcd', // Hokusai (1760–1849)
+  '60d6b4386b4b1d0fc09e811f', // Kurt Cobain (1967–1994)
+  '60d89e3cbcf3682f3cb2e445', // Eren Jäger (canonically deceased)
+  '60d8a36fbcf3682f3cb2e452', // Jean-Paul II (1920–2005)
+  '60d8a45fbcf3682f3cb2e45c', // Joël Robuchon (1945–2018)
+  '60d8a52cbcf3682f3cb2e461', // Paul Bocuse (1926–2018)
+  '60d8a627bcf3682f3cb2e47b', // James Watt (1736–1819)
+]);
+
+// Known legacy custom cards of living people and mascots to prune to preserve the Day of the Dead game theme
+const FDLM_PRUNED_LIVING_IDS = new Set<string>([
+  '60d00eba9a1c0148047eb9d2', // Détective Conan
+  '60d00f3b9a1c0148047eb9ea', // Pikachu
+  '60d011149a1c0148047eba1a', // Sacha
+  '60d09407574da32a68377d00', // Shigeru Miyamoto
+  '60d099ec1814852f5cc86e76', // Batman
+  '60d09a4c1814852f5cc86e7a', // Link
+  '60d0b7bf04e6a40e70432791', // Yoshihide Suga
+  '60d1d5bbb671bb27f82baa64', // Captain America
+  '60d1f47451225328105bff11', // Emmanuel Macron
+  '60d1f4c151225328105bff16', // Psy
+  '60d1f70419909b1bc8a65f75', // Kim Ji-soo
+  '60d1f95119909b1bc8a65f7a', // D.O.
+  '60d1fa0019909b1bc8a65f7f', // Spider-Man
+  '60d1fa8e19909b1bc8a65f84', // Lisa
+  '60d1fa9019909b1bc8a65f89', // Chibi Maruko-chan
+  '60d1fab019909b1bc8a65fa5', // Doraemon
+  '60d1fac719909b1bc8a65fab', // Anpanman
+  '60d1fb6319909b1bc8a65fb0', // Hayao Miyazaki
+  '60d1fc6e986ec80cb84f7858', // Elsa
+  '60d29de9b5439b3724cf12e9', // Lady Gaga
+  '60d29e0bb5439b3724cf12ee', // Arnold Schwarzenegger
+  '60d29e32b5439b3724cf12f3', // Katy Perry
+  '60d29e5eb5439b3724cf12f8', // Mario
+  '60d29ebfb5439b3724cf12fd', // Sonic
+  '60d29ef0b5439b3724cf1302', // Homer Simpson
+  '60d2b1f4b5439b3724cf1307', // Jean Dujardin
+  '60d32260dccf3b425cb9b785', // Bill Gates
+  '60d54eee98d24c31d054a14c', // Princesse Zelda
+  '60d550b398d24c31d054a15b', // Bugs Bunny
+  '60d5c0bab1663a293c35fdbe', // Tueur du Zodiaque
+  '60d5c173b1663a293c35fdc8', // Marie Kondo
+  '60d6bcba6b4b1d0fc09e81b0', // Jack Sparrow
+  '60d8638aa02ea4452c4033fe', // Takeshi Kitano
+  '60d8a2e9bcf3682f3cb2e44d', // Samus Aran
+  '60d8a3cfbcf3682f3cb2e457', // Mickey Mouse
+  '60d9a8a0a7df16434c7c37f7', // Yoshi
+  'c_1789996085615_5ajsw',     // Édouard Balladur
 ]);
 
 export async function seedDatabase() {
@@ -93,9 +222,9 @@ export async function seedDatabase() {
     await db.saveSet(fdlmSet);
   }
 
-  // Helper to determine if a FDLM card is from the base game
+  // Helper to determine if a FDLM card is from the official base game
   const isFdlmBase = (cardId: string): boolean => {
-    return !FDLM_CUSTOM_IDS.has(cardId);
+    return FDLM_BASE_IDS.has(cardId);
   };
 
   // Check if FDLM cards are populated
@@ -104,8 +233,18 @@ export async function seedDatabase() {
     try {
       const raw = await fs.promises.readFile(BACKUP_FILE, 'utf-8');
       const backupCards = JSON.parse(raw);
-      const cardsToSave: Card[] = backupCards.map((b: any, index: number) => {
+      const cardsToSave: Card[] = [];
+      for (let index = 0; index < backupCards.length; index++) {
+        const b = backupCards[index];
         const id = b._id && b._id.$oid ? b._id.$oid : `fdlm_${index + 1}`;
+
+        // Skip living figures and mascots who haven't died
+        if (FDLM_PRUNED_LIVING_IDS.has(id)) {
+          continue;
+        }
+        if (!FDLM_BASE_IDS.has(id) && !FDLM_CUSTOM_DECEASED_IDS.has(id)) {
+          continue;
+        }
 
         // Clean wikipedia object: remove Mongo _id and keep only valid string URLs
         const cleanWiki: Record<string, string> = {};
@@ -130,7 +269,7 @@ export async function seedDatabase() {
         const title = Object.keys(cleanTitle).length > 0 ? cleanTitle : { en: 'Unknown' };
         const edition = isFdlmBase(id) ? 'Base' : 'Custom';
 
-        return {
+        cardsToSave.push({
           id,
           setId: 'fdlm',
           data: {
@@ -142,8 +281,8 @@ export async function seedDatabase() {
             wikipedia: cleanWiki
           },
           createdAt: Date.now()
-        };
-      });
+        });
+      }
 
       // Ensure Docteur Lenoir (official card omitted from legacy mongo backup) is included
       const hasLenoir = cardsToSave.some(c => c.id === '60d012ee9a1c0148047eb999' || c.data.title?.fr?.toLowerCase().includes('lenoir'));
@@ -177,9 +316,15 @@ export async function seedDatabase() {
       console.error('Failed to import FDLM backup cards:', e);
     }
   } else if (existingFdlmCards.length > 0) {
-    // Clean up any previously saved _id from existing cards and ensure edition field is accurate (Base vs Custom)
+    // Clean up any previously saved _id from existing cards, remove pruned living cards, and ensure edition is accurate
+    const cardsToKeep: Card[] = [];
     let modified = false;
     for (const card of existingFdlmCards) {
+      if (FDLM_PRUNED_LIVING_IDS.has(card.id)) {
+        await db.deleteCard(card.id);
+        modified = true;
+        continue;
+      }
       if (card.data.wikipedia && card.data.wikipedia._id) {
         delete card.data.wikipedia._id;
         modified = true;
@@ -194,12 +339,13 @@ export async function seedDatabase() {
         card.data.source = accurateEdition; // Alias for seamless backward-compatibility
         modified = true;
       }
+      cardsToKeep.push(card);
     }
 
     // Ensure Docteur Lenoir exists
-    const hasLenoir = existingFdlmCards.some(c => c.id === '60d012ee9a1c0148047eb999' || c.data.title?.fr?.toLowerCase().includes('lenoir'));
+    const hasLenoir = cardsToKeep.some(c => c.id === '60d012ee9a1c0148047eb999' || c.data.title?.fr?.toLowerCase().includes('lenoir'));
     if (!hasLenoir) {
-      existingFdlmCards.push({
+      cardsToKeep.push({
         id: '60d012ee9a1c0148047eb999',
         setId: 'fdlm',
         data: {
@@ -224,8 +370,8 @@ export async function seedDatabase() {
     }
 
     if (modified) {
-      await db.saveCards(existingFdlmCards);
-      console.log('Classified FDLM cards into Base vs Custom editions accurately.');
+      await db.saveCards(cardsToKeep);
+      console.log('Sanitized and classified FDLM cards into Base vs Custom editions accurately (120 Base + 15 Custom deceased).');
     }
   }
 

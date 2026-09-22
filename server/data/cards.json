@@ -1344,27 +1344,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d00eba9a1c0148047eb9d2",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "fr": "Détective Conan",
-        "en": "Case Closed",
-        "ja": "名探偵コナン"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3f/Case_Closed_Volume_36.png",
-      "wikipedia": {
-        "fr": "https://fr.wikipedia.org/wiki/D%C3%A9tective_Conan",
-        "en": "https://en.wikipedia.org/wiki/Case_Closed",
-        "ja": "https://ja.wikipedia.org/wiki/%E5%90%8D%E6%8E%A2%E5%81%B5%E3%82%B3%E3%83%8A%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d00eca9a1c0148047eb9d6",
     "setId": "fdlm",
     "data": {
@@ -1466,27 +1445,6 @@
       },
       "edition": "Base",
       "source": "Base"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d00f3b9a1c0148047eb9ea",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "fr": "Pikachu",
-        "en": "Pikachu",
-        "ja": "ピカチュウ"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pokemon_%2831599837283%29.jpg",
-      "wikipedia": {
-        "fr": "https://fr.wikipedia.org/wiki/Pikachu",
-        "en": "https://en.wikipedia.org/wiki/Pikachu",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%AB%E3%83%81%E3%83%A5%E3%82%A6"
-      },
-      "edition": "Custom",
-      "source": "Custom"
     },
     "createdAt": 1789901251455
   },
@@ -1718,27 +1676,6 @@
       },
       "edition": "Base",
       "source": "Base"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d011149a1c0148047eba1a",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "fr": "Sacha (Pokémon)",
-        "en": "Ash Ketchum",
-        "ja": "サトシ (アニメポケットモンスター)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png",
-      "wikipedia": {
-        "fr": "https://fr.wikipedia.org/wiki/Sacha_(Pok%C3%A9mon)",
-        "en": "https://en.wikipedia.org/wiki/Ash_Ketchum",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%88%E3%82%B7_(%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
     },
     "createdAt": 1789901251455
   },
@@ -2247,90 +2184,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d09407574da32a68377d00",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Shigeru Miyamoto",
-        "fr": "Shigeru Miyamoto",
-        "ja": "宮本茂"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shigeru_Miyamoto_cropped_2_Shigeru_Miyamoto_201911.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Shigeru_Miyamoto",
-        "fr": "https://fr.wikipedia.org/wiki/Shigeru_Miyamoto",
-        "ja": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E6%9C%AC%E8%8C%82"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d099ec1814852f5cc86e76",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Batman",
-        "fr": "Batman",
-        "ja": "バットマン (架空の人物)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Batman_%28black_background%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Batman",
-        "fr": "https://fr.wikipedia.org/wiki/Batman",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%83%88%E3%83%9E%E3%83%B3_(%E6%9E%B6%E7%A9%BA%E3%81%AE%E4%BA%BA%E7%89%A9)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d09a4c1814852f5cc86e7a",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Link (The Legend of Zelda)",
-        "fr": "Link (The Legend of Zelda)",
-        "ja": "リンク (ゲームキャラクター)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Link_et_Zelda_Cosplay.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
-        "fr": "https://fr.wikipedia.org/wiki/Link_(The_Legend_of_Zelda)",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%B3%E3%82%AF_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d0b7bf04e6a40e70432791",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Yoshihide Suga",
-        "fr": "Yoshihide Suga",
-        "ja": "菅義偉"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Yoshihide_Suga_20210101.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Yoshihide_Suga",
-        "fr": "https://fr.wikipedia.org/wiki/Yoshihide_Suga",
-        "ja": "https://ja.wikipedia.org/wiki/%E8%8F%85%E7%BE%A9%E5%81%89"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d1b01c08ed0935a0e88b76",
     "setId": "fdlm",
     "data": {
@@ -2366,27 +2219,6 @@
         "en": "https://en.wikipedia.org/wiki/Thomas_Edison",
         "fr": "https://fr.wikipedia.org/wiki/Thomas_Edison",
         "ja": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%BC%E3%83%9E%E3%82%B9%E3%83%BB%E3%82%A8%E3%82%B8%E3%82%BD%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1d5bbb671bb27f82baa64",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Captain America",
-        "fr": "Captain America",
-        "ja": "キャプテン・アメリカ"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Captain_America",
-        "fr": "https://fr.wikipedia.org/wiki/Captain_America",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%86%E3%83%B3%E3%83%BB%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB"
       },
       "edition": "Custom",
       "source": "Custom"
@@ -2709,216 +2541,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d1f47451225328105bff11",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Emmanuel Macron",
-        "fr": "Emmanuel Macron",
-        "ja": "エマニュエル・マクロン"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Emmanuel_Macron_%28cropped%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
-        "fr": "https://fr.wikipedia.org/wiki/Emmanuel_Macron",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%9E%E3%82%AF%E3%83%AD%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1f4c151225328105bff16",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Psy",
-        "fr": "Psy (chanteur)",
-        "ja": "PSY"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Psy",
-        "fr": "https://fr.wikipedia.org/wiki/Psy_(chanteur)",
-        "ja": "https://ja.wikipedia.org/wiki/PSY"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1f70419909b1bc8a65f75",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Jisoo",
-        "fr": "Kim Ji-soo",
-        "ja": "ジス (BLACKPINK)"
-      },
-      "difficulty": "hard",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Kim_Ji-soo_at_Jimmy_Choo_Event_on_January_09%2C_2020_%284%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Jisoo",
-        "fr": "https://fr.wikipedia.org/wiki/Kim_Ji-soo",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%B9_(BLACKPINK)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1f95119909b1bc8a65f7a",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "D.O. (entertainer)",
-        "fr": "D.O.",
-        "ja": "ディオ (歌手)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/D.O._(entertainer)",
-        "fr": "https://fr.wikipedia.org/wiki/D.O.",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA_(%E6%AD%8C%E6%89%8B)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fa0019909b1bc8a65f7f",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Spider-Man",
-        "fr": "Spider-Man",
-        "ja": "スパイダーマン"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Spider-Man",
-        "fr": "https://fr.wikipedia.org/wiki/Spider-Man",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fa8e19909b1bc8a65f84",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Lisa (rapper)",
-        "fr": "Lisa (rappeuse)",
-        "ja": "リサ (BLACKPINK)"
-      },
-      "difficulty": "hard",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/180819_%EB%B8%94%EB%9E%99%ED%95%91%ED%81%AC_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_%EC%BD%94%EC%97%91%EC%8A%A4_%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%94%84%EB%9D%BC%EC%9E%90_%EB%A6%AC%EC%82%AC.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Lisa_(rapper)",
-        "fr": "https://fr.wikipedia.org/wiki/Lisa_(rappeuse)",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B5_(BLACKPINK)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fa9019909b1bc8a65f89",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Chibi Maruko-chan",
-        "fr": "Chibi Maruko-chan",
-        "ja": "ちびまる子ちゃん"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Chibi_maruko-chan_comic_no_1_cover.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Chibi_Maruko-chan",
-        "fr": "https://fr.wikipedia.org/wiki/Chibi_Maruko-chan",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%81%B3%E3%81%BE%E3%82%8B%E5%AD%90%E3%81%A1%E3%82%83%E3%82%93"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fab019909b1bc8a65fa5",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Doraemon",
-        "fr": "Doraemon",
-        "ja": "ドラえもん"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Doraemon_volume_1_cover.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Doraemon",
-        "fr": "https://fr.wikipedia.org/wiki/Doraemon",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fac719909b1bc8a65fab",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Anpanman",
-        "fr": "Anpanman",
-        "ja": "アンパンマン"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/6b/AnpanMasterpieceBook1.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Anpanman",
-        "fr": "https://fr.wikipedia.org/wiki/Anpanman",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d1fb6319909b1bc8a65fb0",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Hayao Miyazaki",
-        "fr": "Hayao Miyazaki",
-        "ja": "宮崎駿"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
-        "fr": "https://fr.wikipedia.org/wiki/Hayao_Miyazaki",
-        "ja": "https://ja.wikipedia.org/wiki/%E5%AE%AE%E5%B4%8E%E9%A7%BF"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d1fbbc19909b1bc8a65fb5",
     "setId": "fdlm",
     "data": {
@@ -2940,216 +2562,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d1fc6e986ec80cb84f7858",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Elsa (Frozen)",
-        "fr": "Elsa (Disney)",
-        "ja": "エルサ (キャラクター)"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Elsa_from_Disney%27s_Frozen.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Elsa_(Frozen)",
-        "fr": "https://fr.wikipedia.org/wiki/Elsa_(Disney)",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%82%B5_(%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29de9b5439b3724cf12e9",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Lady Gaga",
-        "fr": "Lady Gaga",
-        "ja": "レディー・ガガ"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/210120-D-WD757-1720_%2850861332387%29_%28cropped%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Lady_Gaga",
-        "fr": "https://fr.wikipedia.org/wiki/Lady_Gaga",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%87%E3%82%A3%E3%83%BC%E3%83%BB%E3%82%AC%E3%82%AC"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29e0bb5439b3724cf12ee",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Arnold Schwarzenegger",
-        "fr": "Arnold Schwarzenegger",
-        "ja": "アーノルド・シュワルツェネッガー"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Arnold_Schwarzenegger_by_Gage_Skidmore_4.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
-        "fr": "https://fr.wikipedia.org/wiki/Arnold_Schwarzenegger",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%8E%E3%83%AB%E3%83%89%E3%83%BB%E3%82%B7%E3%83%A5%E3%83%AF%E3%83%AB%E3%83%84%E3%82%A7%E3%83%8D%E3%83%83%E3%82%AC%E3%83%BC"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29e32b5439b3724cf12f3",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Katy Perry",
-        "fr": "Katy Perry",
-        "ja": "ケイティ・ペリー"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Katy_Perry_and_Greg_%2847870635411%29_%28cropped%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Katy_Perry",
-        "fr": "https://fr.wikipedia.org/wiki/Katy_Perry",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%82%A4%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9A%E3%83%AA%E3%83%BC"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29e5eb5439b3724cf12f8",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Mario",
-        "fr": "Mario (personnage)",
-        "ja": "マリオ (ゲームキャラクター)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Mario",
-        "fr": "https://fr.wikipedia.org/wiki/Mario_(personnage)",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AA%E3%82%AA_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29ebfb5439b3724cf12fd",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Sonic the Hedgehog (character)",
-        "fr": "Sonic",
-        "ja": "ソニック・ザ・ヘッジホッグ"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f4/Sonic_modern_and_classic_designs.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(character)",
-        "fr": "https://fr.wikipedia.org/wiki/Sonic",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%98%E3%83%83%E3%82%B8%E3%83%9B%E3%83%83%E3%82%B0"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d29ef0b5439b3724cf1302",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Homer Simpson",
-        "fr": "Homer Simpson",
-        "ja": "ホーマー・シンプソン"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Homer_Simpson",
-        "fr": "https://fr.wikipedia.org/wiki/Homer_Simpson",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%BB%E3%82%B7%E3%83%B3%E3%83%97%E3%82%BD%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d2b1f4b5439b3724cf1307",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Jean Dujardin",
-        "fr": "Jean Dujardin",
-        "ja": "ジャン・デュジャルダン"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Christophe_Lambert_et_Jean_Dujardin_%28Cropped%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Jean_Dujardin",
-        "fr": "https://fr.wikipedia.org/wiki/Jean_Dujardin",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%83%87%E3%83%A5%E3%82%B8%E3%83%A3%E3%83%AB%E3%83%80%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d32260dccf3b425cb9b785",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Bill Gates",
-        "fr": "Bill Gates",
-        "ja": "ビル・ゲイツ"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Bill_Gates",
-        "fr": "https://fr.wikipedia.org/wiki/Bill_Gates",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%AB%E3%83%BB%E3%82%B2%E3%82%A4%E3%83%84"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d54eee98d24c31d054a14c",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Princess Zelda",
-        "fr": "Princesse Zelda",
-        "ja": "ゼルダ (ゲームキャラクター)"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Zelda_%28character%29.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Princess_Zelda",
-        "fr": "https://fr.wikipedia.org/wiki/Princesse_Zelda",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%BC%E3%83%AB%E3%83%80_(%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d5502098d24c31d054a156",
     "setId": "fdlm",
     "data": {
@@ -3164,27 +2576,6 @@
         "en": "https://en.wikipedia.org/wiki/Iron_Man",
         "fr": "https://fr.wikipedia.org/wiki/Iron_Man_(comics)",
         "ja": "https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%8B%E3%83%BC%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AF"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d550b398d24c31d054a15b",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Bugs Bunny",
-        "fr": "Bugs Bunny",
-        "ja": "バッグス・バニー"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/17/Bugs_Bunny.svg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Bugs_Bunny",
-        "fr": "https://fr.wikipedia.org/wiki/Bugs_Bunny",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%83%E3%82%B0%E3%82%B9%E3%83%BB%E3%83%90%E3%83%8B%E3%83%BC"
       },
       "edition": "Custom",
       "source": "Custom"
@@ -3234,27 +2625,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d5c0bab1663a293c35fdbe",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Zodiac Killer",
-        "fr": "Tueur du Zodiaque",
-        "ja": "ゾディアック事件"
-      },
-      "difficulty": "hard",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Zodiac-Killer.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Zodiac_Killer",
-        "fr": "https://fr.wikipedia.org/wiki/Tueur_du_Zodiaque",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%BE%E3%83%87%E3%82%A3%E3%82%A2%E3%83%83%E3%82%AF%E4%BA%8B%E4%BB%B6"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d5c152b1663a293c35fdc3",
     "setId": "fdlm",
     "data": {
@@ -3269,27 +2639,6 @@
         "en": "https://en.wikipedia.org/wiki/Akira_Kurosawa",
         "fr": "https://fr.wikipedia.org/wiki/Akira_Kurosawa",
         "ja": "https://ja.wikipedia.org/wiki/%E9%BB%92%E6%BE%A4%E6%98%8E"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d5c173b1663a293c35fdc8",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Marie Kondo",
-        "fr": "Marie Kondō",
-        "ja": "近藤麻理恵"
-      },
-      "difficulty": "hard",
-      "imageUrl": "",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Marie_Kondo",
-        "fr": "https://fr.wikipedia.org/wiki/Marie_Kond%C5%8D",
-        "ja": "https://ja.wikipedia.org/wiki/%E8%BF%91%E8%97%A4%E9%BA%BB%E7%90%86%E6%81%B5"
       },
       "edition": "Custom",
       "source": "Custom"
@@ -3360,48 +2709,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d6bcba6b4b1d0fc09e81b0",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Jack Sparrow",
-        "fr": "Jack Sparrow",
-        "ja": "ジャック・スパロウ"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a2/Jack_Sparrow_In_Pirates_of_the_Caribbean-_At_World%27s_End.JPG",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Jack_Sparrow",
-        "fr": "https://fr.wikipedia.org/wiki/Jack_Sparrow",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%82%B9%E3%83%91%E3%83%AD%E3%82%A6"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d8638aa02ea4452c4033fe",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Takeshi Kitano",
-        "fr": "Takeshi Kitano",
-        "ja": "ビートたけし"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Takeshi_Kitano_2017.jpg",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Takeshi_Kitano",
-        "fr": "https://fr.wikipedia.org/wiki/Takeshi_Kitano",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%93%E3%83%BC%E3%83%88%E3%81%9F%E3%81%91%E3%81%97"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d89e3cbcf3682f3cb2e445",
     "setId": "fdlm",
     "data": {
@@ -3423,27 +2730,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d8a2e9bcf3682f3cb2e44d",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Samus Aran",
-        "fr": "Samus Aran",
-        "ja": "サムス・アラン"
-      },
-      "difficulty": "hard",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d6/Samus_Aran.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Samus_Aran",
-        "fr": "https://fr.wikipedia.org/wiki/Samus_Aran",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%A0%E3%82%B9%E3%83%BB%E3%82%A2%E3%83%A9%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d8a36fbcf3682f3cb2e452",
     "setId": "fdlm",
     "data": {
@@ -3458,27 +2744,6 @@
         "en": "https://en.wikipedia.org/wiki/Pope_John_Paul_II",
         "fr": "https://fr.wikipedia.org/wiki/Jean-Paul_II",
         "ja": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%8F%E3%83%8D%E3%83%BB%E3%83%91%E3%82%A6%E3%83%AD2%E4%B8%96_(%E3%83%AD%E3%83%BC%E3%83%9E%E6%95%99%E7%9A%87)"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d8a3cfbcf3682f3cb2e457",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Mickey Mouse",
-        "fr": "Mickey Mouse",
-        "ja": "ミッキーマウス"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/Mickey_Mouse_%28fair_use%29.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Mickey_Mouse",
-        "fr": "https://fr.wikipedia.org/wiki/Mickey_Mouse",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9E%E3%82%A6%E3%82%B9"
       },
       "edition": "Custom",
       "source": "Custom"
@@ -3542,27 +2807,6 @@
         "en": "https://en.wikipedia.org/wiki/James_Watt",
         "fr": "https://fr.wikipedia.org/wiki/James_Watt",
         "ja": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%A0%E3%82%BA%E3%83%BB%E3%83%AF%E3%83%83%E3%83%88"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
-    "id": "60d9a8a0a7df16434c7c37f7",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Yoshi",
-        "fr": "Yoshi",
-        "ja": "ヨッシー"
-      },
-      "difficulty": "easy",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Yoshi_%28Nintendo_character%29.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Yoshi",
-        "fr": "https://fr.wikipedia.org/wiki/Yoshi",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%83%E3%82%B7%E3%83%BC"
       },
       "edition": "Custom",
       "source": "Custom"
@@ -5589,26 +4833,5 @@
       "source": "Base"
     },
     "createdAt": 1789961183362
-  },
-  {
-    "id": "c_1789996085615_5ajsw",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "fr": "Édouard Balladur",
-        "en": "Édouard Balladur",
-        "ja": "エドゥアール・バラデュール"
-      },
-      "difficulty": "hard",
-      "edition": "Base",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%C3%89douard_Balladur_-_1993_%28cropped%29.jpg/960px-%C3%89douard_Balladur_-_1993_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "wikipedia": {
-        "fr": "https://fr.wikipedia.org/wiki/%C3%89douard_Balladur",
-        "en": "https://en.wikipedia.org/wiki/%C3%89douard%20Balladur",
-        "ja": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%89%E3%82%A5%E3%82%A2%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%90%E3%83%A9%E3%83%87%E3%83%A5%E3%83%BC%E3%83%AB"
-      },
-      "source": "Base"
-    },
-    "createdAt": 1789996085615
   }
 ]
