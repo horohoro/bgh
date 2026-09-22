@@ -64,43 +64,43 @@ export const PlayerHand: React.FC = () => {
                 )}
 
                 {/* Card Action Toolbar */}
-                <div className="flex items-center justify-between gap-1 pt-3 mt-2 border-t border-slate-700/50 text-xs">
+                <div className="flex items-center justify-between gap-2 pt-3 mt-2 border-t border-slate-700/50 text-xs">
                   {/* Toggle Peek */}
                   <button
                     onClick={() => toggleReveal(item.cardId)}
-                    className="flex items-center gap-1 text-slate-300 hover:text-white px-2 py-1 rounded-md hover:bg-slate-700 transition"
+                    className="flex items-center gap-1.5 text-slate-300 hover:text-white px-2.5 py-1.5 rounded-lg bg-slate-700/30 hover:bg-slate-700 border border-slate-600/40 transition font-medium text-xs active:scale-95"
                   >
-                    {isRevealed ? <EyeOff size={14} /> : <Eye size={14} />}
+                    {isRevealed ? <EyeOff size={15} /> : <Eye size={15} />}
                     <span>{isRevealed ? 'Hide' : 'Peek'}</span>
                   </button>
 
-                  <div className="flex items-center gap-1">
+                  <div className="flex items-center gap-2">
                     {/* Submit to Shared Table Pool (face-down) */}
                     <button
                       onClick={() => submitToPool(item.cardId)}
-                      className="flex items-center gap-1 bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-600/30 px-2 py-1 rounded-md transition font-medium text-[11px]"
+                      className="flex items-center gap-1.5 bg-emerald-600/25 hover:bg-emerald-600/40 text-emerald-300 border border-emerald-500/40 px-3 py-1.5 rounded-lg transition font-semibold text-xs active:scale-95 shadow-sm"
                       title="Submit to Table Pool face-down"
                     >
-                      <Share2 size={13} />
+                      <Share2 size={14} />
                       <span>To Pool</span>
                     </button>
 
                     {/* Return to Deck */}
                     <button
                       onClick={() => returnCard(item.cardId)}
-                      className="p-1 text-slate-400 hover:text-amber-300 hover:bg-slate-700 rounded-md transition"
+                      className="p-2 text-slate-300 hover:text-amber-300 bg-slate-700/50 hover:bg-slate-700 border border-slate-600/60 hover:border-amber-500/50 rounded-lg transition active:scale-95 shadow-sm"
                       title="Return to deck"
                     >
-                      <Undo2 size={14} />
+                      <Undo2 size={16} />
                     </button>
 
                     {/* Discard */}
                     <button
                       onClick={() => discardCard(item.cardId)}
-                      className="p-1 text-slate-400 hover:text-rose-400 hover:bg-slate-700 rounded-md transition"
+                      className="p-2 text-slate-300 hover:text-rose-400 bg-slate-700/50 hover:bg-rose-950/40 border border-slate-600/60 hover:border-rose-600/60 rounded-lg transition active:scale-95 shadow-sm"
                       title="Discard card"
                     >
-                      <Trash2 size={14} />
+                      <Trash2 size={16} />
                     </button>
                   </div>
                 </div>

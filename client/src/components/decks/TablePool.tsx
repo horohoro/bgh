@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSocket } from '../../context/SocketContext';
 import { CardDisplay } from '../common/CardDisplay';
-import { Eye, RotateCcw, Shuffle } from 'lucide-react';
+import { Eye, Trash2, Shuffle } from 'lucide-react';
 
 export const TablePool: React.FC = () => {
   const { room, cardsMap, activeSet, revealPool, resetPool } = useSocket();
@@ -33,18 +33,18 @@ export const TablePool: React.FC = () => {
         </div>
 
         {/* Pool Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           {/* Reveal or Hide Pool */}
           {pool.cards.length > 0 && (
             <button
               onClick={() => revealPool()}
-              className={`flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-lg transition shadow-md active:scale-95 ${
+              className={`flex items-center gap-2 text-xs font-bold px-3.5 py-2 rounded-lg transition shadow-md active:scale-95 ${
                 pool.isRevealed
                   ? 'bg-amber-600 hover:bg-amber-500 text-white'
                   : 'bg-emerald-600 hover:bg-emerald-500 text-white'
               }`}
             >
-              {pool.isRevealed ? <Shuffle size={14} /> : <Eye size={14} />}
+              {pool.isRevealed ? <Shuffle size={15} /> : <Eye size={15} />}
               <span>{pool.isRevealed ? 'Re-shuffle' : 'Reveal All'}</span>
             </button>
           )}
@@ -53,10 +53,10 @@ export const TablePool: React.FC = () => {
           {pool.cards.length > 0 && (
             <button
               onClick={() => resetPool(true)}
-              className="p-1.5 text-slate-400 hover:text-rose-400 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg transition"
-              title="Clear Pool for Next Round"
+              className="p-2 text-rose-400 hover:text-rose-200 bg-rose-950/40 hover:bg-rose-900/60 border border-rose-800/60 hover:border-rose-600 rounded-lg transition shadow-sm active:scale-95 ml-1"
+              title="Clear Pool and Discard Cards"
             >
-              <RotateCcw size={15} />
+              <Trash2 size={17} />
             </button>
           )}
         </div>
