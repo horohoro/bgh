@@ -9,10 +9,6 @@
   }
 }
 
-/* Safe-area padding for mobile navigation bar & home gesture bar */
-.safe-area-pb {
-  padding-bottom: max(0.75rem, calc(0.25rem + env(safe-area-inset-bottom, 0px)));
-}
 
 /* Custom scrollbar for mobile overflow */
 ::-webkit-scrollbar {
