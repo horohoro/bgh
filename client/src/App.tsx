@@ -27,7 +27,7 @@ const MainApp: React.FC = () => {
         {activeTab === 'decks' && <DeckExplorer />}
         {activeTab === 'score' && <ScoreTable />}
         {activeTab === 'tools' && (
-          <div className="space-y-6 pb-24">
+          <div className="space-y-6 pb-20">
             <TurnOrder />
             <DiceRoller />
           </div>

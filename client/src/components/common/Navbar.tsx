@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
   return (
     <nav
       className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 px-2 pt-1.5 safe-area-pb shadow-2xl"
-      style={{ paddingBottom: 'max(1.125rem, calc(0.375rem + env(safe-area-inset-bottom, 0px)))' }}
+      style={{ paddingBottom: 'max(0.75rem, calc(0.25rem + env(safe-area-inset-bottom, 0px)))' }}
     >
       <div className="max-w-md mx-auto grid grid-cols-4 gap-1">
         {tabs.map(tab => {
