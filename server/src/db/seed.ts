@@ -132,7 +132,7 @@ const FDLM_BASE_IDS = new Set<string>([
 ]);
 
 // Verified deceased Custom cards for Fiesta de los Muertos
-// Exactly 17 custom cards: 12 historical deceased figures + 5 canonically deceased fictional characters.
+// Exactly 16 custom cards: 12 historical deceased figures + 4 canonically deceased fictional characters.
 const FDLM_CUSTOM_DECEASED_IDS = new Set<string>([
   '60d00e8a9a1c0148047eb9ce', // Oda Nobunaga (1534–1582)
   '60d1b01c08ed0935a0e88b76', // Nikola Tesla (1856–1943)
@@ -146,7 +146,6 @@ const FDLM_CUSTOM_DECEASED_IDS = new Set<string>([
   '60d5c152b1663a293c35fdc3', // Akira Kurosawa (1910–1998)
   '60d5c1b3b1663a293c35fdcd', // Hokusai (1760–1849)
   '60d6b4386b4b1d0fc09e811f', // Kurt Cobain (1967–1994)
-  '60d89e3cbcf3682f3cb2e445', // Eren Jäger (canonically deceased)
   '60d8a36fbcf3682f3cb2e452', // Jean-Paul II (1920–2005)
   '60d8a45fbcf3682f3cb2e45c', // Joël Robuchon (1945–2018)
   '60d8a52cbcf3682f3cb2e461', // Paul Bocuse (1926–2018)
@@ -162,6 +161,7 @@ const FDLM_PRUNED_LIVING_IDS = new Set<string>([
   '60d099ec1814852f5cc86e76', // Batman
   '60d09a4c1814852f5cc86e7a', // Link
   '60d0b7bf04e6a40e70432791', // Yoshihide Suga
+  '60d89e3cbcf3682f3cb2e445', // Eren Jäger
   '60d1f47451225328105bff11', // Emmanuel Macron
   '60d1f4c151225328105bff16', // Psy
   '60d1f70419909b1bc8a65f75', // Kim Ji-soo
@@ -371,7 +371,7 @@ export async function seedDatabase() {
 
     if (modified) {
       await db.saveCards(cardsToKeep);
-      console.log('Sanitized and classified FDLM cards into Base vs Custom editions accurately (120 Base + 17 Custom deceased).');
+      console.log('Sanitized and classified FDLM cards into Base vs Custom editions accurately (120 Base + 16 Custom deceased).');
     }
   }
 

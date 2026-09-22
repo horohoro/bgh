@@ -2709,27 +2709,6 @@
     "createdAt": 1789901251455
   },
   {
-    "id": "60d89e3cbcf3682f3cb2e445",
-    "setId": "fdlm",
-    "data": {
-      "title": {
-        "en": "Eren Yeager",
-        "fr": "Eren Jäger",
-        "ja": "エレン・イェーガー"
-      },
-      "difficulty": "medium",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f0/ErenYeagerIsayama.png",
-      "wikipedia": {
-        "en": "https://en.wikipedia.org/wiki/Eren_Yeager",
-        "fr": "https://fr.wikipedia.org/wiki/Eren_J%C3%A4ger",
-        "ja": "https://ja.wikipedia.org/wiki/%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%81%AE%E7%99%BB%E5%A0%B4%E4%BA%BA%E7%89%A9#%E3%82%A8%E3%83%AC%E3%83%B3"
-      },
-      "edition": "Custom",
-      "source": "Custom"
-    },
-    "createdAt": 1789901251455
-  },
-  {
     "id": "60d8a36fbcf3682f3cb2e452",
     "setId": "fdlm",
     "data": {

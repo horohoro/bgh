@@ -20,11 +20,11 @@ describe('BGH (Board Game Helper) Backend Tests', () => {
     assert.ok(fdlm, 'FDLM set must exist');
     assert.ok(fdlm.fields.some(f => f.key === 'edition' && f.isFilter), 'FDLM set must have filterable edition field');
     const fdlmCards = db.getCards('fdlm');
-    assert.strictEqual(fdlmCards.length, 137, 'Should have exactly 137 FDLM cards (120 Base + 17 Custom deceased)');
+    assert.strictEqual(fdlmCards.length, 136, 'Should have exactly 136 FDLM cards (120 Base + 16 Custom deceased)');
     const fdlmBase = fdlmCards.filter(c => c.data.edition === 'Base');
     const fdlmCustom = fdlmCards.filter(c => c.data.edition === 'Custom');
     assert.strictEqual(fdlmBase.length, 120, 'Should have exactly 120 Base FDLM cards from official game');
-    assert.strictEqual(fdlmCustom.length, 17, 'Should have exactly 17 Custom FDLM cards (100% deceased figures)');
+    assert.strictEqual(fdlmCustom.length, 16, 'Should have exactly 16 Custom FDLM cards (100% deceased figures)');
 
     const rings = sets.find(s => s.id === 'things-in-rings');
     assert.ok(rings, 'Things in Rings set must exist');
