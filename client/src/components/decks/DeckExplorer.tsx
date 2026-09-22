@@ -102,7 +102,7 @@ export const DeckExplorer: React.FC = () => {
   };
 
   return (
-    <div className="space-y-6 pb-20">
+    <div className="space-y-6 pb-28">
       {/* 1. Player's Private Hand */}
       <PlayerHand />
 
