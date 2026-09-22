@@ -82,7 +82,7 @@ export const SetManager: React.FC = () => {
   };
 
   return (
-    <div className="space-y-4 pb-28">
+    <div className="space-y-4 pb-24">
       {/* Header Panel */}
       <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-lg space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-3">

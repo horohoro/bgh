@@ -83,7 +83,7 @@ export const ScoreTable: React.FC = () => {
   };
 
   return (
-    <div className="space-y-4 pb-28">
+    <div className="space-y-4 pb-24">
       {/* Controls Bar */}
       <div className="flex flex-wrap items-center justify-between gap-2 bg-slate-900 border border-slate-800 rounded-2xl p-4 shadow-lg">
         <div>

@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useSocket } from '../../context/SocketContext';
-import { useFullscreen } from '../../utils/useFullscreen';
-import { Copy, Check, Users, LogOut, ChevronDown, X, Maximize, Minimize } from 'lucide-react';
+import { Copy, Check, Users, LogOut, ChevronDown, X } from 'lucide-react';
 
 export const LobbyHeader: React.FC = () => {
   const { room, player, connected, sets, activeSet, switchSet, leaveRoom, removePlayer } = useSocket();
-  const { isFullscreen, toggleFullscreen } = useFullscreen();
   const [copied, setCopied] = useState(false);
   const [showSetMenu, setShowSetMenu] = useState(false);
 
@@ -78,15 +76,6 @@ export const LobbyHeader: React.FC = () => {
                 </div>
               )}
             </div>
-
-            {/* Fullscreen Toggle */}
-            <button
-              onClick={toggleFullscreen}
-              className="p-1.5 text-slate-400 hover:text-emerald-400 bg-slate-800/80 hover:bg-slate-800 border border-slate-700 rounded-lg transition active:scale-95"
-              title={isFullscreen ? 'Exit Fullscreen' : 'Enter Fullscreen (hide gesture bar & status bar)'}
-            >
-              {isFullscreen ? <Minimize size={16} /> : <Maximize size={16} />}
-            </button>
 
             {/* Leave Room Button */}
             <button

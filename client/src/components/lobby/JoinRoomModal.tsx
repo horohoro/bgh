@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useSocket } from '../../context/SocketContext';
-import { useFullscreen } from '../../utils/useFullscreen';
-import { Layers, ArrowRight, PlusCircle, LogIn, AlertCircle, Maximize, Minimize } from 'lucide-react';
+import { Layers, ArrowRight, PlusCircle, LogIn, AlertCircle } from 'lucide-react';
 
 export const JoinRoomModal: React.FC = () => {
   const { createRoom, joinRoom, sets, error, clearError } = useSocket();
-  const { isFullscreen, toggleFullscreen } = useFullscreen();
   const [tab, setTab] = useState<'join' | 'create'>('join');
 
   const [playerName, setPlayerName] = useState(() => localStorage.getItem('bga_player_name') || '');
@@ -42,16 +40,7 @@ export const JoinRoomModal: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-4">
-      <div className="w-full max-w-md bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden p-6 relative">
-        {/* Fullscreen Button */}
-        <button
-          onClick={toggleFullscreen}
-          className="absolute top-4 right-4 p-2 text-slate-400 hover:text-emerald-400 bg-slate-800/80 hover:bg-slate-800 border border-slate-700 rounded-xl transition active:scale-95"
-          title={isFullscreen ? 'Exit Fullscreen' : 'Enter Fullscreen (hide gesture bar & status bar)'}
-        >
-          {isFullscreen ? <Minimize size={18} /> : <Maximize size={18} />}
-        </button>
-
+      <div className="w-full max-w-md bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden p-6">
         {/* App Title / Logo */}
         <div className="text-center mb-6">
           <div className="inline-flex p-3 bg-emerald-500/10 border border-emerald-500/20 rounded-2xl text-emerald-400 mb-3 shadow-inner">

@@ -23,8 +23,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
 
   return (
     <nav
-      className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 px-2 pt-2 safe-area-pb shadow-2xl"
-      style={{ paddingBottom: 'max(1.75rem, calc(0.75rem + env(safe-area-inset-bottom, 0px)))' }}
+      className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900/95 backdrop-blur-md border-t border-slate-800 px-2 pt-1.5 safe-area-pb shadow-2xl"
+      style={{ paddingBottom: 'max(1.125rem, calc(0.375rem + env(safe-area-inset-bottom, 0px)))' }}
     >
       <div className="max-w-md mx-auto grid grid-cols-4 gap-1">
         {tabs.map(tab => {
@@ -33,7 +33,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
             <button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
-              className={`flex flex-col items-center justify-center py-2 px-1 rounded-xl transition relative active:scale-95 ${
+              className={`flex flex-col items-center justify-center py-1.5 px-1 rounded-xl transition relative active:scale-95 ${
                 isActive
                   ? 'text-emerald-400 font-bold bg-slate-800/80 shadow-sm'
                   : 'text-slate-400 hover:text-slate-200'
@@ -47,7 +47,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
                   </span>
                 )}
               </div>
-              <span className="text-[11px] mt-1 font-semibold tracking-tight truncate">
+              <span className="text-[10px] mt-1 font-semibold tracking-tight truncate">
                 {tab.label}
               </span>
             </button>
