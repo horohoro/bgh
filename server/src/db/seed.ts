@@ -132,11 +132,13 @@ const FDLM_BASE_IDS = new Set<string>([
 ]);
 
 // Verified deceased Custom cards for Fiesta de los Muertos
-// Exactly 15 custom cards: 12 historical deceased figures + 3 canonically deceased fictional characters.
+// Exactly 17 custom cards: 12 historical deceased figures + 5 canonically deceased fictional characters.
 const FDLM_CUSTOM_DECEASED_IDS = new Set<string>([
   '60d00e8a9a1c0148047eb9ce', // Oda Nobunaga (1534–1582)
   '60d1b01c08ed0935a0e88b76', // Nikola Tesla (1856–1943)
   '60d1b08808ed0935a0e88b7b', // Thomas Edison (1847–1931)
+  '60d1d5bbb671bb27f82baa64', // Captain America (The Death of Captain America / Endgame shield passing)
+  '60d1fa0019909b1bc8a65f7f', // Spider-Man (Peter Parker - canonically died in Ultimate Comics / Spider-Verse, inspiring Miles Morales)
   '60d1fbbc19909b1bc8a65fb5', // Alan Turing (1912–1954)
   '60d5502098d24c31d054a156', // Iron Man (Tony Stark - canonically deceased)
   '60d5b50e98d24c31d054a1b0', // Thanos (canonically deceased)
@@ -160,12 +162,10 @@ const FDLM_PRUNED_LIVING_IDS = new Set<string>([
   '60d099ec1814852f5cc86e76', // Batman
   '60d09a4c1814852f5cc86e7a', // Link
   '60d0b7bf04e6a40e70432791', // Yoshihide Suga
-  '60d1d5bbb671bb27f82baa64', // Captain America
   '60d1f47451225328105bff11', // Emmanuel Macron
   '60d1f4c151225328105bff16', // Psy
   '60d1f70419909b1bc8a65f75', // Kim Ji-soo
   '60d1f95119909b1bc8a65f7a', // D.O.
-  '60d1fa0019909b1bc8a65f7f', // Spider-Man
   '60d1fa8e19909b1bc8a65f84', // Lisa
   '60d1fa9019909b1bc8a65f89', // Chibi Maruko-chan
   '60d1fab019909b1bc8a65fa5', // Doraemon
@@ -371,7 +371,7 @@ export async function seedDatabase() {
 
     if (modified) {
       await db.saveCards(cardsToKeep);
-      console.log('Sanitized and classified FDLM cards into Base vs Custom editions accurately (120 Base + 15 Custom deceased).');
+      console.log('Sanitized and classified FDLM cards into Base vs Custom editions accurately (120 Base + 17 Custom deceased).');
     }
   }
 
