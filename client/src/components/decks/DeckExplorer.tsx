@@ -133,7 +133,7 @@ export const DeckExplorer: React.FC = () => {
                   resetRound(true);
                 }
               }}
-              className="p-1.5 text-slate-400 hover:text-amber-400 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg transition"
+              className="p-1.5 text-rose-400 hover:text-rose-200 bg-rose-950/40 hover:bg-rose-900/60 border border-rose-800/60 hover:border-rose-600 rounded-lg transition shadow-sm"
               title="Reshuffle All Cards Back Into Decks"
             >
               <RotateCcw size={15} />

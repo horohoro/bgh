@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSocket } from '../../context/SocketContext';
 import { CardDisplay } from '../common/CardDisplay';
-import { Eye, EyeOff, Trash2, RotateCcw, Share2 } from 'lucide-react';
+import { Eye, EyeOff, Trash2, Undo2, Share2 } from 'lucide-react';
 
 export const PlayerHand: React.FC = () => {
   const { room, player, cardsMap, activeSet, discardCard, returnCard, submitToPool } = useSocket();
@@ -91,7 +91,7 @@ export const PlayerHand: React.FC = () => {
                       className="p-1 text-slate-400 hover:text-amber-300 hover:bg-slate-700 rounded-md transition"
                       title="Return to deck"
                     >
-                      <RotateCcw size={14} />
+                      <Undo2 size={14} />
                     </button>
 
                     {/* Discard */}
